@@ -15,6 +15,11 @@ Note: couldn't get this to work
 
 git add . && git commit -m "WIP" && git push
 
+## Scratch
+
+https://www.kaggle.com/code/prabhavsingh/urbansound8k-classification
+
+
 
 ## Task 1
 Mel-Frequency
