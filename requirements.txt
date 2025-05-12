@@ -19,4 +19,5 @@ seaborn
 gradio
 transformers
 pillow
-git+https://github.com/soundata/soundata.git@main
+#git+https://github.com/soundata/soundata.git@main
+essentia
