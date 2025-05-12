@@ -2,9 +2,12 @@
 
 
 
-https://urbansounddataset.weebly.com/
-https://freesound.org/
-https://sourceforge.net/projects/audacity/
+- [UrbanSound Dataset](https://urbansounddataset.weebly.com/)
+- [Freesound](https://freesound.org/)
+- [Audacity on SourceForge](https://sourceforge.net/projects/audacity/)
+
+
+git add . && git commit -m "WIP" && git push
 
 
 ## Task 1
