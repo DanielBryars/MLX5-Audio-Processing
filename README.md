@@ -6,7 +6,12 @@
 - [Freesound](https://freesound.org/)
 - [Audacity on SourceForge](https://sourceforge.net/projects/audacity/)
 
-- [sounddata] https://pypi.org/project/soundata/
+### Data
+- [Huggingface Dataset](https://huggingface.co/datasets/danavery/urbansound8K?library=datasets)
+
+
+Note: couldn't get this to work
+- [soundata] https://pypi.org/project/soundata/
 
 git add . && git commit -m "WIP" && git push
 
