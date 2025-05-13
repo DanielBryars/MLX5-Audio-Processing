@@ -14,10 +14,13 @@ faiss-cpu
 fastapi
 uvicorn
 torchvision
+torchaudio 
 matplotlib
 seaborn
 gradio
 transformers
 pillow
 #git+https://github.com/soundata/soundata.git@main
-essentia
+#essentia
+librosa
+datasets 
