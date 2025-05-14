@@ -1,0 +1,88 @@
+#import whisper
+#model = whisper.load_model("base")
+#result = model.transcribe("ShippingForecast.1stMin.ulaw.8k.wav")
+#print(result["text"])
+
+from transformers import WhisperProcessor, WhisperForConditionalGeneration
+import torchaudio
+import torch
+import os
+
+from transformers import WhisperTokenizer, WhisperForConditionalGeneration
+import torch
+from words import get_thing_explainer_vocab
+
+# Load Whisper model and tokenizer
+model_name = "openai/whisper-small"
+model = WhisperForConditionalGeneration.from_pretrained(model_name)
+tokenizer = WhisperTokenizer.from_pretrained(model_name)
+from transformers.generation.logits_process import LogitsProcessor
+
+
+# Load Thing Explainer vocabulary (lowercased)
+vocab_words = get_thing_explainer_vocab()
+ 
+# Map allowed tokens
+allowed_token_ids = set()
+for word in vocab_words:
+    token_ids = tokenizer(word, add_special_tokens=False).input_ids
+    if len(token_ids) == 1:
+        allowed_token_ids.add(token_ids[0])
+
+# Wrap generation with vocabulary mask
+def generate_limited_vocab(input_features):
+    outputs = model.generate(
+        input_features,
+        do_sample=False,
+        logits_processor=[
+            ConstrainedTokenLogitsProcessor(allowed_token_ids)
+        ]
+    )
+    return outputs
+
+# Logits processor to zero out disallowed tokens
+
+class ConstrainedTokenLogitsProcessor(LogitsProcessor):
+    def __init__(self, allowed_ids):
+        self.allowed_ids = allowed_ids
+
+    def __call__(self, input_ids, scores):
+        mask = torch.full_like(scores, float('-inf'))
+        for token_id in self.allowed_ids:
+            mask[:, token_id] = 0
+        return scores + mask
+    
+# Load processor and model
+
+script_dir = os.path.dirname(os.path.abspath(__file__))
+audio_path = os.path.join(script_dir, "ShippingForecast.1stMin.ulaw.8k.wav")
+
+processor = WhisperProcessor.from_pretrained("openai/whisper-small")
+model = WhisperForConditionalGeneration.from_pretrained("openai/whisper-small")
+model.eval()
+
+waveform, sr = torchaudio.load(audio_path)
+
+if waveform.shape[0] > 1:
+    waveform = waveform.mean(dim=0)
+
+resampler = torchaudio.transforms.Resample(orig_freq=sr, new_freq=16000)
+waveform = resampler(waveform)
+
+waveform = waveform.unsqueeze(0).numpy()
+
+#inputs = processor(waveform, sampling_rate=16000, return_tensors="pt")
+inputs = processor(waveform, sampling_rate=16000, return_tensors="pt")
+
+
+logits_processors = []
+#logits_processors.append(ConstrainedTokenLogitsProcessor(allowed_token_ids))
+
+with torch.no_grad():
+    generated_ids = model.generate(
+        inputs["input_features"], 
+        logits_processor=logits_processors,
+    max_new_tokens=128)
+    transcription = processor.batch_decode(generated_ids, skip_special_tokens=True)
+
+print(transcription[0])

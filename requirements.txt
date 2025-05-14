@@ -23,4 +23,5 @@ pillow
 #git+https://github.com/soundata/soundata.git@main
 #essentia
 librosa
-datasets 
+datasets
+git+https://github.com/openai/whisper.git
