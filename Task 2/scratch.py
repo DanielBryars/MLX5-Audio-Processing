@@ -1,9 +1,11 @@
 #git add . && git commit -m "WIP" && git push
 from pprint import pprint
 import torch
-
+import torchaudio
+import torchaudio.transforms as T
 
 from datasets import load_dataset
+from collections import Counter
 
 ds = load_dataset("danavery/urbansound8K")
 
@@ -20,8 +22,9 @@ filename = sample["slice_file_name"]
 
 print(f"Label: {label}, File: {filename}, Audio shape: {audio_array.shape}, Sampling rate: {sampling_rate}")
 
-import torchaudio
-import torchaudio.transforms as T
+sr_counter = Counter()
+length_seconds_counter = Counter()
+length_samples_counter = Counter()
 
 mfcc_transform = T.MFCC(
     sample_rate=44100,      # UrbanSound8K is 44.1 kHz
@@ -36,18 +39,46 @@ mfcc_transform = T.MFCC(
 )
 
 def extract_mfcc(batch):
-    audio = batch["audio"]["array"]
-    sr = batch["audio"]["sampling_rate"]
-    if sr != 44100:
-        raise ValueError("Unexpected sampling rate")
-
-    waveform = torch.tensor(audio).unsqueeze(0)
-    mfcc = mfcc_transform(waveform).squeeze(0)  # shape: (n_mfcc, time)
-    batch["mfcc"] = mfcc
     return batch
 
+    #audio = batch["audio"]["array"]
 
-ds_with_mfcc = ds.map(extract_mfcc)  
+    #print(type(audio))           # <class 'numpy.ndarray'>
+    #print(audio.dtype)           # dtype('float64')
+    #print(audio.shape)           # e.g. (19305,)
+
+    #try:
+        #length_samples = audio.shape[0]
+        #length_samples_counter[length_samples] += 1
+
+        #sr = batch["audio"]["sampling_rate"]    
+        #sr_counter[sr] += 1
+
+        #length_seconds = length_samples // sr
+        #length_seconds_counter[length_seconds] += 1
+
+        
+
+        #waveform = torch.tensor(audio, dtype=torch.float32).unsqueeze(0)
+
+        #resampler = torchaudio.transforms.Resample(orig_freq=sr, new_freq=44100)
+        #waveform = resampler(waveform)
+
+        #mfcc = mfcc_transform(waveform).squeeze(0)  # shape: (n_mfcc, time)
+        #batch["mfcc"] = mfcc
+        #return batch
+    #except Exception as e:
+    #    print(f"Error on file: {batch.get('slice_file_name', 'unknown')} — {e}")
+    #    raise
+
+
+#ds_with_mfcc = ds.map(extract_mfcc, num_proc=1)  
+ds_with_mfcc = ds.map(extract_mfcc, load_from_cache_file=False)
+
+
+pprint(sr_counter)
+pprint(length_samples_counter)
+pprint(sr_counter)
 
 
 ds_dog = ds_with_mfcc.filter(lambda x: x["class"] == "dog_bark")

@@ -1,0 +1,1794 @@
+00:00:00,000 --> 00:00:07,300
+the tasks, and sort of, like, if you use them to do the transport and detection, you're not
+
+00:00:07,300 --> 00:00:08,880
+surprised it's going to be a lot better.
+
+00:00:09,600 --> 00:00:11,560
+So, another example of a toolbox.
+
+00:00:12,520 --> 00:00:18,980
+Let me jump straight in to the three tasks.
+
+00:00:19,560 --> 00:00:21,320
+But really it's two with an extra one.
+
+00:00:21,520 --> 00:00:25,060
+And the extra one I'm going to tell you why I was a little bit late this morning.
+
+00:00:26,860 --> 00:00:36,540
+So the task number one is to take this dataset that was published in 2014, which has urban sound,
+
+00:00:37,560 --> 00:00:59,680
+so sounds of four seconds, they seem to be all images, in the sense they all have patterns.
+
+00:01:00,680 --> 00:01:11,580
+And we know that if we see some patterns, at least spatial patterns, we can use CNNs.
+
+00:01:12,080 --> 00:01:19,940
+And again, here, very little sort of squeezed in, we have this image as a sort of CNN, and then
+
+00:01:19,940 --> 00:01:26,600
+we can kind of classify it with any feedforward header, with as many classes as we want.
+
+00:01:28,440 --> 00:01:30,560
+That's the simple one, I really recommend doing it.
+
+00:01:31,380 --> 00:01:38,300
+The second one is, again, getting you to write transformers from scratch, of a task that is
+
+00:01:38,300 --> 00:01:43,340
+not incredibly hard, and the transformer should do really well, but again, just sort of getting
+
+00:01:43,340 --> 00:01:49,680
+you in the spirit of putting up together an encoder on the fly.
+
+00:01:53,200 --> 00:01:58,760
+This is task number one, and I'm not talking a lot, so I'll talk a little bit about what is audio.
+
+00:02:00,340 --> 00:02:07,300
+Task number two is, as usual, classification is okay, there's a little bit of vogue in there,
+
+00:02:07,320 --> 00:02:09,860
+we like generative stuff, that's why we're here.
+
+00:02:10,480 --> 00:02:16,780
+And then this is a little bit of a mixture, although you can go a lot here, but this is a recording
+
+00:02:16,780 --> 00:02:26,800
+of me, just saying hello, my name is Bess, but the model here doesn't understand names, and
+
+00:02:26,800 --> 00:02:35,640
+doesn't understand my weird accent, so through function, I was able to get the model to say
+
+00:02:35,640 --> 00:02:42,100
+my name, which is always nice. That's task 2.1.
+
+00:02:42,100 --> 00:02:49,620
+Task 2.2 is, again, quite interesting, because maybe we can take a song and output the notes,
+
+00:02:51,340 --> 00:02:58,640
+and then we can play the song backwards, if we want to, like once we have the, sort of a category
+
+00:02:58,640 --> 00:03:05,500
+of notes, we can use it to do some karaoke, or whatever we feel, we can record the one on the
+
+00:03:05,500 --> 00:03:06,760
+street, and then we can play it back.
+
+00:03:08,840 --> 00:03:15,460
+For that one, there are some datasets around, but I never found one that I truly liked, so I'm
+
+00:03:15,460 --> 00:03:17,700
+kind of going to give it to you as a task.
+
+00:03:18,180 --> 00:03:22,700
+There are definitely datasets there, but they're never as clean, but I think it's a nice task,
+
+00:03:22,820 --> 00:03:26,460
+nevertheless, so I just wanted to show it to you, that it's possible to do.
+
+00:03:26,460 --> 00:03:30,920
+And there are many models that produce songs, so I like that one.
+
+00:03:31,620 --> 00:03:34,500
+For this one, you clearly have to produce your own dataset.
+
+00:03:35,420 --> 00:03:37,880
+Are these two tasks related, or are they alike?
+
+00:03:39,940 --> 00:03:45,300
+It's the same model, but they're different in a way.
+
+00:03:47,480 --> 00:03:53,300
+I recommend you start with task number one, and then move into task number two, and especially
+
+00:03:53,300 --> 00:03:57,260
+this one, because at the moment you're kind of getting fine-tuning it.
+
+00:03:57,260 --> 00:04:02,080
+On the second one, it's mainly going to be about finding a good dataset, but then you know that
+
+00:04:02,080 --> 00:04:07,620
+it's going to work for sure, because especially with task one and task 2.1.
+
+00:04:11,280 --> 00:04:16,880
+Now, there's an extra task that took me quite a bit of time, and this week I also wanted to
+
+00:04:16,880 --> 00:04:19,640
+do it, and I'm still doing it, text-to-speech.
+
+00:04:19,640 --> 00:04:26,340
+Text-to-speech happens to be an order of magnitude harder than speech-to-text, because most
+
+00:04:26,340 --> 00:04:33,160
+of the time, and this kind of tells you, so this is a paper that just came out in March 2025,
+
+00:04:33,260 --> 00:04:42,720
+I was going through it this weekend, and I always knew that text-to-speech was always a little
+
+00:04:42,720 --> 00:04:47,780
+bit tricky, and I was sort of going around, there were many papers, and each paper seems to be doing things differently.
+
+00:04:48,020 --> 00:04:53,360
+And this paper actually covers them quite in detail, and that's why I'm suggesting for you to
+
+00:04:53,360 --> 00:04:55,340
+go through it while there's extra time.
+
+00:04:57,520 --> 00:05:02,760
+And the reason why text-to-speech is hard is for a couple of reasons.
+
+00:05:02,860 --> 00:05:21,340
+The first one is that live and leave are written the same, but depending on context, they're pronunciated differently.
+
+00:05:22,280 --> 00:05:30,780
+So you can imagine a sentence where the model has to understand that the phonetics of the same
+
+00:05:30,780 --> 00:05:32,560
+word has to be different.
+
+00:05:33,280 --> 00:05:34,780
+Are you all with me?
+
+00:05:35,720 --> 00:05:41,500
+So usually there is a deep learning model just doing that, from text to phonetics.
+
+00:05:42,280 --> 00:05:47,220
+Then once we have the phonetics that we think are correct, which is the way we pronounce words,
+
+00:05:47,800 --> 00:05:58,420
+then we have another deep neural network doing that to a spectrogram, which is sort of this thing you're seeing here.
+
+00:05:59,240 --> 00:06:05,900
+Then we have another model, most of the time doing this to actual waveform, which is this one,
+
+00:06:06,240 --> 00:06:08,480
+which is what normally players play.
+
+00:06:11,720 --> 00:06:16,940
+So people have been throwing all sorts of techniques at those three tasks differently, and they've
+
+00:06:16,940 --> 00:06:22,080
+combined them in different ways, from end-to-end, to phonetics and model together, to model
+
+00:06:22,080 --> 00:06:25,940
+and audio together, and you can see where this is going.
+
+00:06:26,400 --> 00:06:33,700
+And that's why I think it's a very exciting field, because these just give you a bit of a context
+
+00:06:33,700 --> 00:06:35,180
+of what people are trying to do.
+
+00:06:35,180 --> 00:06:40,720
+Like, given a text, then you have a linguistic analyser, which is this phonetics of, like, okay,
+
+00:06:40,860 --> 00:06:46,480
+leap and life are two different things, but they're not the same, and we should recognise that based on context.
+
+00:06:46,960 --> 00:06:48,780
+We know what the voice does in that case.
+
+00:06:50,840 --> 00:06:55,160
+Then once you have this phonetics, again, as I say, you have to go to acoustic features, and
+
+00:06:55,160 --> 00:07:00,260
+people do it in continuous and in discrete, again, even more hard parts, like they try to use
+
+00:07:00,260 --> 00:07:05,280
+diffusion, or transformer-based, tokenised, et cetera, and there are all sorts of models trying
+
+00:07:05,280 --> 00:07:06,920
+to do that to this day.
+
+00:07:07,060 --> 00:07:13,580
+Indeed, as you can see, this was just 2024, and then you have, like, even more models, they're
+
+00:07:13,580 --> 00:07:15,360
+just going through all sorts of parts.
+
+00:07:15,620 --> 00:07:19,720
+So just to sort of summarise all these things, I had to go through a bit of paper, et cetera,
+
+00:07:19,720 --> 00:07:21,600
+and eventually I found this one, which was included.
+
+00:07:22,220 --> 00:07:28,060
+And once you have this, then again, to go to actual audio, people are trying to do all sorts of things,
+
+00:07:31,480 --> 00:07:39,040
+so if you have extra time, I recommend you go through this paper, and sort of try to get a bit
+
+00:07:39,040 --> 00:07:40,500
+of a sense of those techniques.
+
+00:07:42,540 --> 00:07:46,760
+And I might go over, like, a couple of those in more detail, and show you a couple of models,
+
+00:07:47,280 --> 00:07:48,920
+but they're coming up as we speak.
+
+00:07:48,980 --> 00:07:53,460
+Just last week I saw another one, and I was like, oh my god, this is really, really, really
+
+00:07:53,460 --> 00:07:55,800
+fine, because it's not solved yet.
+
+00:07:55,940 --> 00:08:01,900
+Just to give you a sense that, if you have a chapter which are GPT, especially in real time,
+
+00:08:03,220 --> 00:08:09,940
+and it has to say a mathematical form, you can immediately tell that the phonetics are wrong.
+
+00:08:10,140 --> 00:08:13,840
+The way it's reading it is not the way it...
+
+00:08:14,100 --> 00:08:18,100
+The way it's reading it should not be the way it is written.
+
+00:08:20,140 --> 00:08:22,160
+And Soto does this in a very bad way.
+
+00:08:22,160 --> 00:08:27,680
+And sometimes you can tell if a YouTube video is actually automatically generated, because they
+
+00:08:27,680 --> 00:08:33,100
+really, like, as soon as there's a mathematical formula, they kind of really go through it in this brutal way.
+
+00:08:33,500 --> 00:08:40,320
+Isn't that what surprises me, is that people who still try to, like, engineer the phonetics,
+
+00:08:40,500 --> 00:08:42,440
+like, instinctively they feel so wrong.
+
+00:08:43,240 --> 00:08:46,520
+They should just end to end and throw a lot of data at it.
+
+00:08:48,040 --> 00:08:50,240
+It's a bit of a lesson, it always works.
+
+00:08:50,240 --> 00:08:56,960
+Well, I mean, that's what I thought as well, but I imagine that really between the lines, is
+
+00:08:56,960 --> 00:09:02,320
+that people sometimes want to control it a little bit more, so they add, like, special phonetics for cancer.
+
+00:09:03,000 --> 00:09:05,780
+So Soto, I want this to be said in a different way. Instead of...
+
+00:09:05,780 --> 00:09:11,240
+Yeah, but, so, having worked in this space, I think it's very interesting. People do want control. Yeah.
+
+00:09:13,280 --> 00:09:15,840
+Because the models are not perfect, in a way.
+
+00:09:16,860 --> 00:09:21,780
+The use case for this is, there are things that it's impossible for the model to guess.
+
+00:09:22,080 --> 00:09:27,420
+Like, maybe you train a model in 2024, and in 2045, like, Apple launches a new product with
+
+00:09:27,420 --> 00:09:32,760
+some random spelling, and, like, you need to be able to tell the TTS model, like, this is how you say this thing.
+
+00:09:34,000 --> 00:09:38,160
+But you could imagine that you could have other techniques to pass up.
+
+00:09:38,380 --> 00:09:43,140
+Like, maybe you could condition a, like, a sample of somebody saying a new word, and you make
+
+00:09:43,140 --> 00:09:44,780
+this how you say this thing. Yeah.
+
+00:09:45,160 --> 00:09:49,560
+And I think that's why I sort of wanted you to kind of get a bit of feeling, and maybe have
+
+00:09:49,560 --> 00:09:54,720
+a look at it, and we can kind of have a bit of a holistic view of it, because people really
+
+00:09:54,720 --> 00:10:00,980
+are talking in all sorts of ways, and some of them are doing, sort of, big guns of all sorts.
+
+00:10:02,780 --> 00:10:07,260
+So, yeah, if I have time today, I might cover a few and give you more presentations, as the
+
+00:10:07,260 --> 00:10:09,560
+week goes by, and maybe also a little example.
+
+00:10:09,800 --> 00:10:11,220
+But, yeah, this is an extra task.
+
+00:10:11,220 --> 00:10:14,180
+I just do it after you do those two.
+
+00:10:14,480 --> 00:10:21,300
+The main reason is because you really have to know well what is an audio wave, what is a spectrogram,
+
+00:10:21,660 --> 00:10:24,320
+what is a mal-spectrogram, and what is a long-mal-spectrogram.
+
+00:10:24,700 --> 00:10:27,740
+So what are all those sort of transformations?
+
+00:10:28,240 --> 00:10:29,720
+And I'm just going to cover them briefly.
+
+00:10:30,020 --> 00:10:32,260
+But that's what you will learn here.
+
+00:10:32,680 --> 00:10:39,900
+Then, here is all about, sort of, domain knowledge, and sort of storing the architectures.
+
+00:10:39,900 --> 00:10:41,740
+So don't spend time here.
+
+00:10:43,600 --> 00:10:53,220
+For the first task, the input image, the input is a sound. It's a sound. What's the output then? It's a classification.
+
+00:10:54,040 --> 00:10:59,640
+Sort of, I know it's not very visible, but here it says siren, and it will make the gunshot.
+
+00:11:00,880 --> 00:11:06,700
+So three things we hear every single day. Not in that order.
+
+00:11:10,980 --> 00:11:12,480
+Yeah, so it's just going to be like that.
+
+00:11:12,580 --> 00:11:17,620
+Justification header, and you can go to a spawner as you prefer, cluster, get average, up to you.
+
+00:11:17,620 --> 00:11:21,700
+As long as you follow the first one. Is there any...
+
+00:11:23,600 --> 00:11:25,260
+That's 2.1, I hope I'm tuning.
+
+00:11:25,900 --> 00:11:31,400
+Is there any point, like, challenges which you anticipate with that?
+
+00:11:31,400 --> 00:11:35,400
+I'm going to cover this, and there will be a few challenges.
+
+00:11:36,800 --> 00:11:38,880
+Unfortunately, I don't think people have solutions for those yet.
+
+00:11:39,780 --> 00:11:46,780
+But in general, I think I would love for you to give it a go, in all sorts of ways, and see what happens.
+
+00:11:48,100 --> 00:11:52,280
+Task number 2.2, I think it would be amazing if someone gives it a go.
+
+00:11:52,340 --> 00:11:54,340
+I think it's definitely possible.
+
+00:11:55,120 --> 00:11:56,680
+In just about five or ten days.
+
+00:11:59,860 --> 00:12:04,180
+So, the model that we're going to cover is Whisper, and I'm just going to explain how it works.
+
+00:12:07,180 --> 00:12:17,220
+Whisper really has two parts to it, like the training setup, the sort of tokens and vocabulary
+
+00:12:17,220 --> 00:12:20,240
+mechanics, and the model architecture itself.
+
+00:12:20,480 --> 00:12:21,520
+Those are really the main two things.
+
+00:12:25,240 --> 00:12:30,780
+You probably know this already, and I'm going to just spend a little bit of time on this part
+
+00:12:30,780 --> 00:12:34,920
+here, to understand what's going on, and then the rest I'm going to give to Robert.
+
+00:12:39,220 --> 00:12:42,820
+And then, this is interesting.
+
+00:12:45,020 --> 00:12:47,520
+The way Whisper works is...
+
+00:12:51,920 --> 00:12:57,400
+is with a good use, I would say, of special tokens, and this is something that you should keep
+
+00:12:57,400 --> 00:13:03,200
+in your mind, because you should think about how to use them yourself, in any sort of scenarios, not just today.
+
+00:13:03,920 --> 00:13:10,680
+So, it starts with... it starts with a start of transcript, this is something that the model
+
+00:13:10,680 --> 00:13:12,740
+doesn't predict, you give it to the model.
+
+00:13:13,600 --> 00:13:20,140
+Then the rest is something that the model might or might not predict, it's up to you.
+
+00:13:20,760 --> 00:13:29,280
+So, if you don't say anything, you pass an audio to the encoder, and then when you start the
+
+00:13:29,280 --> 00:13:37,040
+decoder, you just do start of transcript, the model automatically will do a language classification.
+
+00:13:38,780 --> 00:13:43,180
+By itself, I will tell you, in the next token, I always have to predict what language is it,
+
+00:13:44,040 --> 00:13:47,020
+or you can just pass it to the model, you know what language it is.
+
+00:13:47,940 --> 00:13:56,200
+And I don't know if this happens only to me, but I can see how OpenAI still has a bug, after
+
+00:13:56,200 --> 00:13:58,160
+two years of me using it.
+
+00:13:58,740 --> 00:14:06,380
+OpenAI only uses Whisper, and especially when you click, like, Recorder, and you can tell this
+
+00:14:06,380 --> 00:14:13,040
+automatically, because sometimes when I ask OpenAI to transcribe me things that I'm speaking
+
+00:14:13,040 --> 00:14:15,300
+in Italian, although I'm speaking in English.
+
+00:14:17,000 --> 00:14:23,400
+So, the transcription, clearly what happens there is that it picks Italian, and it says I'm
+
+00:14:23,400 --> 00:14:29,860
+speaking Italian, or the model automatically thinks that it has to translate that.
+
+00:14:30,600 --> 00:14:36,500
+So, like, I speak in English, and then Whisper says that whatever I say, it's written in Italian.
+
+00:14:37,060 --> 00:14:39,540
+I should take some screenshots to show you, this is really fun.
+
+00:14:40,000 --> 00:14:43,020
+But this is clearly happening to me.
+
+00:14:43,200 --> 00:14:46,140
+But accent of English is a persistent problem, right?
+
+00:14:47,280 --> 00:14:50,360
+Accent of English is still a persistent problem, isn't it?
+
+00:14:50,360 --> 00:14:53,200
+Because when you sound Italian, you speak English.
+
+00:14:53,200 --> 00:15:01,460
+But we know you're speaking English, so we can parse the duality of these two models, but I
+
+00:15:01,460 --> 00:15:07,140
+can imagine, like, even I'm sounding kind of American now, but when I'm home, I still speak
+
+00:15:07,140 --> 00:15:11,720
+English fluently, but I sound very Asian, which you guys will never hear, because I'm just, you know.
+
+00:15:11,980 --> 00:15:14,320
+But this is still a persistent problem, isn't it?
+
+00:15:14,320 --> 00:15:21,900
+But I think here is a little bit more nuanced than that, because if I was to design, I mean,
+
+00:15:22,500 --> 00:15:24,760
+I can see the problem here, but think about this.
+
+00:15:25,040 --> 00:15:27,240
+Start of transcript is the only thing that you pass to the model.
+
+00:15:27,780 --> 00:15:35,840
+Then the model automatically predicts the language, English, and then automatically sort of
+
+00:15:35,840 --> 00:15:41,360
+might predict the translator or transcriber.
+
+00:15:41,360 --> 00:15:48,320
+And what OpenAI is doing is leaving Whisper free to do this choice, which is quite interesting
+
+00:15:48,320 --> 00:15:49,180
+if you think about it.
+
+00:15:49,200 --> 00:15:54,260
+So I don't know why they didn't pin this talking down to always transcriber and never translator.
+
+00:15:54,960 --> 00:15:59,760
+But for whatever reason, maybe they're busy doing other things, they leave the model free to do this.
+
+00:16:00,020 --> 00:16:05,780
+So sometimes when I speak, I want it to just transcribe, but because the model is kind of like
+
+00:16:05,780 --> 00:16:09,940
+free to choose between the two, which I think is silly, it does translate.
+
+00:16:09,940 --> 00:16:15,260
+So if you know the mechanics really well internally of a deep learning model, in this case,
+
+00:16:15,420 --> 00:16:18,400
+we can kind of reverse engineer what OpenAI is doing.
+
+00:16:20,260 --> 00:16:27,340
+Yeah, I was playing around with this thing because I was curious to see how such people react
+
+00:16:27,340 --> 00:16:33,860
+to me talking in Ukrainian and Russian in comparison to English, and so I bumped into the same thing for translating.
+
+00:16:33,860 --> 00:16:40,040
+So how I managed to fix the bug, you need to set up system problems.
+
+00:16:40,460 --> 00:16:45,680
+Like, if you hear a language different from English, you must do this.
+
+00:16:46,040 --> 00:16:47,680
+And then it kind of gets fixed.
+
+00:16:48,160 --> 00:16:51,980
+Yeah, I mean, it's maybe just more about OpenAI.
+
+00:16:53,320 --> 00:16:59,720
+But yeah, sometimes I say, like, just whatever I'm saying, just translate it to Italian, just keep it in English.
+
+00:17:00,000 --> 00:17:06,440
+Maybe because I don't have a problem with it translating to Italian, but because all those elements
+
+00:17:06,440 --> 00:17:15,500
+are so fine-tuned for English, the number of tokens to say something in English is much less
+
+00:17:15,500 --> 00:17:17,780
+than the number of tokens required to say it in Italian.
+
+00:17:18,920 --> 00:17:20,000
+It's just a small problem.
+
+00:17:20,300 --> 00:17:22,720
+Like, if he talks in English, it's going to be much faster.
+
+00:17:22,960 --> 00:17:29,740
+If he talks in Italian, it's going to be much slower because we'll sort of not have the same token set up.
+
+00:17:30,560 --> 00:17:34,920
+And if you use the API, you should really be careful because the token numbers, if you speak
+
+00:17:34,920 --> 00:17:43,380
+in a weird language, or a language that is not tuned for LLS, your token will balloon, might easily double.
+
+00:17:43,680 --> 00:17:47,840
+So another technique that you can do is just ask the model in English and then translate it
+
+00:17:47,840 --> 00:17:50,760
+so you can say 0. 002e.
+
+00:17:51,360 --> 00:17:52,820
+Yeah, so you said faster.
+
+00:17:53,680 --> 00:18:00,280
+If I say it in Italian and I don't speak English, what do you mean faster and slower?
+
+00:18:01,440 --> 00:18:02,740
+Well, it's just the token production.
+
+00:18:03,040 --> 00:18:10,840
+Like, if the model is to say hello, almost for sure there's only one token to say hello in English. And ciao? Might have two. Ah.
+
+00:18:12,060 --> 00:18:16,400
+And if you give it some, like, weird language, not only German must be the worst.
+
+00:18:16,560 --> 00:18:19,400
+Blackboard German is common enough, but if you pick some of the languages that there is no...
+
+00:18:19,400 --> 00:18:22,960
+The Asian language of the worst, because every character is one of the themes.
+
+00:18:23,340 --> 00:18:27,640
+Yeah, and I don't know, like, maybe Japanese or Chinese, one character can say a lot of things,
+
+00:18:27,740 --> 00:18:30,280
+but other languages is not quite that bad.
+
+00:18:30,880 --> 00:18:34,860
+So that's the sort of main nuance.
+
+00:18:35,460 --> 00:18:39,580
+But anyway, you can kind of fix those, too, or you can get the model to learn them.
+
+00:18:39,580 --> 00:18:41,600
+Or, even better, you can introduce them more.
+
+00:18:42,300 --> 00:18:48,940
+I don't know what you would introduce it, but it could be a single classification, like maybe
+
+00:18:48,940 --> 00:18:53,140
+language target, and then here instead of having transcribe or translate, classify.
+
+00:18:53,640 --> 00:19:03,460
+Maybe you can have, like, a multi-classification, like, whatever I say is going to be classified, so happy, angry. Thank you.
+
+00:19:06,040 --> 00:19:08,540
+I mean, we'll go off to the end, and we'll be good at the end. Question.
+
+00:19:08,680 --> 00:19:15,000
+When it translates, is it the same model that just knows different languages, or is it employing
+
+00:19:15,000 --> 00:19:18,500
+a lot of free training? It's the same model.
+
+00:19:18,980 --> 00:19:22,440
+What if there are multiple models? What do you think?
+
+00:19:22,440 --> 00:19:28,580
+What if, when you translate, you just use another one which is pre-trained for a better set for that specific language?
+
+00:19:31,100 --> 00:19:32,300
+Yeah, you can do that.
+
+00:19:33,060 --> 00:19:37,440
+I think here they just sort of want to do something quicker, because, again, if you're talking
+
+00:19:37,440 --> 00:19:39,900
+with someone, probably you want this real time.
+
+00:19:41,920 --> 00:19:45,880
+Sorry, just to drive the conversation back, but Google Assistant does that, too, sometimes.
+
+00:19:46,420 --> 00:19:51,320
+Like, it will respond to you in, like, the wrong language, depending on how you talk to it,
+
+00:19:51,320 --> 00:19:58,200
+but sometimes if it tries to deliberately give it, like, a different language response, it will stay with English.
+
+00:19:59,300 --> 00:20:01,240
+Is that the same, like, sort of problem?
+
+00:20:01,440 --> 00:20:04,520
+Like, is it based on whisper? Maybe. I mean, I think...
+
+00:20:04,520 --> 00:20:05,900
+It's definitely not based on whisper.
+
+00:20:06,540 --> 00:20:07,840
+I don't think that is.
+
+00:20:09,220 --> 00:20:14,120
+Maybe you just have a clone of Google and it's someone you don't like, and you project that.
+
+00:20:14,320 --> 00:20:19,380
+But, I mean, again, there could be an interest in more, like, if someone would be looking for
+
+00:20:19,380 --> 00:20:28,160
+a job after WhatsApp, I always believe that, like, having this nuanced understanding there is great.
+
+00:20:28,460 --> 00:20:30,880
+Just write an article about it, to be like, what happens.
+
+00:20:31,340 --> 00:20:32,800
+And then analyze the model.
+
+00:20:32,900 --> 00:20:34,740
+Make sure that you can trick the model.
+
+00:20:34,900 --> 00:20:36,660
+Whisper is probably what's behind the phenomenon.
+
+00:20:36,940 --> 00:20:39,240
+Can you trick the model to do exactly that behavior?
+
+00:20:39,660 --> 00:20:49,680
+And then go and analyze the attention masks, and be like, okay, what words give it away? Easy. There you go.
+
+00:20:50,340 --> 00:20:54,180
+Again, it's not crazy, but you have to be very meticulous.
+
+00:20:55,040 --> 00:20:56,860
+Again, don't always look at shiny tools.
+
+00:20:57,240 --> 00:20:58,200
+Look at the nice product.
+
+00:20:58,360 --> 00:20:59,840
+Everybody's going to do 10 things.
+
+00:21:00,500 --> 00:21:03,400
+I'm going to build up a lot of data. That's not the way.
+
+00:21:03,840 --> 00:21:06,140
+If you want a good job at machine learning, you collapse it.
+
+00:21:06,440 --> 00:21:12,040
+You pick a model, and you analyze it to the weight detail, and be like, this is how it is behaving,
+
+00:21:12,400 --> 00:21:13,600
+and that's what causes it.
+
+00:21:13,880 --> 00:21:15,540
+And those will open for you.
+
+00:21:17,240 --> 00:21:22,520
+You mentioned adding an emotion token, like a special token.
+
+00:21:24,260 --> 00:21:26,120
+We won't get the chance to do that, right?
+
+00:21:26,120 --> 00:21:27,700
+Because we're not training it in Whisper.
+
+00:21:28,400 --> 00:21:29,880
+How do we add it? Oh, no, you could.
+
+00:21:30,120 --> 00:21:31,140
+I'm sure you could do exactly that.
+
+00:21:31,160 --> 00:21:36,420
+Someone in the previous course did accent classification for each word, so the word that you
+
+00:21:36,420 --> 00:21:40,620
+classify what accent you're saying is working. That's cool.
+
+00:21:41,000 --> 00:21:49,180
+Actually, I think I've got a few job offers, and again, do specific things, if you want results.
+
+00:21:49,600 --> 00:21:51,240
+I was just thinking about the previous point.
+
+00:21:51,440 --> 00:21:59,600
+I think I was reading that, so he said the question was why you have different models for different languages, essentially.
+
+00:22:00,020 --> 00:22:05,720
+I think if you have one model, perhaps it's trained in English, then it's easier to then add
+
+00:22:05,720 --> 00:22:10,320
+different languages to it, because it's learned stuff that's common in some of the languages.
+
+00:22:10,320 --> 00:22:13,820
+I think I was reading that's the case.
+
+00:22:15,740 --> 00:22:20,080
+I'm glad that all of you are thinking of ideas already, because that's the goal.
+
+00:22:21,880 --> 00:22:27,320
+And, I mean, you can tell what's happening here, and also you know what kind of...
+
+00:22:32,260 --> 00:22:40,860
+This is end of talking or end of sentence? End of translation. Thank you. End of text. End of text. Yeah.
+
+00:22:41,500 --> 00:22:42,820
+Oh, yeah, end of text. Thank you.
+
+00:22:43,020 --> 00:22:50,780
+And you can see that if the model doesn't predict the potential, it could predict the end of transcript.
+
+00:22:52,220 --> 00:22:53,620
+And this is how it looks like.
+
+00:22:53,680 --> 00:23:00,060
+I kind of went in and I printed the specific text and specific ideas just for you to look at it.
+
+00:23:02,600 --> 00:23:06,820
+And also, you can pass on some conditioning at the beginning.
+
+00:23:06,820 --> 00:23:10,000
+And this is interesting, where I don't know what kind of like...
+
+00:23:10,000 --> 00:23:13,880
+I think in the paper you mentioned it, but you can put some custom vocabulary here.
+
+00:23:14,820 --> 00:23:16,360
+You can sort of do some prompting.
+
+00:23:16,840 --> 00:23:20,260
+Again, whatever is here, the model is not going to train on it.
+
+00:23:20,540 --> 00:23:23,100
+Clearly, the model is not going to be trained on the system prompt.
+
+00:23:23,560 --> 00:23:25,220
+It doesn't have to predict the system prompt.
+
+00:23:25,380 --> 00:23:27,600
+It has to predict what comes afterwards.
+
+00:23:28,120 --> 00:23:29,000
+So this one is not...
+
+00:23:29,400 --> 00:23:30,640
+But this is always conditioned.
+
+00:23:31,960 --> 00:23:35,640
+So you can put whatever you want here, and I sort of encourage you to look at the paper.
+
+00:23:35,640 --> 00:23:40,640
+And I think a lot of startups probably make a living just by doing what's here.
+
+00:23:41,900 --> 00:23:44,880
+Is the no timestamps given by us or by the model?
+
+00:23:45,640 --> 00:23:51,400
+The timestamps are given by training, but yeah, we don't really disclose it.
+
+00:23:53,400 --> 00:23:57,240
+So what are the timestamps in this case? Seconds.
+
+00:23:58,200 --> 00:23:59,780
+The model is good at that.
+
+00:23:59,880 --> 00:24:04,920
+Indeed, one of the tasks that in the previous course people did was transcribe YouTube and build
+
+00:24:04,920 --> 00:24:06,240
+a search system with that.
+
+00:24:06,600 --> 00:24:11,000
+So you have a cloud going around YouTube, and then when someone says something that you don't remember.
+
+00:24:11,200 --> 00:24:15,060
+I remember that video where someone was talking about something in this specific time.
+
+00:24:15,660 --> 00:24:20,020
+You just sort of Google it, and you can jump straight in at the middle of one or two things.
+
+00:24:20,500 --> 00:24:28,560
+So you basically can use a notebook or a web to generate quite a few postcards in one and train ways to do this? Potentially.
+
+00:24:29,780 --> 00:24:32,660
+Again, I'm always like, if you consider to like...
+
+00:24:32,660 --> 00:24:39,760
+The reason I put this here is because you can always build applications, but I know it's a temptation,
+
+00:24:39,780 --> 00:24:45,040
+but with this sticker, the focus of the digital design leader is that I will build 10 products
+
+00:24:45,040 --> 00:24:51,580
+on top of this, and then you spend all week making API calls, and Docker, and vice versa.
+
+00:24:55,960 --> 00:25:02,020
+As I said, or slash promised, I want to have a look at this, because as I was having a look
+
+00:25:02,020 --> 00:25:07,800
+around, everybody seems to be like, stupid, and I think it's a bit of a shame, because I think
+
+00:25:07,800 --> 00:25:08,940
+it's a smart way to do it.
+
+00:25:09,600 --> 00:25:17,980
+Look at this spectrogram, which is basically all your bucketed, I think it is. It's quite long.
+
+00:25:18,260 --> 00:25:21,620
+Even 30 seconds, usually we divide it in milliseconds, or chunks.
+
+00:25:22,100 --> 00:25:27,300
+So this thing here, at the moment, as it is, is 3,000 long.
+
+00:25:27,600 --> 00:25:32,680
+So it's kind of like a sequencer of 3,000 elements, which is quite a lot.
+
+00:25:32,820 --> 00:25:38,320
+You kind of agree with me, because as you charge your key, we hit hundreds of tokens right here,
+
+00:25:38,380 --> 00:25:41,340
+we start with 3,000, only for like 30 seconds.
+
+00:25:41,780 --> 00:25:47,080
+So you can imagine, if you have like two minutes, this attention is going to really grow.
+
+00:25:47,440 --> 00:25:51,880
+So what do we do? We use convolutions. What are convolutions?
+
+00:25:52,140 --> 00:25:59,040
+We already cover CNN, I kind of informed you that you know it, but as a sort of repetition, this is 1D convolution.
+
+00:25:59,660 --> 00:26:06,280
+What it really means is that, given a vector, we sort of go through it, one by one, and we sort
+
+00:26:06,280 --> 00:26:07,720
+of project it in another vector.
+
+00:26:09,520 --> 00:26:12,950
+So this is what a convolution is, and as you can see, we sort of multiply it.
+
+00:26:15,750 --> 00:26:20,970
+But then we can kind of, like in the concept of curve, we can kind of increase this convolution
+
+00:26:20,970 --> 00:26:26,850
+so that it looks more on more of the input and still outputs on one figure.
+
+00:26:27,810 --> 00:26:39,130
+In this case, it kind of does this operation, this times that, plus this times that, equal 1.14.
+
+00:26:39,950 --> 00:26:43,350
+So this is 1D convolution with a kernel of 2.
+
+00:26:44,590 --> 00:26:50,870
+And we can kind of see here that there is a kernel size here.
+
+00:26:52,210 --> 00:26:58,670
+Notice that for a kernel size of 2, by default we reduce the output by 1. Why?
+
+00:26:59,130 --> 00:27:13,310
+Because we can't reduce this guy here.
+
+00:27:13,310 --> 00:27:14,630
+So it has to stop.
+
+00:27:16,250 --> 00:27:21,210
+To avoid this sort of thing, we have padding here, where we kind of put numbers here, numbers
+
+00:27:21,210 --> 00:27:26,650
+here, kind of signals, and so that we can still create any kernel if we want to.
+
+00:27:26,650 --> 00:27:42,670
+So padding, stride, and we have, I think there might be another element here, which is how much we jump.
+
+00:27:45,630 --> 00:27:49,410
+Here we don't have to go one by one, we can jump a little bit.
+
+00:27:50,310 --> 00:27:59,650
+And the jumping again is this nice property, we reduce the size of this. Isn't that just stride? Stride. No, no, no.
+
+00:27:59,930 --> 00:28:04,830
+Oh yeah, so kernel size and stride are two different things, I just sort of mixed them.
+
+00:28:05,370 --> 00:28:09,390
+Stride is how much we jump, and kernel size is, again, this is the kernel size.
+
+00:28:10,190 --> 00:28:12,690
+And then at the end we also have an output chunk.
+
+00:28:13,430 --> 00:28:20,870
+So here we have, again let's see if we can have it together, this is the input, we have a kernel
+
+00:28:20,870 --> 00:28:28,170
+size of 2, and we have two output chunks.
+
+00:28:29,230 --> 00:28:33,690
+So we have two output chunks, so the kernel will kind of double automatically.
+
+00:28:37,150 --> 00:28:44,970
+Is this clear? So to try to make it a bit visual, and that's what exactly is happening in the spectrogram.
+
+00:28:46,910 --> 00:28:56,310
+Because what the paper says they do is they take something that is very long, and they will
+
+00:28:56,310 --> 00:29:06,270
+sort of slide through it, and then we make it from like 3,000 to only 1,500, because they have a stride of 2.
+
+00:29:08,350 --> 00:29:10,850
+And they do it across the time dimension.
+
+00:29:12,750 --> 00:29:17,210
+What's crazy is that you didn't use a lot of order in the spectrogram.
+
+00:29:17,490 --> 00:29:19,090
+Why didn't you do it in 2D?
+
+00:29:24,610 --> 00:29:31,570
+Because, well, you could potentially also use a 2D convolution, which really means that you
+
+00:29:31,570 --> 00:29:32,610
+sort of have a region.
+
+00:29:33,950 --> 00:29:42,970
+I guess it was that you don't want big frequencies to interact with each other too much, and
+
+00:29:42,970 --> 00:29:44,490
+they prefer that they're not in the time frame.
+
+00:29:47,430 --> 00:29:54,230
+So it's a good question, and I kind of have a couple of assumptions. 1D will kind of not try
+
+00:29:54,230 --> 00:29:58,310
+to do too much work, because you want the transformer to do the heavy lifting there.
+
+00:29:59,170 --> 00:30:07,590
+So we kind of across time, we just sum up like 2, 3 seconds, and we take like, if each one of
+
+00:30:07,590 --> 00:30:15,890
+those lines is 10 milliseconds, what the paper does, they take like 30 milliseconds of the same
+
+00:30:15,890 --> 00:30:19,550
+frequency band, and they sort of just sum them together.
+
+00:30:19,610 --> 00:30:26,770
+If we do it in 2D, we are immediately asking the 2D convolution to kind of start to do work
+
+00:30:26,770 --> 00:30:33,130
+for us, to sort of try to do a bit too much, like we don't want the convolution to do my classification
+
+00:30:33,130 --> 00:30:36,490
+or the tension to work.
+
+00:30:36,490 --> 00:30:42,570
+So we don't want to do too much work in feature engineering again, just enough to set the thing to the proper level.
+
+00:30:43,730 --> 00:30:49,610
+Another thing that I didn't know about spectrograms is that there are many ways to create a
+
+00:30:49,610 --> 00:30:55,190
+spectrogram, and that can have a massive impact on the result, actually.
+
+00:30:55,510 --> 00:31:04,250
+How do the papers clear on the environment they use to create the spectrogram? I have to check.
+
+00:31:04,930 --> 00:31:10,490
+I think there are, to some extent, they tell you like the milliseconds, they take the log, and they maybe...
+
+00:31:11,850 --> 00:31:16,190
+Yeah, 3 or 4 parameters at the same time.
+
+00:31:20,930 --> 00:31:23,210
+What is over here? Sorry, quick question.
+
+00:31:23,470 --> 00:31:30,790
+Why are we doing it... if you could go back to the... why are we doing it with the regular value? Okay.
+
+00:31:32,330 --> 00:31:39,690
+Why are we doing it this way instead of doing what we were last week and doing it in different ways? So like concatenating... yeah.
+
+00:31:39,830 --> 00:31:41,010
+Oh, that's a good one.
+
+00:31:41,110 --> 00:31:45,210
+I thought about it, and I was sort of suggesting to some of you if you want to replicate it,
+
+00:31:45,450 --> 00:31:48,430
+just a decoder, you can do it like that.
+
+00:31:49,250 --> 00:31:52,330
+That sort of way of doing things is something that people...
+
+00:31:53,190 --> 00:32:00,150
+This paper came in 2022, and November, still November, I think it was the end of November 2022
+
+00:32:00,150 --> 00:32:05,470
+when tragedy came out there, and there was a moment where people really thought like, oh, GPT
+
+00:32:05,470 --> 00:32:09,450
+can do everything, decoders can do everything, so don't bother with decoders anymore.
+
+00:32:09,930 --> 00:32:13,390
+But up until that point, this was what people were doing everywhere.
+
+00:32:14,350 --> 00:32:19,910
+Once GPT came out, everybody was like, okay, let's put it inside the decoder and get it going.
+
+00:32:21,110 --> 00:32:22,750
+But we couldn't do that now.
+
+00:32:23,830 --> 00:32:26,170
+We'd have to train the whole thing from scratch.
+
+00:32:27,050 --> 00:32:31,370
+Yeah, but maybe you can just take this pre-trainer and use a GPT tool.
+
+00:32:32,230 --> 00:32:33,590
+Again, people have done that as well.
+
+00:32:34,430 --> 00:32:38,970
+Take a GPT tool, take a pre-trainer, re-spec, see if you can just completely replicate it.
+
+00:32:40,650 --> 00:32:47,510
+But then we just need to get the GPT tools out with those special tokens at the start, right?
+
+00:32:47,510 --> 00:32:50,030
+Yeah, you probably have to do a bit of like nitty-gritty.
+
+00:32:51,790 --> 00:32:54,450
+Like at entrance time, sort of stuff?
+
+00:32:55,150 --> 00:32:56,550
+Say, after a few seconds, right?
+
+00:32:56,570 --> 00:32:57,730
+Well, also when you find a chapter.
+
+00:32:58,730 --> 00:33:04,510
+You kind of have to go to the GPT tool, give them the tokens, and then do all the work.
+
+00:33:05,690 --> 00:33:11,930
+I think it's possible, it's just very nitty-gritty, so make sure that you are very clean in organizing stuff.
+
+00:33:12,710 --> 00:33:19,210
+If you were to do that when you introduce the new token to GPT-2, do you think it's possible
+
+00:33:19,210 --> 00:33:24,950
+to do that and still un-functioning associated layers of GPT-2?
+
+00:33:25,430 --> 00:33:26,330
+Even if it's new tokens?
+
+00:33:28,810 --> 00:33:32,830
+I guess what I was wondering is, if you introduce new tokens, is that foundational for the model?
+
+00:33:33,370 --> 00:33:39,930
+And as soon as you do that, do you need to say, no, I need to retrain the whole model? No, definitely. You can, you can.
+
+00:33:39,930 --> 00:33:42,230
+Yeah, you can do all sorts of things. Yeah, yeah.
+
+00:33:42,590 --> 00:33:45,270
+We're going to probably see all those sorts of things next week.
+
+00:33:49,250 --> 00:33:50,650
+But... I want to say something here.
+
+00:33:54,050 --> 00:34:00,290
+Well, yeah. Oh, yeah. Just to give you a bit, as I was going through my graph of reading all
+
+00:34:00,290 --> 00:34:01,790
+sorts of papers, I'm getting tired.
+
+00:34:02,550 --> 00:34:06,510
+What people have done, they've taken LAMA, and then made it auditory.
+
+00:34:06,510 --> 00:34:12,210
+So they've completely replaced the feature extraction part, which is not tokens anymore.
+
+00:34:12,370 --> 00:34:13,510
+It's like audio, like that.
+
+00:34:14,030 --> 00:34:16,570
+And then LAMA itself just produces complete audio.
+
+00:34:17,430 --> 00:34:21,570
+And that's because the knowledge of those models is not really in the tokens per se.
+
+00:34:22,050 --> 00:34:24,030
+The knowledge is not like in the word hello.
+
+00:34:24,370 --> 00:34:27,050
+The knowledge is in the concept of hello.
+
+00:34:27,410 --> 00:34:32,850
+And if you put hello or ciao, or a male spectrum that says hello, so the model is the same.
+
+00:34:32,890 --> 00:34:34,870
+It will be able to work with it.
+
+00:34:35,670 --> 00:34:37,470
+So auditory, is this just like translation?
+
+00:34:39,670 --> 00:34:41,490
+No, it's chitchat for what you do.
+
+00:34:41,930 --> 00:34:42,750
+Oh, so it's like back and forth.
+
+00:34:43,970 --> 00:34:47,270
+And they've done it just by sort of replacing the first layer and the last layer.
+
+00:34:48,650 --> 00:34:50,490
+Again, it's very itty-bitty work.
+
+00:34:51,110 --> 00:34:52,210
+You really have to do it slowly.
+
+00:34:52,450 --> 00:34:53,610
+You really have to make sure you do it.
+
+00:34:53,690 --> 00:34:59,230
+Because when somebody does a work and you want to build a parameter, I mean, it's not going to work.
+
+00:34:59,230 --> 00:35:02,790
+You come to me with some code and you go, you know, that's the problem.
+
+00:35:02,790 --> 00:35:06,030
+Can I come to the same topic?
+
+00:35:07,010 --> 00:35:09,950
+Like I'm just degenerating with you guys.
+
+00:35:10,510 --> 00:35:13,710
+If that's correct, this would be, this is quite beautiful, like an audio clip.
+
+00:35:13,990 --> 00:35:17,110
+Like if you were doing continuous speech, this would be quite impactful.
+
+00:35:18,930 --> 00:35:20,910
+People do use this for streaming actually.
+
+00:35:21,670 --> 00:35:25,130
+And again, it's just pure engineering. You just overlap it.
+
+00:35:27,390 --> 00:35:30,510
+It sort of continuously cancels out the cover, I guess.
+
+00:35:30,510 --> 00:35:33,630
+Yeah, you sort of just have to run this in a continuous fashion.
+
+00:35:34,310 --> 00:35:36,310
+By really just chunking, pulling and putting.
+
+00:35:43,410 --> 00:35:49,590
+So now, once we've covered the little log-max spectrogram, it's probably a good question to ask, what is it?
+
+00:35:50,390 --> 00:35:54,770
+And I'm not going to spend too much time here because it's just quite a bit of concepts.
+
+00:35:54,990 --> 00:35:59,350
+But you might think that this would be a good way to pass the model directly.
+
+00:36:00,510 --> 00:36:04,210
+It turns out that it's not really the best way because it's just too dense of information and
+
+00:36:04,210 --> 00:36:07,530
+the model has to learn to sort of extract the frequencies.
+
+00:36:08,770 --> 00:36:12,930
+So this is sort of basically air pressure at a specific point in time.
+
+00:36:13,210 --> 00:36:15,490
+That's really what a sound wave is.
+
+00:36:16,230 --> 00:36:24,270
+Like you put a point in space and this point will vibrate based on the sound because it's a physical phenomenon.
+
+00:36:24,650 --> 00:36:26,390
+And that's exactly what we see here.
+
+00:36:26,390 --> 00:36:32,210
+But this vibration happens to be just a bunch of frequencies that we can decompose.
+
+00:36:34,790 --> 00:36:38,250
+And we have like mathematical formulas to do this.
+
+00:36:39,510 --> 00:36:45,210
+The main one, to be honest, I don't want to hide it also, is a Fourier transform.
+
+00:36:46,450 --> 00:36:54,670
+But there's a problem with Fourier transform which takes sort of decomposes this in decomposes
+
+00:36:54,670 --> 00:37:02,130
+like, let's say, a waver into a series of sine and cosine where added together will form that waver.
+
+00:37:02,630 --> 00:37:07,990
+Which is really nice because once we can decompose this, which happens really fast, we can kind
+
+00:37:07,990 --> 00:37:12,330
+of have a little bit more like, oh, we know that there is this frequency, that frequency, and
+
+00:37:12,330 --> 00:37:13,030
+so on and so forth.
+
+00:37:13,070 --> 00:37:15,970
+And it's not in a specific frequency domain.
+
+00:37:16,450 --> 00:37:21,750
+And if you do this on the entire audio, you're going to get a kind of fingerprint, which is quite useful.
+
+00:37:21,890 --> 00:37:31,210
+You can already see that by the various fingerprints, what are some of the use cases for those kind of like transformation.
+
+00:37:31,730 --> 00:37:37,990
+Where you can see that in the entire audio, we just created one picture of like what frequencies
+
+00:37:37,990 --> 00:37:41,370
+are in that piece of audio. Yeah?
+
+00:37:41,830 --> 00:37:46,850
+I know this is a bit, but that's why I'm going to keep it light and you can watch it on YouTube.
+
+00:37:46,850 --> 00:37:49,450
+There are like about a million videos of waver transformer.
+
+00:37:50,390 --> 00:37:54,250
+But the main reason is that this gives you a picture of any waver.
+
+00:37:54,690 --> 00:37:55,850
+This is just one waver.
+
+00:37:56,170 --> 00:37:58,330
+And we just decompose it in a bunch of sine and cosine.
+
+00:37:58,730 --> 00:38:05,470
+And then we just count at what sort of amplitude those phases, those sine and cosine are, which we call frequency.
+
+00:38:06,690 --> 00:38:11,030
+And we just sum them together here and say, OK, look how much waver this and how much waver that.
+
+00:38:11,950 --> 00:38:15,750
+This is not very useful, though, because we are doing it in the entire audio.
+
+00:38:16,850 --> 00:38:19,490
+So think a bit of audio as all these things.
+
+00:38:20,210 --> 00:38:25,110
+But again, if I tell you, clearly, as you can imagine, it doesn't really work.
+
+00:38:25,890 --> 00:38:30,070
+Because, I think here I moved some slides, I'll explain it a bit more.
+
+00:38:30,550 --> 00:38:33,170
+Because I want to do it with the talking itself.
+
+00:38:33,450 --> 00:38:41,810
+But what we really do instead is we do this Fourier transformer on chunks of audio. Those very tiny chunks.
+
+00:38:41,850 --> 00:38:47,630
+And then we sort of, every few milliseconds, we count all the frequencies that we have in that millisecond, a few milliseconds.
+
+00:38:48,690 --> 00:38:50,470
+And that's what we can...
+
+00:38:50,470 --> 00:38:57,010
+And the result of that, without the map and the log, is just a spectrogram that looks exactly like this.
+
+00:38:57,890 --> 00:39:03,470
+You can kind of see that every sort of few, those lines, a few milliseconds, we will just count all the frequencies.
+
+00:39:04,150 --> 00:39:11,830
+And then we stitch them all together and we create sort of a tiny map against frequencies.
+
+00:39:13,630 --> 00:39:16,730
+If this is not clear, don't worry about it.
+
+00:39:16,990 --> 00:39:21,660
+It's one of those things where like... there's an infinite amount on the internet of people
+
+00:39:21,660 --> 00:39:24,380
+explaining it beautifully with all those animations.
+
+00:39:24,520 --> 00:39:27,820
+I'm not sure you will get it, but I just thought it would be interesting.
+
+00:39:29,600 --> 00:39:32,940
+And maybe we can kind of have chit-chat questions, which is a bit better.
+
+00:39:35,000 --> 00:39:39,540
+Now, I kind of wanted to give a bit of a help with the function here, and tell you some of the
+
+00:39:39,540 --> 00:39:43,420
+problems that you might encounter, and some of the solutions that maybe exist, maybe not.
+
+00:39:45,000 --> 00:39:51,640
+The only interesting thing here is that now that we sort of start to apply full models, I want
+
+00:39:51,640 --> 00:39:55,420
+to pay attention to... this is not super visible, but hopefully...
+
+00:39:58,960 --> 00:40:06,060
+I load the models, Torch and Whisper, and then I just pass to Whisper, like a sort of file,
+
+00:40:06,920 --> 00:40:12,960
+and then I create a tokenizer, I start with it, and this is where I pass to the model.
+
+00:40:13,680 --> 00:40:18,460
+Hello, my name is Dax, and the model can be its boss. Is this clear?
+
+00:40:19,100 --> 00:40:25,640
+I just double-check it, and now I construct the correct sentence. Literally nothing.
+
+00:40:27,900 --> 00:40:32,260
+And then I set up a training loop, which really is just one type of combination, literally.
+
+00:40:33,180 --> 00:40:41,460
+I just sort of pass the model parameters, I sort of prepare the spectrogram again of my audio,
+
+00:40:42,020 --> 00:40:47,440
+I sort of... look at this, I sort of flip it, or I sort of shift it by one, this should be very
+
+00:40:47,440 --> 00:40:54,120
+familiar to all of you, like my target, my prediction, it's kind of just shifted by one, and
+
+00:40:54,120 --> 00:41:01,360
+then I sort of point the model things at the moment, I calculate the loss, and then I just do
+
+00:41:01,360 --> 00:41:03,000
+one back propagation, one step.
+
+00:41:04,440 --> 00:41:10,120
+With the target and the correct, sort of with the target and the model predictor, my learning
+
+00:41:10,120 --> 00:41:17,000
+weight here is, let me set it up, is 0.0001.
+
+00:41:18,340 --> 00:41:26,420
+So I reach and just nudge the model, tiny, tiny, tiny bit, and then I run it again, literally in the same example.
+
+00:41:27,800 --> 00:41:34,220
+Again, you can look at this by, it's basically just me downloading the model, running it on
+
+00:41:34,220 --> 00:41:40,380
+my audio, and doing only one back propagation with the correct test, and then re-marketing again
+
+00:41:40,380 --> 00:41:41,580
+to see if the model learned it.
+
+00:41:48,740 --> 00:41:55,740
+Well, it depends. That's where I sort of go, it depends on how much knowledge there is in the
+
+00:41:55,740 --> 00:42:01,040
+function, what is really the function about, how good is the model already, what's the propensity
+
+00:42:01,040 --> 00:42:04,440
+of the model to forget everything once you give it two examples.
+
+00:42:05,960 --> 00:42:13,360
+So this is what you're going to battle for a good few days, and there is no really, this ongoing
+
+00:42:13,360 --> 00:42:18,200
+research is sort of getting like long-life learners models.
+
+00:42:18,980 --> 00:42:23,100
+One of the problems is that there's always a cut-off, for judging a few things that actually
+
+00:42:23,100 --> 00:42:28,420
+helps, which is a bit extraordinary, other people are not good at functioning after all, why
+
+00:42:28,420 --> 00:42:31,820
+they cannot just function every day with a bit of extra knowledge?
+
+00:42:33,080 --> 00:42:39,500
+Surely, they make about a million researchers, they should be able to do that, but they can't,
+
+00:42:39,800 --> 00:42:42,560
+because it's harder, and we don't know how to do it yet.
+
+00:42:43,220 --> 00:42:48,060
+So injecting the knowledge, we are maybe good at aligning the model with those reinforcement
+
+00:42:48,060 --> 00:42:50,760
+learners, but the knowledge is a completely different story.
+
+00:42:51,600 --> 00:42:53,320
+Alignment is one thing, knowledge is another one.
+
+00:42:53,320 --> 00:42:59,660
+Here, you risk, you're not doing either, and just risk breaking the model so easily.
+
+00:43:00,540 --> 00:43:05,060
+But nevertheless, this is such a tiny example that maybe my hope is that the model didn't really
+
+00:43:05,060 --> 00:43:09,180
+go wacky, just because I gave it an example, we can see it here.
+
+00:43:09,440 --> 00:43:17,540
+I test my model, and say it's the wrong thing, then I sort of prepare the example, and I see
+
+00:43:17,540 --> 00:43:23,880
+that there's a loss of 0.53, and here, you can't really see, but here's where I do that proper,
+
+00:43:24,600 --> 00:43:27,940
+and then I try again the model, and this time, it's perfect.
+
+00:43:29,160 --> 00:43:33,740
+The model learns, because my 0.53 is the one I animated, and just one example.
+
+00:43:34,840 --> 00:43:36,360
+What if your name is John?
+
+00:43:36,740 --> 00:43:41,220
+What kind of IT things do you think people should be doing?
+
+00:43:42,000 --> 00:43:49,520
+This is a bit of a tricky one, and I think the best way for you to know, to experiment with
+
+00:43:49,520 --> 00:43:50,740
+it, is to experiment with it.
+
+00:43:51,840 --> 00:43:55,560
+Because there's a lot of techniques, people do sort of like, you fine-tune it, and then you
+
+00:43:55,560 --> 00:44:00,960
+train it again, on some data, and then you sort of fine-tune it again, and you train it again,
+
+00:44:01,820 --> 00:44:03,300
+so with the previous data set.
+
+00:44:03,520 --> 00:44:08,820
+In this case, what I would like to see you doing, is not just this and call it a day, it's all
+
+00:44:08,820 --> 00:44:10,760
+the experiments that you can build on top of this.
+
+00:44:11,900 --> 00:44:16,660
+So come up with some sentences where the model is good, fine-tune it, and see if the model is
+
+00:44:16,660 --> 00:44:19,700
+still good, at those sentences, and your sentences.
+
+00:44:20,280 --> 00:44:21,300
+A sample at a time.
+
+00:44:22,240 --> 00:44:27,280
+Potentially. painstakingly, one backpop at a time.
+
+00:44:27,900 --> 00:44:32,820
+You just check how the weights move, the statistics of all the weights, like where is the mean,
+
+00:44:32,840 --> 00:44:37,960
+where is the variance, which one has changed, freeze some encoders, freeze this, freeze that,
+
+00:44:38,180 --> 00:44:43,360
+and those are very tiny models, like the one I used here, it's 40 mb, so you can really have
+
+00:44:43,360 --> 00:44:45,260
+a fast feedback loop, just in your laptop.
+
+00:44:46,200 --> 00:44:51,320
+But then again, the goal is not for you to do this, that's why I did it myself, so that you
+
+00:44:51,320 --> 00:44:56,240
+don't think that the goal is to do one backpop, the goal is for you to start to build the intuition
+
+00:44:56,700 --> 00:45:02,760
+of what is really fine-tuning, what is knowledge, how does the systems work, what's happening
+
+00:45:02,760 --> 00:45:06,040
+inside of them, can you open them up and show us something interesting.
+
+00:45:07,160 --> 00:45:11,320
+Again, it's not writing code anymore, it's knowledge.
+
+00:45:11,780 --> 00:45:17,340
+When you have something like hundreds of examples of names that you wanted to adjust to, how
+
+00:45:17,340 --> 00:45:24,620
+do you end up preserving something like words like base, how do you end up getting it to avoid
+
+00:45:24,620 --> 00:45:31,540
+that problem? there are many papers and people are going to figure it out completely. Okay.
+
+00:45:31,840 --> 00:45:35,700
+But there are many ways and things that you can do, so only some of them will work, but we don't
+
+00:45:35,700 --> 00:45:39,720
+have a very deep understanding that this is how you do it, Go function.
+
+00:45:40,160 --> 00:45:44,520
+I'm guessing the current method is just saving a bunch of models and then checking it and if
+
+00:45:44,520 --> 00:45:46,960
+it messes up by calling it back. Yeah.
+
+00:45:47,280 --> 00:45:52,600
+I mean one thing is, let me give you a few examples just to sort of get you going, is you don't
+
+00:45:52,600 --> 00:45:57,760
+do this with one example, but you ask the model, you pick some data that the model was trained
+
+00:45:57,760 --> 00:46:03,560
+on, so those data are good data and the model already has them, and you just insert your example
+
+00:46:03,560 --> 00:46:09,460
+in the middle of them, so that when you do backprop, remember when you do backprop, the model
+
+00:46:09,460 --> 00:46:15,320
+thinks that this is all the data in the world with that matrix, so we sort of calculate the
+
+00:46:15,320 --> 00:46:20,180
+gradient in only your example and we think that this is all there is in the world, so we just
+
+00:46:20,180 --> 00:46:26,280
+go down that path, but that's why it's called stochastic gradient descent, because we can't
+
+00:46:26,280 --> 00:46:30,980
+put the entire data set, which is the entire knowledge that we want the model to optimize for,
+
+00:46:31,220 --> 00:46:38,360
+but we have to put chunks of data, but each chunk itself has a sample distribution, has a sample
+
+00:46:38,360 --> 00:46:44,640
+mean, a sample variance, and a sample knowledge, so the model will learn only the sample, as
+
+00:46:44,640 --> 00:46:49,580
+if the sample was everything there is in this world, so we'll move in one direction, then you
+
+00:46:49,580 --> 00:46:53,640
+pick another sample from the same data set, but again, it's a sample distribution, it's not
+
+00:46:53,640 --> 00:46:57,620
+the true distribution, you pass it to the model and the model thinks that now the world looks
+
+00:46:57,620 --> 00:47:01,220
+a bit different than before, to optimize for this world that should move in another direction,
+
+00:47:02,300 --> 00:47:06,700
+and those are batches, and the bigger the batch, the better the step is going to be, ideally
+
+00:47:06,700 --> 00:47:10,940
+you want to put the entire data set in one row, so you have a perfect gradient and you know
+
+00:47:10,940 --> 00:47:15,240
+that to optimize the model for all this data you have to go in this direction.
+
+00:47:15,880 --> 00:47:20,440
+So it looked like you were only fine-tuning the decoder here because you fed in text, like what
+
+00:47:20,440 --> 00:47:26,660
+if it knows to predict my name is best spelled that way, but it doesn't pronounce it that way,
+
+00:47:26,780 --> 00:47:28,560
+don't you want to feed it a waveform?
+
+00:47:29,780 --> 00:47:37,320
+Actually, it can do everything in one row, encode and decode it, I'm not doing discrimination,
+
+00:47:42,360 --> 00:47:48,880
+so you put in audio, and then I say just do everything you have to do, but that's a good example,
+
+00:47:49,060 --> 00:47:54,360
+I would actually say the opposite, that probably the decoder is a massive machine and is really
+
+00:47:54,360 --> 00:47:59,260
+good at doing tokens, it has all the tokens, all the embeddings, but was not conditioned properly
+
+00:47:59,260 --> 00:48:04,760
+from the encoder, so if I were to give it my two cents and someone can try it, I would just fine-tune the encoder here.
+
+00:48:05,040 --> 00:48:08,280
+And the way you do that is you go like this,
+
+00:48:11,720 --> 00:48:17,360
+but I would like to see both, to be like ok guys, so my name is the encoder, but if I go for
+
+00:48:17,360 --> 00:48:24,380
+someone else's name, they need the decoder and the encoder, and then I would like to see a hypothesis to be like why?
+
+00:48:25,260 --> 00:48:28,440
+Is it an audio problem or is it sort of like a text problem?
+
+00:48:29,180 --> 00:48:34,340
+Again, don't take this problem, now I'm repeating myself as like oh let me find ten examples,
+
+00:48:34,420 --> 00:48:38,160
+fine-tune it, it doesn't work, and that's I don't know how to find ten examples, if this course
+
+00:48:38,160 --> 00:48:46,980
+was about you teaching me and I can copy-paste clearly like I would have two opportunities of
+
+00:48:46,980 --> 00:48:52,930
+open AI if I cracked it but nobody has yet done it.
+
+00:48:53,420 --> 00:48:59,820
+Another thing that people try is sort of again, one example is completely representative of
+
+00:48:59,820 --> 00:49:05,160
+all the speech and text in the world, so if you just give it one example and you give it a couple
+
+00:49:05,160 --> 00:49:10,820
+of examples more, I wanted to mention this on Friday and keep mentioning the model and there
+
+00:49:10,820 --> 00:49:16,120
+are some people who say the model seems to have forgotten all the other things, how is that possible?
+
+00:49:16,680 --> 00:49:22,340
+And I kind of wanted to say something like let's wait for this week where all of you will go through it.
+
+00:49:23,660 --> 00:49:27,600
+So one example is a very bad example but maybe you should pass a batch.
+
+00:49:27,760 --> 00:49:29,280
+How should this batch look like?
+
+00:49:32,360 --> 00:49:33,920
+It's a really interesting story.
+
+00:49:34,740 --> 00:49:39,620
+Other things that people do is they do training with examples that the model had before and
+
+00:49:39,620 --> 00:49:46,240
+they sort of try to go inside the weights and see which one had the highest gradient for some example but they
+
+00:49:55,600 --> 00:50:00,920
+kind of use statistics quite a different model.
+
+00:50:01,200 --> 00:50:12,180
+So people refer to all sorts of deep mathematics and it's up to you how to do it.
+
+00:50:12,300 --> 00:50:18,860
+What can I get a model for finding because they recommend using this model to find other tasks.
+
+00:50:21,340 --> 00:50:27,480
+They might do something behind the scenes to say that this is more easy to find than that. Though
+
+00:50:30,060 --> 00:50:33,040
+my experience is all of them have been very hard to do.
+
+00:50:35,820 --> 00:50:36,740
+I think
+
+00:50:39,260 --> 00:50:41,380
+there are so many things that people try to do.
+
+00:50:41,440 --> 00:50:44,220
+Some people try to train those models with a knowledge bank.
+
+00:50:44,800 --> 00:50:49,960
+So they sort of try to say that the knowledge can only be saved here and all the rest of the
+
+00:50:49,960 --> 00:50:51,580
+model is just for alignment.
+
+00:50:52,300 --> 00:50:56,440
+And then they sort of try to find one or the other and then they look up.
+
+00:50:57,260 --> 00:50:58,640
+Again, I'm not sure that's what they did.
+
+00:51:13,480 --> 00:51:22,880
+And this was one of tasks that I removed the slide but it was a visualization.
+
+00:51:23,080 --> 00:51:30,140
+So train and find this model and the model at the doesn't tell you who is speaking, it just
+
+00:51:30,220 --> 00:51:35,460
+tells you speech and time it will be interesting if you can do a speech detection who is speaking
+
+00:51:35,740 --> 00:51:40,720
+that's cool or voice activation is another one like you can kind of create you can run this
+
+00:51:40,720 --> 00:51:46,540
+model it's very small but you can even even better actually in the voice activation can just
+
+00:51:46,540 --> 00:51:51,040
+be a classification by the way voice activation is the smallest model you can think of it's
+
+00:51:51,040 --> 00:51:57,200
+not an activation it's just this so they are so small they are just few bytes few megabytes
+
+00:51:57,200 --> 00:52:04,340
+at most so you can give it a name and you can kind of train the model just to do just to do
+
+00:52:04,340 --> 00:52:11,600
+that voice activation seems like it would be a hard problem yeah it's not it's hard enough but
+
+00:52:11,640 --> 00:52:17,280
+this again more towards the application maybe you can take maybe it's not voice activation maybe
+
+00:52:17,280 --> 00:52:22,040
+but ok this is interesting instead of doing a voice activation you can do sentence activation
+
+00:52:22,040 --> 00:52:28,260
+yeah that's a that's a maybe you can have like a super secret the sentence and when you talk
+
+00:52:28,260 --> 00:52:33,660
+to someone on your laptop is listening and then when the sentence kicks in nobody if i say hey
+
+00:52:33,660 --> 00:52:39,700
+alexa everybody everybody here i'm up to something okay but if i have a sentence activation
+
+00:52:39,700 --> 00:52:48,560
+and i'm a spy and i go around asia that sentence activation probably need a whisper the cnn
+
+00:52:48,560 --> 00:52:54,160
+is not it's not my password anymore maybe it's not a sentence multiple sentences in map to actions
+
+00:52:54,160 --> 00:52:59,340
+and then you have the special tokens that map to action maybe your laptop can do something or
+
+00:52:59,340 --> 00:53:05,120
+something can be transmitted now you see how powerful the sort of multi-modality systems are
+
+00:53:05,120 --> 00:53:12,920
+so now we're making a black circle yeah the real challenge of voice activation is that if you're
+
+00:53:12,920 --> 00:53:18,600
+going to have something that runs perpetually and you're on a device it needs to be it needs
+
+00:53:18,600 --> 00:53:24,120
+to be small it needs to um and there's some hardware optimization to make it like pretty low
+
+00:53:24,120 --> 00:53:34,780
+power and that's why you have to be super super small so you see come up with interesting idea
+
+00:53:34,780 --> 00:53:58,540
+but try to stay away from applications otherwise you spend all your week making api codes and stuff good luck everybody
+
