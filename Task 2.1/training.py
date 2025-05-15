@@ -10,6 +10,7 @@ from torch.optim import AdamW
 #from AudioDataset import AudioDataset
 from torch.utils.data import DataLoader
 
+
 #{
 #    "input_features": whisper_processor.feature_extractor(audio, sampling_rate=16000).input_features[0],  # [80, 3000]
 #    "labels": whisper_processor.tokenizer(
@@ -77,6 +78,9 @@ class AudioDataset(Dataset):
 
 
         item["labels"][item["labels"] == self.processor.tokenizer.pad_token_id] = -100
+
+        item["original_text"] = entry["original_text"]
+
 
         return item
 
@@ -148,6 +152,7 @@ def whisper_collate_fn(batch):
     return {
         "input_features": input_features,
         "labels": labels,
+        "original_text": [item["original_text"] for item in batch],
     }
 
 
@@ -239,6 +244,18 @@ for epoch in epoch_pbar:
             labels = batch["labels"].to(device)
             outputs = model(input_features=input_features, labels=labels)
             val_loss += outputs.loss.item()
+
+            decoded_ids = torch.argmax(outputs.logits, dim=-1)
+            decoded_texts = processor.tokenizer.batch_decode(decoded_ids, skip_special_tokens=True)
+
+            if epoch == 5:  # or any other condition to limit frequency
+                for i in range(min(10, len(decoded_texts))):
+                    wandb.log({
+                        f"val/sample_{i}/original": batch["original_text"][i],
+                        f"val/sample_{i}/predicted": decoded_texts[i]
+                    }, step=step)
+
+
 
     val_loss /= len(val_loader)
     epoch_pbar.set_postfix(loss=f"{avg_loss:.4f}", val_loss=f"{val_loss:.4f}")
