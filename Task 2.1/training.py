@@ -248,13 +248,11 @@ for epoch in epoch_pbar:
             decoded_ids = torch.argmax(outputs.logits, dim=-1)
             decoded_texts = processor.tokenizer.batch_decode(decoded_ids, skip_special_tokens=True)
 
-            if epoch == 5:  # or any other condition to limit frequency
+            if epoch == 1 or epoch == 5:  # or any other condition to limit frequency
+                table = wandb.Table(columns=["Epoch", "Index", "Original", "Predicted"])
                 for i in range(min(10, len(decoded_texts))):
-                    wandb.log({
-                        f"val/sample_{i}/original": batch["original_text"][i],
-                        f"val/sample_{i}/predicted": decoded_texts[i]
-                    }, step=step)
-
+                    table.add_data(epoch, i, batch["original_text"][i], decoded_texts[i])
+                    wandb.log({"val/samples": table}, step=step)
 
 
     val_loss /= len(val_loader)
