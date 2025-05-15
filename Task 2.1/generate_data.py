@@ -58,15 +58,15 @@ def simplify_transcripts(entries, allowed_words, model="gpt-4"):
 
 
 # 📥 Load LibriSpeech (first 10 for testing)
-#ds = load_dataset("librispeech_asr", "clean", split="train.100",trust_remote_code=True)
-#samples = ds.select(range(10))  # start small
+ds = load_dataset("librispeech_asr", "clean", split="train.100",trust_remote_code=True)
+samples = ds.select(range(10))  # start small
 
 # 📦 Extract relevant metadata
-#entries = [{
-#    "id": s["id"],
-#    "file": s["file"],
-#    "text": s["text"]
-#} for s in samples]
+entries = [{
+    "id": s["id"],
+    "file": s["file"],
+    "text": s["text"]
+} for s in samples]
 
 # 🚀 Simplify
 
@@ -79,11 +79,12 @@ allowed_words = get_thing_explainer_vocab()
 
 #Explore computer buildings (datacenters), the flat rocks we live on (tectonic plates), the things you use to steer a plane (airliner cockpit controls), and the little bags of water you're made of (cells)
 
-entries = [{
-    "id": "id",
-    "file": "file",
-    "text": "datacenters"
-}]
+
+#entries = [{
+#    "id": "id",
+#    "file": "file",
+#    "text": "datacenters"
+#}]
 
 results = simplify_transcripts(entries, allowed_words)
 
