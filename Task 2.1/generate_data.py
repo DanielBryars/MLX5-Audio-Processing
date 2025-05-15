@@ -2,6 +2,7 @@ import os
 from openai import OpenAI
 
 client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
+
 import json
 from words import get_thing_explainer_vocab
 from openai import OpenAI
@@ -58,8 +59,18 @@ def simplify_transcripts(entries, allowed_words, model="gpt-4"):
 
 
 # 📥 Load LibriSpeech (first 10 for testing)
-ds = load_dataset("librispeech_asr", "clean", split="train.100",trust_remote_code=True)
+#ds = load_dataset("librispeech_asr", "clean", split="train.100",trust_remote_code=True)
+
+#
+
+from huggingface_hub import login
+login(token=os.environ.get("HUGGINGFACE_API_KEY"))
+
+
+from datasets import load_dataset
+ds = load_dataset("mozilla-foundation/common_voice_13_0", "en", split="train[:1%]",trust_remote_code=True)
 samples = ds.select(range(10))  # start small
+
 
 # 📦 Extract relevant metadata
 entries = [{
