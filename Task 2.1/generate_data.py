@@ -74,9 +74,10 @@ samples = ds.select(range(10))  # start small
 
 # 📦 Extract relevant metadata
 entries = [{
-    "id": s["id"],
-    "file": s["file"],
-    "text": s["text"]
+    "id": s["client_id"],
+    "file_path": s["path"],
+    "audio": s["audio"],
+    "text": s["sentence"]
 } for s in samples]
 
 # 🚀 Simplify
