@@ -1,0 +1,2102 @@
+[
+  {
+    "id": "09cf128e35eee9b49f71a4c58d893f1a5131b5047474704808317562d522272df611f4d104e28a50112fa4002cf4eb2f4520fab52c4b9401313960c12e32a459",
+    "audio_path": "audio_dataset/09cf128e35eee9b49f71a4c58d893f1a5131b5047474704808317562d522272df611f4d104e28a50112fa4002cf4eb2f4520fab52c4b9401313960c12e32a459.wav",
+    "original_text": "This device has a cathode inside an anode wire cage.",
+    "simplified_text": "This thing has a part inside that sends out small bits of air (called a cathode) and a wire cage around it that takes in those bits (called an anode).",
+    "audio_length_seconds": 6.504
+  },
+  {
+    "id": "09cf128e35eee9b49f71a4c58d893f1a5131b5047474704808317562d522272df611f4d104e28a50112fa4002cf4eb2f4520fab52c4b9401313960c12e32a459",
+    "audio_path": "audio_dataset/09cf128e35eee9b49f71a4c58d893f1a5131b5047474704808317562d522272df611f4d104e28a50112fa4002cf4eb2f4520fab52c4b9401313960c12e32a459.wav",
+    "original_text": "This product is almost always produced by the industrialized method.",
+    "simplified_text": "This thing is made by a way that is used by many big works all the time.",
+    "audio_length_seconds": 6.024
+  },
+  {
+    "id": "09cf128e35eee9b49f71a4c58d893f1a5131b5047474704808317562d522272df611f4d104e28a50112fa4002cf4eb2f4520fab52c4b9401313960c12e32a459",
+    "audio_path": "audio_dataset/09cf128e35eee9b49f71a4c58d893f1a5131b5047474704808317562d522272df611f4d104e28a50112fa4002cf4eb2f4520fab52c4b9401313960c12e32a459.wav",
+    "original_text": "It is named after Edward Singleton Holden.",
+    "simplified_text": "It is named after Edward Singleton Holden.\n\nRewrite:  \nIt has the name of a man called Edward Singleton Holden.",
+    "audio_length_seconds": 4.224
+  },
+  {
+    "id": "09cf128e35eee9b49f71a4c58d893f1a5131b5047474704808317562d522272df611f4d104e28a50112fa4002cf4eb2f4520fab52c4b9401313960c12e32a459",
+    "audio_path": "audio_dataset/09cf128e35eee9b49f71a4c58d893f1a5131b5047474704808317562d522272df611f4d104e28a50112fa4002cf4eb2f4520fab52c4b9401313960c12e32a459.wav",
+    "original_text": "It is north west of the regional centre of Clare.",
+    "simplified_text": "It is to the top left of the big town called Clare.",
+    "audio_length_seconds": 5.304
+  },
+  {
+    "id": "09d2e23c85b125c9825ea8da0159cfa8fe602194f602a2026d104b4706d6993260cc10bdd14de691890eb7c18b68fcf7a7d004c83d5fff1b10935d8af222c6e5",
+    "audio_path": "audio_dataset/09d2e23c85b125c9825ea8da0159cfa8fe602194f602a2026d104b4706d6993260cc10bdd14de691890eb7c18b68fcf7a7d004c83d5fff1b10935d8af222c6e5.wav",
+    "original_text": "He was a nephew of Rear-Admiral Sir Francis Augustus Collier.",
+    "simplified_text": "He was the son of the sister or brother of Rear-Admiral Sir Francis Augustus Collier. \n\n(\u201cNephew\u201d means the son of your brother or sister. \u201cRear-Admiral\u201d is a high rank in the navy, a person who leads many ships.)",
+    "audio_length_seconds": 5.616
+  },
+  {
+    "id": "09d2e23c85b125c9825ea8da0159cfa8fe602194f602a2026d104b4706d6993260cc10bdd14de691890eb7c18b68fcf7a7d004c83d5fff1b10935d8af222c6e5",
+    "audio_path": "audio_dataset/09d2e23c85b125c9825ea8da0159cfa8fe602194f602a2026d104b4706d6993260cc10bdd14de691890eb7c18b68fcf7a7d004c83d5fff1b10935d8af222c6e5.wav",
+    "original_text": "Leaving for some darn camp in Mississippi.",
+    "simplified_text": "Going away to a camp in a state called Mississippi.",
+    "audio_length_seconds": 3.816
+  },
+  {
+    "id": "09d2e23c85b125c9825ea8da0159cfa8fe602194f602a2026d104b4706d6993260cc10bdd14de691890eb7c18b68fcf7a7d004c83d5fff1b10935d8af222c6e5",
+    "audio_path": "audio_dataset/09d2e23c85b125c9825ea8da0159cfa8fe602194f602a2026d104b4706d6993260cc10bdd14de691890eb7c18b68fcf7a7d004c83d5fff1b10935d8af222c6e5.wav",
+    "original_text": "While employed in this role, Johnson won the prestigious Robert F. Kennedy Award.",
+    "simplified_text": "When he worked in this job, Johnson got the well-known Robert F. Kennedy Award.",
+    "audio_length_seconds": 6.048
+  },
+  {
+    "id": "09d2e23c85b125c9825ea8da0159cfa8fe602194f602a2026d104b4706d6993260cc10bdd14de691890eb7c18b68fcf7a7d004c83d5fff1b10935d8af222c6e5",
+    "audio_path": "audio_dataset/09d2e23c85b125c9825ea8da0159cfa8fe602194f602a2026d104b4706d6993260cc10bdd14de691890eb7c18b68fcf7a7d004c83d5fff1b10935d8af222c6e5.wav",
+    "original_text": "Samuel Lyons proceeded to subdivide Five Dock Farm into substantial estates.",
+    "simplified_text": "Sam Lyons went to make Five Dock Farm into many big land parts.",
+    "audio_length_seconds": 5.976
+  },
+  {
+    "id": "09d49ee5afc3a5082c7570706e03b96d635116ef61a31684ed503598f0d4f9d835ab08f2e98de227b849e2822e0d4e55184d7c1c1ec594ed98a1f233127f1305",
+    "audio_path": "audio_dataset/09d49ee5afc3a5082c7570706e03b96d635116ef61a31684ed503598f0d4f9d835ab08f2e98de227b849e2822e0d4e55184d7c1c1ec594ed98a1f233127f1305.wav",
+    "original_text": "Where did it come from then?",
+    "simplified_text": "Where did it come from then?\n\nRewrite: Where did it come from?",
+    "audio_length_seconds": 3.36
+  },
+  {
+    "id": "09d96de6f85da05e11a75b66dd1d303902d9cef0c4c74d048c14ef7065251bdb59349cc627751638c33b10d95747e8e76c8e2bb1f87ab664787c95875aa4dc12",
+    "audio_path": "audio_dataset/09d96de6f85da05e11a75b66dd1d303902d9cef0c4c74d048c14ef7065251bdb59349cc627751638c33b10d95747e8e76c8e2bb1f87ab664787c95875aa4dc12.wav",
+    "original_text": "Since then, three more have been abolished, leaving four.",
+    "simplified_text": "Since that time, three more have been ended, leaving four.",
+    "audio_length_seconds": 8.28
+  },
+  {
+    "id": "09d96de6f85da05e11a75b66dd1d303902d9cef0c4c74d048c14ef7065251bdb59349cc627751638c33b10d95747e8e76c8e2bb1f87ab664787c95875aa4dc12",
+    "audio_path": "audio_dataset/09d96de6f85da05e11a75b66dd1d303902d9cef0c4c74d048c14ef7065251bdb59349cc627751638c33b10d95747e8e76c8e2bb1f87ab664787c95875aa4dc12.wav",
+    "original_text": "\"Narwhal\" joined the Atlantic Torpedo Fleet, based at Newport, Rhode Island.",
+    "simplified_text": "The sea animal with a long pointy tooth joined the fast group of sea boats that move in a quick and sharp way, which stays in a place called Newport by the big water in the east part of the land called Rhode Island.",
+    "audio_length_seconds": 8.1
+  },
+  {
+    "id": "09d96de6f85da05e11a75b66dd1d303902d9cef0c4c74d048c14ef7065251bdb59349cc627751638c33b10d95747e8e76c8e2bb1f87ab664787c95875aa4dc12",
+    "audio_path": "audio_dataset/09d96de6f85da05e11a75b66dd1d303902d9cef0c4c74d048c14ef7065251bdb59349cc627751638c33b10d95747e8e76c8e2bb1f87ab664787c95875aa4dc12.wav",
+    "original_text": "The airline was later removed from the blacklist after complying with safety audits.",
+    "simplified_text": "The plane company was taken off the bad list after it did what it was told to keep people safe.",
+    "audio_length_seconds": 7.596
+  },
+  {
+    "id": "09d96de6f85da05e11a75b66dd1d303902d9cef0c4c74d048c14ef7065251bdb59349cc627751638c33b10d95747e8e76c8e2bb1f87ab664787c95875aa4dc12",
+    "audio_path": "audio_dataset/09d96de6f85da05e11a75b66dd1d303902d9cef0c4c74d048c14ef7065251bdb59349cc627751638c33b10d95747e8e76c8e2bb1f87ab664787c95875aa4dc12.wav",
+    "original_text": "The paper has the slogan \"Never Apologise, Never Explain!\".",
+    "simplified_text": "The paper has the words: \"Don't say sorry, don't say why!\".",
+    "audio_length_seconds": 7.488
+  },
+  {
+    "id": "09dc5a196023c4c891483f28ffe435df6af5ac547cfcb8daaedf4da0070ad381e0391c833c7cb0cbede9ba877207bf3df8f1b6375190b13315a4f802962a2acb",
+    "audio_path": "audio_dataset/09dc5a196023c4c891483f28ffe435df6af5ac547cfcb8daaedf4da0070ad381e0391c833c7cb0cbede9ba877207bf3df8f1b6375190b13315a4f802962a2acb.wav",
+    "original_text": "He was born in Tokyo.",
+    "simplified_text": "He came to life in Tokyo.",
+    "audio_length_seconds": 4.008
+  },
+  {
+    "id": "09dc5a196023c4c891483f28ffe435df6af5ac547cfcb8daaedf4da0070ad381e0391c833c7cb0cbede9ba877207bf3df8f1b6375190b13315a4f802962a2acb",
+    "audio_path": "audio_dataset/09dc5a196023c4c891483f28ffe435df6af5ac547cfcb8daaedf4da0070ad381e0391c833c7cb0cbede9ba877207bf3df8f1b6375190b13315a4f802962a2acb.wav",
+    "original_text": "You just shoot that.",
+    "simplified_text": "You only use your hand to make the thing send out a fast hurt.",
+    "audio_length_seconds": 3.192
+  },
+  {
+    "id": "09dc5a196023c4c891483f28ffe435df6af5ac547cfcb8daaedf4da0070ad381e0391c833c7cb0cbede9ba877207bf3df8f1b6375190b13315a4f802962a2acb",
+    "audio_path": "audio_dataset/09dc5a196023c4c891483f28ffe435df6af5ac547cfcb8daaedf4da0070ad381e0391c833c7cb0cbede9ba877207bf3df8f1b6375190b13315a4f802962a2acb.wav",
+    "original_text": "Chen was a low profile talented scholar with a number of \"first\" accomplishments.",
+    "simplified_text": "Chen was a quiet smart person who did many first things that no one else did before.",
+    "audio_length_seconds": 7.152
+  },
+  {
+    "id": "09dc5a196023c4c891483f28ffe435df6af5ac547cfcb8daaedf4da0070ad381e0391c833c7cb0cbede9ba877207bf3df8f1b6375190b13315a4f802962a2acb",
+    "audio_path": "audio_dataset/09dc5a196023c4c891483f28ffe435df6af5ac547cfcb8daaedf4da0070ad381e0391c833c7cb0cbede9ba877207bf3df8f1b6375190b13315a4f802962a2acb.wav",
+    "original_text": "The Fulshear City Council asked the county to name the library after Lutts.",
+    "simplified_text": "The group of people who help make rules for the town called the bigger area to give the library the name of Lutts.",
+    "audio_length_seconds": 6.264
+  },
+  {
+    "id": "09e1ec1c370316e5cb591c1d6f2027252d7b5a0dce46e78ad642694aefcb0bd7841d6755f2918d0b089caa429050511c147911d02fab98707cc83459dbf98c03",
+    "audio_path": "audio_dataset/09e1ec1c370316e5cb591c1d6f2027252d7b5a0dce46e78ad642694aefcb0bd7841d6755f2918d0b089caa429050511c147911d02fab98707cc83459dbf98c03.wav",
+    "original_text": "The Cascade Lakes Scenic Byway continues south along the west side of Mount Bachelor.",
+    "simplified_text": "The road called Cascade Lakes Scenic Byway goes south next to the left side of the big mountain called Bachelor.",
+    "audio_length_seconds": 6.408
+  },
+  {
+    "id": "09e1ec1c370316e5cb591c1d6f2027252d7b5a0dce46e78ad642694aefcb0bd7841d6755f2918d0b089caa429050511c147911d02fab98707cc83459dbf98c03",
+    "audio_path": "audio_dataset/09e1ec1c370316e5cb591c1d6f2027252d7b5a0dce46e78ad642694aefcb0bd7841d6755f2918d0b089caa429050511c147911d02fab98707cc83459dbf98c03.wav",
+    "original_text": "Montgomerie was eliminated.",
+    "simplified_text": "Montgomerie was not allowed to go on.",
+    "audio_length_seconds": 4.14
+  },
+  {
+    "id": "09e1ec1c370316e5cb591c1d6f2027252d7b5a0dce46e78ad642694aefcb0bd7841d6755f2918d0b089caa429050511c147911d02fab98707cc83459dbf98c03",
+    "audio_path": "audio_dataset/09e1ec1c370316e5cb591c1d6f2027252d7b5a0dce46e78ad642694aefcb0bd7841d6755f2918d0b089caa429050511c147911d02fab98707cc83459dbf98c03.wav",
+    "original_text": "Depending on the time period and culture, the term can have several meanings.",
+    "simplified_text": "If you think about the time and the people, the word can mean many different things.",
+    "audio_length_seconds": 5.148
+  },
+  {
+    "id": "09e1ec1c370316e5cb591c1d6f2027252d7b5a0dce46e78ad642694aefcb0bd7841d6755f2918d0b089caa429050511c147911d02fab98707cc83459dbf98c03",
+    "audio_path": "audio_dataset/09e1ec1c370316e5cb591c1d6f2027252d7b5a0dce46e78ad642694aefcb0bd7841d6755f2918d0b089caa429050511c147911d02fab98707cc83459dbf98c03.wav",
+    "original_text": "The objective of the game is to capture your opponent's king.",
+    "simplified_text": "The goal of the game is to take the other player's most important piece that looks like a man with a crown.",
+    "audio_length_seconds": 5.58
+  },
+  {
+    "id": "09eaa10380f460f088224971ca6c800830baa87cc281020bbafb0fdc8b3b11c2b31448a4ee9bc9d073c2d200d547de6bb25edf389b7024dcde0cb35814eb112b",
+    "audio_path": "audio_dataset/09eaa10380f460f088224971ca6c800830baa87cc281020bbafb0fdc8b3b11c2b31448a4ee9bc9d073c2d200d547de6bb25edf389b7024dcde0cb35814eb112b.wav",
+    "original_text": "It is a producer of photovoltaic solar modules.",
+    "simplified_text": "It is a maker of parts that use the sun to make power.",
+    "audio_length_seconds": 7.02
+  },
+  {
+    "id": "09eaa10380f460f088224971ca6c800830baa87cc281020bbafb0fdc8b3b11c2b31448a4ee9bc9d073c2d200d547de6bb25edf389b7024dcde0cb35814eb112b",
+    "audio_path": "audio_dataset/09eaa10380f460f088224971ca6c800830baa87cc281020bbafb0fdc8b3b11c2b31448a4ee9bc9d073c2d200d547de6bb25edf389b7024dcde0cb35814eb112b.wav",
+    "original_text": "Population change chart of Ch\u00eanedouit",
+    "simplified_text": "Chart of how many people live in Ch\u00eanedouit and how that has changed over time",
+    "audio_length_seconds": 3.996
+  },
+  {
+    "id": "09eaa10380f460f088224971ca6c800830baa87cc281020bbafb0fdc8b3b11c2b31448a4ee9bc9d073c2d200d547de6bb25edf389b7024dcde0cb35814eb112b",
+    "audio_path": "audio_dataset/09eaa10380f460f088224971ca6c800830baa87cc281020bbafb0fdc8b3b11c2b31448a4ee9bc9d073c2d200d547de6bb25edf389b7024dcde0cb35814eb112b.wav",
+    "original_text": "I have to be with my father.",
+    "simplified_text": "I need to be with my dad.",
+    "audio_length_seconds": 3.78
+  },
+  {
+    "id": "09eaa10380f460f088224971ca6c800830baa87cc281020bbafb0fdc8b3b11c2b31448a4ee9bc9d073c2d200d547de6bb25edf389b7024dcde0cb35814eb112b",
+    "audio_path": "audio_dataset/09eaa10380f460f088224971ca6c800830baa87cc281020bbafb0fdc8b3b11c2b31448a4ee9bc9d073c2d200d547de6bb25edf389b7024dcde0cb35814eb112b.wav",
+    "original_text": "In the dormitory where Beppe used to work they joked around almost always.",
+    "simplified_text": "In the place where Beppe used to do his job, they made fun and laughed almost all the time.",
+    "audio_length_seconds": 8.676
+  },
+  {
+    "id": "09eb9785bf441bccbcfddbf77bad621d1b114f9a31561128f173c657cbdd402f6f186b9e9632e25e317434e00c55a149cc7773cd7faf61f69fd8cfe3383b73e6",
+    "audio_path": "audio_dataset/09eb9785bf441bccbcfddbf77bad621d1b114f9a31561128f173c657cbdd402f6f186b9e9632e25e317434e00c55a149cc7773cd7faf61f69fd8cfe3383b73e6.wav",
+    "original_text": "It was reformist in nature and did not protest against Sanation authoritarianism or capitalism.",
+    "simplified_text": "It was about change but did not act against the strong rules of the Sanation or the way people keep and use money and things.",
+    "audio_length_seconds": 7.632
+  },
+  {
+    "id": "09eb9785bf441bccbcfddbf77bad621d1b114f9a31561128f173c657cbdd402f6f186b9e9632e25e317434e00c55a149cc7773cd7faf61f69fd8cfe3383b73e6",
+    "audio_path": "audio_dataset/09eb9785bf441bccbcfddbf77bad621d1b114f9a31561128f173c657cbdd402f6f186b9e9632e25e317434e00c55a149cc7773cd7faf61f69fd8cfe3383b73e6.wav",
+    "original_text": "Morrison stated that the current system is \"not fit for purpose\".",
+    "simplified_text": "Morrison said that the system now is not good for what it needs to do.",
+    "audio_length_seconds": 5.472
+  },
+  {
+    "id": "09eb9785bf441bccbcfddbf77bad621d1b114f9a31561128f173c657cbdd402f6f186b9e9632e25e317434e00c55a149cc7773cd7faf61f69fd8cfe3383b73e6",
+    "audio_path": "audio_dataset/09eb9785bf441bccbcfddbf77bad621d1b114f9a31561128f173c657cbdd402f6f186b9e9632e25e317434e00c55a149cc7773cd7faf61f69fd8cfe3383b73e6.wav",
+    "original_text": "Crichton also served on Berkshire County Council.",
+    "simplified_text": "Crichton also worked for the group that helps take care of the area called Berkshire.",
+    "audio_length_seconds": 5.328
+  },
+  {
+    "id": "09eb9785bf441bccbcfddbf77bad621d1b114f9a31561128f173c657cbdd402f6f186b9e9632e25e317434e00c55a149cc7773cd7faf61f69fd8cfe3383b73e6",
+    "audio_path": "audio_dataset/09eb9785bf441bccbcfddbf77bad621d1b114f9a31561128f173c657cbdd402f6f186b9e9632e25e317434e00c55a149cc7773cd7faf61f69fd8cfe3383b73e6.wav",
+    "original_text": "The cast included Gena Rowlands and Diane Lane.",
+    "simplified_text": "The group of people who acted in the show had Gena Rowlands and Diane Lane.",
+    "audio_length_seconds": 5.004
+  },
+  {
+    "id": "09f2b80d31b52b09b82dce7c7513d15bd95e600df9724d2c73129b457bd52dcc66caa599b38bc585d26a10af77ceaf06409037545bd351c2512a2fe3ca4a31ea",
+    "audio_path": "audio_dataset/09f2b80d31b52b09b82dce7c7513d15bd95e600df9724d2c73129b457bd52dcc66caa599b38bc585d26a10af77ceaf06409037545bd351c2512a2fe3ca4a31ea.wav",
+    "original_text": "Many of its mineral reserves have yet to be fully tapped.",
+    "simplified_text": "Many of the rocks and earth with useful stuff inside are not all taken out yet.",
+    "audio_length_seconds": 7.2
+  },
+  {
+    "id": "09f2b80d31b52b09b82dce7c7513d15bd95e600df9724d2c73129b457bd52dcc66caa599b38bc585d26a10af77ceaf06409037545bd351c2512a2fe3ca4a31ea",
+    "audio_path": "audio_dataset/09f2b80d31b52b09b82dce7c7513d15bd95e600df9724d2c73129b457bd52dcc66caa599b38bc585d26a10af77ceaf06409037545bd351c2512a2fe3ca4a31ea.wav",
+    "original_text": "The Gatineau casino thus also serves Ottawa and Eastern Ontario.",
+    "simplified_text": "The Gatineau place where people play games with money also helps the people who live in Ottawa and the east part of Ontario.",
+    "audio_length_seconds": 7.524
+  },
+  {
+    "id": "09f2b80d31b52b09b82dce7c7513d15bd95e600df9724d2c73129b457bd52dcc66caa599b38bc585d26a10af77ceaf06409037545bd351c2512a2fe3ca4a31ea",
+    "audio_path": "audio_dataset/09f2b80d31b52b09b82dce7c7513d15bd95e600df9724d2c73129b457bd52dcc66caa599b38bc585d26a10af77ceaf06409037545bd351c2512a2fe3ca4a31ea.wav",
+    "original_text": "John Strachan and William Allan and moved to Toronto.",
+    "simplified_text": "John Strachan and William Allan went to live in Toronto.",
+    "audio_length_seconds": 5.58
+  },
+  {
+    "id": "09f2b80d31b52b09b82dce7c7513d15bd95e600df9724d2c73129b457bd52dcc66caa599b38bc585d26a10af77ceaf06409037545bd351c2512a2fe3ca4a31ea",
+    "audio_path": "audio_dataset/09f2b80d31b52b09b82dce7c7513d15bd95e600df9724d2c73129b457bd52dcc66caa599b38bc585d26a10af77ceaf06409037545bd351c2512a2fe3ca4a31ea.wav",
+    "original_text": "Ringing is the result of overshoot caused by an underdamped circuit.",
+    "simplified_text": "Ringing happens when a part of a circle that lets power go back and forth does not stop fast enough and goes too far past the right place.",
+    "audio_length_seconds": 6.228
+  },
+  {
+    "id": "09f6eb49ac59d66919189af0aa0c173b8fbd9996c736a40d237a946d8480ea4709d908aed0d96a03f0e549a61890d821f3ec66d9f7325da613c966a1e1cf94d2",
+    "audio_path": "audio_dataset/09f6eb49ac59d66919189af0aa0c173b8fbd9996c736a40d237a946d8480ea4709d908aed0d96a03f0e549a61890d821f3ec66d9f7325da613c966a1e1cf94d2.wav",
+    "original_text": "He was the son of Admiral Henrik Bielke.",
+    "simplified_text": "He was the boy of the big ship leader named Henrik Bielke.",
+    "audio_length_seconds": 5.04
+  },
+  {
+    "id": "09f6eb49ac59d66919189af0aa0c173b8fbd9996c736a40d237a946d8480ea4709d908aed0d96a03f0e549a61890d821f3ec66d9f7325da613c966a1e1cf94d2",
+    "audio_path": "audio_dataset/09f6eb49ac59d66919189af0aa0c173b8fbd9996c736a40d237a946d8480ea4709d908aed0d96a03f0e549a61890d821f3ec66d9f7325da613c966a1e1cf94d2.wav",
+    "original_text": "Johannes Terho was vice president of the Finnish Chess Federation.",
+    "simplified_text": "Johannes Terho was the second most important man in the group that takes care of the game where you move small black and white things on a board in Finland.",
+    "audio_length_seconds": 6.228
+  },
+  {
+    "id": "09f6eb49ac59d66919189af0aa0c173b8fbd9996c736a40d237a946d8480ea4709d908aed0d96a03f0e549a61890d821f3ec66d9f7325da613c966a1e1cf94d2",
+    "audio_path": "audio_dataset/09f6eb49ac59d66919189af0aa0c173b8fbd9996c736a40d237a946d8480ea4709d908aed0d96a03f0e549a61890d821f3ec66d9f7325da613c966a1e1cf94d2.wav",
+    "original_text": "She was also cast in \"Wild Guys\".",
+    "simplified_text": "She was also put to act in the show called \"Wild Guys.\"",
+    "audio_length_seconds": 4.248
+  },
+  {
+    "id": "09f6eb49ac59d66919189af0aa0c173b8fbd9996c736a40d237a946d8480ea4709d908aed0d96a03f0e549a61890d821f3ec66d9f7325da613c966a1e1cf94d2",
+    "audio_path": "audio_dataset/09f6eb49ac59d66919189af0aa0c173b8fbd9996c736a40d237a946d8480ea4709d908aed0d96a03f0e549a61890d821f3ec66d9f7325da613c966a1e1cf94d2.wav",
+    "original_text": "Douw was married three times.",
+    "simplified_text": "Douw had a wife three times.",
+    "audio_length_seconds": 4.5
+  },
+  {
+    "id": "0a050c4603db5f7946a90016a5d39780536259152e88c47e93cfb6962507ae02f2100fef36f95d6c4fa340f2555cacfe5994aaa6d3b754e11c866b40bc2e113d",
+    "audio_path": "audio_dataset/0a050c4603db5f7946a90016a5d39780536259152e88c47e93cfb6962507ae02f2100fef36f95d6c4fa340f2555cacfe5994aaa6d3b754e11c866b40bc2e113d.wav",
+    "original_text": "Conger's mother is actress Susan Harrison.",
+    "simplified_text": "Conger's mother is a woman who acts in plays and movies. Her name is Susan Harrison.",
+    "audio_length_seconds": 6.264
+  },
+  {
+    "id": "0a050c4603db5f7946a90016a5d39780536259152e88c47e93cfb6962507ae02f2100fef36f95d6c4fa340f2555cacfe5994aaa6d3b754e11c866b40bc2e113d",
+    "audio_path": "audio_dataset/0a050c4603db5f7946a90016a5d39780536259152e88c47e93cfb6962507ae02f2100fef36f95d6c4fa340f2555cacfe5994aaa6d3b754e11c866b40bc2e113d.wav",
+    "original_text": "It is a skiing resort with modern skiing equipment.",
+    "simplified_text": "It is a place where people go to slide down snow on special long sticks. This place has new and good things to slide with.",
+    "audio_length_seconds": 5.904
+  },
+  {
+    "id": "0a050c4603db5f7946a90016a5d39780536259152e88c47e93cfb6962507ae02f2100fef36f95d6c4fa340f2555cacfe5994aaa6d3b754e11c866b40bc2e113d",
+    "audio_path": "audio_dataset/0a050c4603db5f7946a90016a5d39780536259152e88c47e93cfb6962507ae02f2100fef36f95d6c4fa340f2555cacfe5994aaa6d3b754e11c866b40bc2e113d.wav",
+    "original_text": "He then asks Helmut to do his hammering \"with a little discretion\".",
+    "simplified_text": "He then asks Helmut to do his hammering with a little care about noise.",
+    "audio_length_seconds": 7.416
+  },
+  {
+    "id": "0a050c4603db5f7946a90016a5d39780536259152e88c47e93cfb6962507ae02f2100fef36f95d6c4fa340f2555cacfe5994aaa6d3b754e11c866b40bc2e113d",
+    "audio_path": "audio_dataset/0a050c4603db5f7946a90016a5d39780536259152e88c47e93cfb6962507ae02f2100fef36f95d6c4fa340f2555cacfe5994aaa6d3b754e11c866b40bc2e113d.wav",
+    "original_text": "Jones refused and wrote about the incident on her website.",
+    "simplified_text": "Jones did not want to do it and put words about what happened on her place on the web.",
+    "audio_length_seconds": 6.012
+  },
+  {
+    "id": "0a098f1d181f9953b444f608b8da3c3dd7dceaf5dba417f04a7788e0d15d5149447c29b97392605f0ae4d9da669b2b61066f7f3efdb27bde9f65098aa76f348e",
+    "audio_path": "audio_dataset/0a098f1d181f9953b444f608b8da3c3dd7dceaf5dba417f04a7788e0d15d5149447c29b97392605f0ae4d9da669b2b61066f7f3efdb27bde9f65098aa76f348e.wav",
+    "original_text": "A ripe plum is fit for a king's palate.",
+    "simplified_text": "A plum that is ready to eat is good for a king to taste.",
+    "audio_length_seconds": 6.744
+  },
+  {
+    "id": "0a0a30c0fc92bc609a959f797698b39eea7d287d8ffe8efd063f2add3efc2d66a7397c1560771512796324dd0fabbc602aa086aaaf7ad329c25289d683967179",
+    "audio_path": "audio_dataset/0a0a30c0fc92bc609a959f797698b39eea7d287d8ffe8efd063f2add3efc2d66a7397c1560771512796324dd0fabbc602aa086aaaf7ad329c25289d683967179.wav",
+    "original_text": "Karetu School is also a local primary school in the Kawakawa region.",
+    "simplified_text": "Karetu School is also a school for young children that is near and in the Kawakawa area.",
+    "audio_length_seconds": 5.544
+  },
+  {
+    "id": "0a0a30c0fc92bc609a959f797698b39eea7d287d8ffe8efd063f2add3efc2d66a7397c1560771512796324dd0fabbc602aa086aaaf7ad329c25289d683967179",
+    "audio_path": "audio_dataset/0a0a30c0fc92bc609a959f797698b39eea7d287d8ffe8efd063f2add3efc2d66a7397c1560771512796324dd0fabbc602aa086aaaf7ad329c25289d683967179.wav",
+    "original_text": "The location is between the towns of Jean and Primm.",
+    "simplified_text": "The place is in the area that is in the middle of the two small cities called Jean and Primm.",
+    "audio_length_seconds": 4.344
+  },
+  {
+    "id": "0a0a30c0fc92bc609a959f797698b39eea7d287d8ffe8efd063f2add3efc2d66a7397c1560771512796324dd0fabbc602aa086aaaf7ad329c25289d683967179",
+    "audio_path": "audio_dataset/0a0a30c0fc92bc609a959f797698b39eea7d287d8ffe8efd063f2add3efc2d66a7397c1560771512796324dd0fabbc602aa086aaaf7ad329c25289d683967179.wav",
+    "original_text": "A colony of the Moravian Church was also founded in the same year.",
+    "simplified_text": "A group of people from the Moravian Church was also started in the same year.",
+    "audio_length_seconds": 5.544
+  },
+  {
+    "id": "0a0a30c0fc92bc609a959f797698b39eea7d287d8ffe8efd063f2add3efc2d66a7397c1560771512796324dd0fabbc602aa086aaaf7ad329c25289d683967179",
+    "audio_path": "audio_dataset/0a0a30c0fc92bc609a959f797698b39eea7d287d8ffe8efd063f2add3efc2d66a7397c1560771512796324dd0fabbc602aa086aaaf7ad329c25289d683967179.wav",
+    "original_text": "During these dates, Fang begins to relate the tale of her friend's parents.",
+    "simplified_text": "At these days, Fang starts to tell the story about the mom and dad of her friend.",
+    "audio_length_seconds": 5.76
+  },
+  {
+    "id": "0a20d4531ffe9f3376213ee4c79188e435a57b4a9c9f7ef7eeeeb5a3a10032799fe47441a5f3e2e1acf336c9525fcaf24c722647e39e173ea47e4bdeafab5798",
+    "audio_path": "audio_dataset/0a20d4531ffe9f3376213ee4c79188e435a57b4a9c9f7ef7eeeeb5a3a10032799fe47441a5f3e2e1acf336c9525fcaf24c722647e39e173ea47e4bdeafab5798.wav",
+    "original_text": "He moved to Boston, where he became increasingly obsessed with his health.",
+    "simplified_text": "He went to Boston. There, he began to think more and more about his health all the time.",
+    "audio_length_seconds": 7.632
+  },
+  {
+    "id": "0a20d4531ffe9f3376213ee4c79188e435a57b4a9c9f7ef7eeeeb5a3a10032799fe47441a5f3e2e1acf336c9525fcaf24c722647e39e173ea47e4bdeafab5798",
+    "audio_path": "audio_dataset/0a20d4531ffe9f3376213ee4c79188e435a57b4a9c9f7ef7eeeeb5a3a10032799fe47441a5f3e2e1acf336c9525fcaf24c722647e39e173ea47e4bdeafab5798.wav",
+    "original_text": "After winning the election, Sharon needed to form a government in the Knesset.",
+    "simplified_text": "After she won the big choice to pick leaders, Sharon had to make a group of people to help run the country in the main house where leaders meet.",
+    "audio_length_seconds": 7.32
+  },
+  {
+    "id": "0a20d4531ffe9f3376213ee4c79188e435a57b4a9c9f7ef7eeeeb5a3a10032799fe47441a5f3e2e1acf336c9525fcaf24c722647e39e173ea47e4bdeafab5798",
+    "audio_path": "audio_dataset/0a20d4531ffe9f3376213ee4c79188e435a57b4a9c9f7ef7eeeeb5a3a10032799fe47441a5f3e2e1acf336c9525fcaf24c722647e39e173ea47e4bdeafab5798.wav",
+    "original_text": "The film was animated in both Britain and San Francisco, California.",
+    "simplified_text": "The moving pictures were made in two places: one place is a country called Britain and the other place is a big city called San Francisco in the land called California.",
+    "audio_length_seconds": 6.048
+  },
+  {
+    "id": "0a20d4531ffe9f3376213ee4c79188e435a57b4a9c9f7ef7eeeeb5a3a10032799fe47441a5f3e2e1acf336c9525fcaf24c722647e39e173ea47e4bdeafab5798",
+    "audio_path": "audio_dataset/0a20d4531ffe9f3376213ee4c79188e435a57b4a9c9f7ef7eeeeb5a3a10032799fe47441a5f3e2e1acf336c9525fcaf24c722647e39e173ea47e4bdeafab5798.wav",
+    "original_text": "His alternative position was wing.",
+    "simplified_text": "His other place to stand was on the side.",
+    "audio_length_seconds": 4.056
+  },
+  {
+    "id": "0a415ef2c4fc5d85a8e38c69508f9556a2666da87f311453c060b2ae51146393ccc33dae2d0112bcc7b7bc26755e1133bf346d7cbd04efa9e8cd1858dca7a9e9",
+    "audio_path": "audio_dataset/0a415ef2c4fc5d85a8e38c69508f9556a2666da87f311453c060b2ae51146393ccc33dae2d0112bcc7b7bc26755e1133bf346d7cbd04efa9e8cd1858dca7a9e9.wav",
+    "original_text": "As a solo performer, he later released two albums.",
+    "simplified_text": "He was a person who did shows all by himself. After some time, he made and gave out two books of songs.",
+    "audio_length_seconds": 8.748
+  },
+  {
+    "id": "0a415ef2c4fc5d85a8e38c69508f9556a2666da87f311453c060b2ae51146393ccc33dae2d0112bcc7b7bc26755e1133bf346d7cbd04efa9e8cd1858dca7a9e9",
+    "audio_path": "audio_dataset/0a415ef2c4fc5d85a8e38c69508f9556a2666da87f311453c060b2ae51146393ccc33dae2d0112bcc7b7bc26755e1133bf346d7cbd04efa9e8cd1858dca7a9e9.wav",
+    "original_text": "The first and most widely used tracers are sunspots.",
+    "simplified_text": "The first and most used marks seen on the face of the sun are dark spots.",
+    "audio_length_seconds": 6.84
+  },
+  {
+    "id": "0a415ef2c4fc5d85a8e38c69508f9556a2666da87f311453c060b2ae51146393ccc33dae2d0112bcc7b7bc26755e1133bf346d7cbd04efa9e8cd1858dca7a9e9",
+    "audio_path": "audio_dataset/0a415ef2c4fc5d85a8e38c69508f9556a2666da87f311453c060b2ae51146393ccc33dae2d0112bcc7b7bc26755e1133bf346d7cbd04efa9e8cd1858dca7a9e9.wav",
+    "original_text": "They're going to get penalized for it, but So what?",
+    "simplified_text": "They will get in trouble for it, but so what?",
+    "audio_length_seconds": 5.508
+  },
+  {
+    "id": "0a415ef2c4fc5d85a8e38c69508f9556a2666da87f311453c060b2ae51146393ccc33dae2d0112bcc7b7bc26755e1133bf346d7cbd04efa9e8cd1858dca7a9e9",
+    "audio_path": "audio_dataset/0a415ef2c4fc5d85a8e38c69508f9556a2666da87f311453c060b2ae51146393ccc33dae2d0112bcc7b7bc26755e1133bf346d7cbd04efa9e8cd1858dca7a9e9.wav",
+    "original_text": "The game had changed by the time the first Spanish settlers arrived.",
+    "simplified_text": "The play was not the same when the first people from Spain came to live here.",
+    "audio_length_seconds": 5.688
+  },
+  {
+    "id": "0a4d66a2f146133d7e73fb45b7be66985247618a17c6d99e5f000681c8d1d7cc830864983eef1677e0e313821215b62a3f5a5cad486a3b185a6ed5fa4b624c17",
+    "audio_path": "audio_dataset/0a4d66a2f146133d7e73fb45b7be66985247618a17c6d99e5f000681c8d1d7cc830864983eef1677e0e313821215b62a3f5a5cad486a3b185a6ed5fa4b624c17.wav",
+    "original_text": "Some Indian Pattern cars saw use in the Indian subcontinent and Burma.",
+    "simplified_text": "Some cars made in India were used in the land of India and the land called Burma.",
+    "audio_length_seconds": 10.44
+  },
+  {
+    "id": "0a4d66a2f146133d7e73fb45b7be66985247618a17c6d99e5f000681c8d1d7cc830864983eef1677e0e313821215b62a3f5a5cad486a3b185a6ed5fa4b624c17",
+    "audio_path": "audio_dataset/0a4d66a2f146133d7e73fb45b7be66985247618a17c6d99e5f000681c8d1d7cc830864983eef1677e0e313821215b62a3f5a5cad486a3b185a6ed5fa4b624c17.wav",
+    "original_text": "Before the grain can be used, the husks must be removed.",
+    "simplified_text": "Before the grain can be used, the outer dry parts around it must be taken off.",
+    "audio_length_seconds": 7.656
+  },
+  {
+    "id": "0a4d66a2f146133d7e73fb45b7be66985247618a17c6d99e5f000681c8d1d7cc830864983eef1677e0e313821215b62a3f5a5cad486a3b185a6ed5fa4b624c17",
+    "audio_path": "audio_dataset/0a4d66a2f146133d7e73fb45b7be66985247618a17c6d99e5f000681c8d1d7cc830864983eef1677e0e313821215b62a3f5a5cad486a3b185a6ed5fa4b624c17.wav",
+    "original_text": "For thousands of years, Native American tribes inhabited this region.",
+    "simplified_text": "For many, many years, the first people of this land lived in this place.",
+    "audio_length_seconds": 5.424
+  },
+  {
+    "id": "0a4d66a2f146133d7e73fb45b7be66985247618a17c6d99e5f000681c8d1d7cc830864983eef1677e0e313821215b62a3f5a5cad486a3b185a6ed5fa4b624c17",
+    "audio_path": "audio_dataset/0a4d66a2f146133d7e73fb45b7be66985247618a17c6d99e5f000681c8d1d7cc830864983eef1677e0e313821215b62a3f5a5cad486a3b185a6ed5fa4b624c17.wav",
+    "original_text": "Therefore, transitivity is semantically valid without any constraints.",
+    "simplified_text": "So, the idea of moving meaning from one part to another works well without needing any limits.",
+    "audio_length_seconds": 7.128
+  },
+  {
+    "id": "0a636e449b71f3fa6b0b977f0f4ff8187183e3fbb03aa456d79d68dde4ca6c4a8e9c1b28d4d7a43d0d17f23875520826775fe90cd29f4c751fafbad82a7ad4d9",
+    "audio_path": "audio_dataset/0a636e449b71f3fa6b0b977f0f4ff8187183e3fbb03aa456d79d68dde4ca6c4a8e9c1b28d4d7a43d0d17f23875520826775fe90cd29f4c751fafbad82a7ad4d9.wav",
+    "original_text": "Nevertheless, the inhabitants decided to improve their farming techniques and started making terraces.",
+    "simplified_text": "But the people who lived there made a choice to make their way of farming better and began to build flat steps on the land for planting.",
+    "audio_length_seconds": 9.24
+  },
+  {
+    "id": "0a636e449b71f3fa6b0b977f0f4ff8187183e3fbb03aa456d79d68dde4ca6c4a8e9c1b28d4d7a43d0d17f23875520826775fe90cd29f4c751fafbad82a7ad4d9",
+    "audio_path": "audio_dataset/0a636e449b71f3fa6b0b977f0f4ff8187183e3fbb03aa456d79d68dde4ca6c4a8e9c1b28d4d7a43d0d17f23875520826775fe90cd29f4c751fafbad82a7ad4d9.wav",
+    "original_text": "For more detail, see the article in the \"Anchor Bible Dictionary\".",
+    "simplified_text": "For more small parts, see the writing in the \"Anchor Bible Book of Words\".",
+    "audio_length_seconds": 6.144
+  },
+  {
+    "id": "0a636e449b71f3fa6b0b977f0f4ff8187183e3fbb03aa456d79d68dde4ca6c4a8e9c1b28d4d7a43d0d17f23875520826775fe90cd29f4c751fafbad82a7ad4d9",
+    "audio_path": "audio_dataset/0a636e449b71f3fa6b0b977f0f4ff8187183e3fbb03aa456d79d68dde4ca6c4a8e9c1b28d4d7a43d0d17f23875520826775fe90cd29f4c751fafbad82a7ad4d9.wav",
+    "original_text": "Its county seat is Murphy.",
+    "simplified_text": "Its main town is Murphy.",
+    "audio_length_seconds": 5.16
+  },
+  {
+    "id": "0a636e449b71f3fa6b0b977f0f4ff8187183e3fbb03aa456d79d68dde4ca6c4a8e9c1b28d4d7a43d0d17f23875520826775fe90cd29f4c751fafbad82a7ad4d9",
+    "audio_path": "audio_dataset/0a636e449b71f3fa6b0b977f0f4ff8187183e3fbb03aa456d79d68dde4ca6c4a8e9c1b28d4d7a43d0d17f23875520826775fe90cd29f4c751fafbad82a7ad4d9.wav",
+    "original_text": "Tom sleeps with the queen, Celia, but is compelled to return to his quest.",
+    "simplified_text": "Tom sleeps with the queen, Celia, but must go back to his big trip to find what he looks for.",
+    "audio_length_seconds": 7.512
+  },
+  {
+    "id": "0a67c6c6f40562ac35bf95515af2bde7a68f6af4127a8f2e8f09ce6de0ffd5e1f28cb282892b3b0265b3e7fcb8475c53e2208267e7adf61bbe7bbb2549b56146",
+    "audio_path": "audio_dataset/0a67c6c6f40562ac35bf95515af2bde7a68f6af4127a8f2e8f09ce6de0ffd5e1f28cb282892b3b0265b3e7fcb8475c53e2208267e7adf61bbe7bbb2549b56146.wav",
+    "original_text": "It was named for Cleora Ann Lunday, sister of the postmaster, Ed Lunday.",
+    "simplified_text": "It got its name from Cleora Ann Lunday. She was the sister of Ed Lunday, the man who worked with mail.",
+    "audio_length_seconds": 8.472
+  },
+  {
+    "id": "0a67c6c6f40562ac35bf95515af2bde7a68f6af4127a8f2e8f09ce6de0ffd5e1f28cb282892b3b0265b3e7fcb8475c53e2208267e7adf61bbe7bbb2549b56146",
+    "audio_path": "audio_dataset/0a67c6c6f40562ac35bf95515af2bde7a68f6af4127a8f2e8f09ce6de0ffd5e1f28cb282892b3b0265b3e7fcb8475c53e2208267e7adf61bbe7bbb2549b56146.wav",
+    "original_text": "The control tower has been recorded as being haunted.",
+    "simplified_text": "The tall building where people watch and guide the airplanes has been said to have some ghost people inside.",
+    "audio_length_seconds": 6.336
+  },
+  {
+    "id": "0a67c6c6f40562ac35bf95515af2bde7a68f6af4127a8f2e8f09ce6de0ffd5e1f28cb282892b3b0265b3e7fcb8475c53e2208267e7adf61bbe7bbb2549b56146",
+    "audio_path": "audio_dataset/0a67c6c6f40562ac35bf95515af2bde7a68f6af4127a8f2e8f09ce6de0ffd5e1f28cb282892b3b0265b3e7fcb8475c53e2208267e7adf61bbe7bbb2549b56146.wav",
+    "original_text": "It is also sometimes prepared for wedding banquets.",
+    "simplified_text": "It is also made at times for big party at a wedding.",
+    "audio_length_seconds": 7.176
+  },
+  {
+    "id": "0a67c6c6f40562ac35bf95515af2bde7a68f6af4127a8f2e8f09ce6de0ffd5e1f28cb282892b3b0265b3e7fcb8475c53e2208267e7adf61bbe7bbb2549b56146",
+    "audio_path": "audio_dataset/0a67c6c6f40562ac35bf95515af2bde7a68f6af4127a8f2e8f09ce6de0ffd5e1f28cb282892b3b0265b3e7fcb8475c53e2208267e7adf61bbe7bbb2549b56146.wav",
+    "original_text": "Toliver also proves important in Hawk-Owl's origin later on in the series.",
+    "simplified_text": "Toliver is also a big part of how Hawk-Owl first came to be later in the story.",
+    "audio_length_seconds": 6.24
+  },
+  {
+    "id": "0a78b624be56e19486a2aa023b35843d6c2da563d9ffd5184170b65b21834e15b1d6b197e4f1ff72a1f8c7957e741cff944e00cc85325be42ea51ba490ef6f56",
+    "audio_path": "audio_dataset/0a78b624be56e19486a2aa023b35843d6c2da563d9ffd5184170b65b21834e15b1d6b197e4f1ff72a1f8c7957e741cff944e00cc85325be42ea51ba490ef6f56.wav",
+    "original_text": "However, both creatures were fond of pranks and misleading people.",
+    "simplified_text": "But both animals liked to play tricks and make people think wrong things.",
+    "audio_length_seconds": 8.304
+  },
+  {
+    "id": "0a78b624be56e19486a2aa023b35843d6c2da563d9ffd5184170b65b21834e15b1d6b197e4f1ff72a1f8c7957e741cff944e00cc85325be42ea51ba490ef6f56",
+    "audio_path": "audio_dataset/0a78b624be56e19486a2aa023b35843d6c2da563d9ffd5184170b65b21834e15b1d6b197e4f1ff72a1f8c7957e741cff944e00cc85325be42ea51ba490ef6f56.wav",
+    "original_text": "The song is played only to the chorus.",
+    "simplified_text": "The music is made to be heard just at the part that is said again and again.",
+    "audio_length_seconds": 4.32
+  },
+  {
+    "id": "0a78b624be56e19486a2aa023b35843d6c2da563d9ffd5184170b65b21834e15b1d6b197e4f1ff72a1f8c7957e741cff944e00cc85325be42ea51ba490ef6f56",
+    "audio_path": "audio_dataset/0a78b624be56e19486a2aa023b35843d6c2da563d9ffd5184170b65b21834e15b1d6b197e4f1ff72a1f8c7957e741cff944e00cc85325be42ea51ba490ef6f56.wav",
+    "original_text": "Additional local programming is planned, including some previously aired on the college's cable channel.",
+    "simplified_text": "More shows for this area will be made. Some of these shows were shown before on the school\u2019s TV line.",
+    "audio_length_seconds": 7.752
+  },
+  {
+    "id": "0a78b624be56e19486a2aa023b35843d6c2da563d9ffd5184170b65b21834e15b1d6b197e4f1ff72a1f8c7957e741cff944e00cc85325be42ea51ba490ef6f56",
+    "audio_path": "audio_dataset/0a78b624be56e19486a2aa023b35843d6c2da563d9ffd5184170b65b21834e15b1d6b197e4f1ff72a1f8c7957e741cff944e00cc85325be42ea51ba490ef6f56.wav",
+    "original_text": "Today there is an arena in London named for him.",
+    "simplified_text": "Today there is a big place in London that is called by his name.",
+    "audio_length_seconds": 5.04
+  },
+  {
+    "id": "0a8bace96c53fc5e43ce7845c80ee369b8cb75fcbb96aecbeb538a204c2f6f6b9509731eadc5d227ca95de84e2f0099a05448ebce574b56561d87f5a31cd5657",
+    "audio_path": "audio_dataset/0a8bace96c53fc5e43ce7845c80ee369b8cb75fcbb96aecbeb538a204c2f6f6b9509731eadc5d227ca95de84e2f0099a05448ebce574b56561d87f5a31cd5657.wav",
+    "original_text": "The record label draws its name from notorious drug lord Griselda Blanco.",
+    "simplified_text": "The music group that helps people make and sell songs takes its name from a very bad and famous person who sold bad things to people. Her name was Griselda Blanco.",
+    "audio_length_seconds": 6.228
+  },
+  {
+    "id": "0a8bace96c53fc5e43ce7845c80ee369b8cb75fcbb96aecbeb538a204c2f6f6b9509731eadc5d227ca95de84e2f0099a05448ebce574b56561d87f5a31cd5657",
+    "audio_path": "audio_dataset/0a8bace96c53fc5e43ce7845c80ee369b8cb75fcbb96aecbeb538a204c2f6f6b9509731eadc5d227ca95de84e2f0099a05448ebce574b56561d87f5a31cd5657.wav",
+    "original_text": "The vehicles sold there would be used for luxury taxi operations.",
+    "simplified_text": "The cars sold there would be used for rich people to go in for pay.",
+    "audio_length_seconds": 5.328
+  },
+  {
+    "id": "0a8bace96c53fc5e43ce7845c80ee369b8cb75fcbb96aecbeb538a204c2f6f6b9509731eadc5d227ca95de84e2f0099a05448ebce574b56561d87f5a31cd5657",
+    "audio_path": "audio_dataset/0a8bace96c53fc5e43ce7845c80ee369b8cb75fcbb96aecbeb538a204c2f6f6b9509731eadc5d227ca95de84e2f0099a05448ebce574b56561d87f5a31cd5657.wav",
+    "original_text": "He created what grew into the beacon service and the hydrographic services.",
+    "simplified_text": "He made what grew into the light tower help and the water map help. \n\n(Note: \"beacon\" means a light tower or light to help ships. \"Hydrographic\" means about making maps of water.)",
+    "audio_length_seconds": 5.94
+  },
+  {
+    "id": "0a8bace96c53fc5e43ce7845c80ee369b8cb75fcbb96aecbeb538a204c2f6f6b9509731eadc5d227ca95de84e2f0099a05448ebce574b56561d87f5a31cd5657",
+    "audio_path": "audio_dataset/0a8bace96c53fc5e43ce7845c80ee369b8cb75fcbb96aecbeb538a204c2f6f6b9509731eadc5d227ca95de84e2f0099a05448ebce574b56561d87f5a31cd5657.wav",
+    "original_text": "Classmates called her \"Baby\" since she was the youngest girl.",
+    "simplified_text": "Other kids in her class said \"Baby\" to her because she was the girl who was the least old.",
+    "audio_length_seconds": 4.608
+  },
+  {
+    "id": "0a9123b503888efeaa3a4060a8e817f084ec558ca5c581cd77aa20bbad3b058172d1ebe5d71f843248f62f64213985209d638baf7d0fc02d44440a3a25f45878",
+    "audio_path": "audio_dataset/0a9123b503888efeaa3a4060a8e817f084ec558ca5c581cd77aa20bbad3b058172d1ebe5d71f843248f62f64213985209d638baf7d0fc02d44440a3a25f45878.wav",
+    "original_text": "Ionikos Nikaias clinched the championship by winning the regular season.",
+    "simplified_text": "Ionikos Nikaias got the big win by being the best in the normal play time.",
+    "audio_length_seconds": 9.396
+  },
+  {
+    "id": "0a9123b503888efeaa3a4060a8e817f084ec558ca5c581cd77aa20bbad3b058172d1ebe5d71f843248f62f64213985209d638baf7d0fc02d44440a3a25f45878",
+    "audio_path": "audio_dataset/0a9123b503888efeaa3a4060a8e817f084ec558ca5c581cd77aa20bbad3b058172d1ebe5d71f843248f62f64213985209d638baf7d0fc02d44440a3a25f45878.wav",
+    "original_text": "Its provisional seat was located in Kovel.",
+    "simplified_text": "Its first place to work was in Kovel.",
+    "audio_length_seconds": 6.444
+  },
+  {
+    "id": "0a9123b503888efeaa3a4060a8e817f084ec558ca5c581cd77aa20bbad3b058172d1ebe5d71f843248f62f64213985209d638baf7d0fc02d44440a3a25f45878",
+    "audio_path": "audio_dataset/0a9123b503888efeaa3a4060a8e817f084ec558ca5c581cd77aa20bbad3b058172d1ebe5d71f843248f62f64213985209d638baf7d0fc02d44440a3a25f45878.wav",
+    "original_text": "Wylie Collegiate Professor of Civil Engineering at the University of Michigan.",
+    "simplified_text": "Wylie teach at a big school in a city called Michigan. He helps people learn how to build things like bridges and roads that keep people safe.",
+    "audio_length_seconds": 8.244
+  },
+  {
+    "id": "0a9123b503888efeaa3a4060a8e817f084ec558ca5c581cd77aa20bbad3b058172d1ebe5d71f843248f62f64213985209d638baf7d0fc02d44440a3a25f45878",
+    "audio_path": "audio_dataset/0a9123b503888efeaa3a4060a8e817f084ec558ca5c581cd77aa20bbad3b058172d1ebe5d71f843248f62f64213985209d638baf7d0fc02d44440a3a25f45878.wav",
+    "original_text": "Among them include President of Singapore Halimah Yacob.",
+    "simplified_text": "Among them is the leader of the country called Singapore, named Halimah Yacob.",
+    "audio_length_seconds": 4.824
+  },
+  {
+    "id": "0a9668e98945ecb853a2fc44554e5ea04ba7a38272c901bdd632b3dd383fcfbdcdd589b3d61114844446bf790178dabb1c55678d1b12dda59d156ce7d3a67619",
+    "audio_path": "audio_dataset/0a9668e98945ecb853a2fc44554e5ea04ba7a38272c901bdd632b3dd383fcfbdcdd589b3d61114844446bf790178dabb1c55678d1b12dda59d156ce7d3a67619.wav",
+    "original_text": "The famous straight is often called the Mulsanne Straight in English.",
+    "simplified_text": "The well-known long, straight road is many times called the Mulsanne Straight in English.",
+    "audio_length_seconds": 5.724
+  },
+  {
+    "id": "0a9668e98945ecb853a2fc44554e5ea04ba7a38272c901bdd632b3dd383fcfbdcdd589b3d61114844446bf790178dabb1c55678d1b12dda59d156ce7d3a67619",
+    "audio_path": "audio_dataset/0a9668e98945ecb853a2fc44554e5ea04ba7a38272c901bdd632b3dd383fcfbdcdd589b3d61114844446bf790178dabb1c55678d1b12dda59d156ce7d3a67619.wav",
+    "original_text": "These positions are not held for the duration of a skydive.",
+    "simplified_text": "These places are not kept for the whole time of a jump from the sky.",
+    "audio_length_seconds": 5.256
+  },
+  {
+    "id": "0a9668e98945ecb853a2fc44554e5ea04ba7a38272c901bdd632b3dd383fcfbdcdd589b3d61114844446bf790178dabb1c55678d1b12dda59d156ce7d3a67619",
+    "audio_path": "audio_dataset/0a9668e98945ecb853a2fc44554e5ea04ba7a38272c901bdd632b3dd383fcfbdcdd589b3d61114844446bf790178dabb1c55678d1b12dda59d156ce7d3a67619.wav",
+    "original_text": "Both boys also frequently worked as farm laborers to supplement their allowance.",
+    "simplified_text": "Both boys also often did work on a farm to get more money to use.",
+    "audio_length_seconds": 7.704
+  },
+  {
+    "id": "0a9668e98945ecb853a2fc44554e5ea04ba7a38272c901bdd632b3dd383fcfbdcdd589b3d61114844446bf790178dabb1c55678d1b12dda59d156ce7d3a67619",
+    "audio_path": "audio_dataset/0a9668e98945ecb853a2fc44554e5ea04ba7a38272c901bdd632b3dd383fcfbdcdd589b3d61114844446bf790178dabb1c55678d1b12dda59d156ce7d3a67619.wav",
+    "original_text": "Meanwhile, Ms. Choksondik dies and Cartman, Kyle and Stan think that they are responsible.",
+    "simplified_text": "At the same time, Ms. Choksondik is not alive anymore and Cartman, Kyle, and Stan think that they made this happen.",
+    "audio_length_seconds": 8.568
+  },
+  {
+    "id": "0aa06b202d487ae31e06f6cee5a6f44139dcdcb6b28ddba1ab005f4828dac322a145eecaee8e1d69943789ad50f4d00421dd5b575d19671f143421d051b3fce6",
+    "audio_path": "audio_dataset/0aa06b202d487ae31e06f6cee5a6f44139dcdcb6b28ddba1ab005f4828dac322a145eecaee8e1d69943789ad50f4d00421dd5b575d19671f143421d051b3fce6.wav",
+    "original_text": "The economic climate has improved.",
+    "simplified_text": "The way money works now is better than before.",
+    "audio_length_seconds": 4.104
+  },
+  {
+    "id": "0aa06b202d487ae31e06f6cee5a6f44139dcdcb6b28ddba1ab005f4828dac322a145eecaee8e1d69943789ad50f4d00421dd5b575d19671f143421d051b3fce6",
+    "audio_path": "audio_dataset/0aa06b202d487ae31e06f6cee5a6f44139dcdcb6b28ddba1ab005f4828dac322a145eecaee8e1d69943789ad50f4d00421dd5b575d19671f143421d051b3fce6.wav",
+    "original_text": "The old man laid down his hand to light a cigar.",
+    "simplified_text": "The old man put his hand down to make fire for a small stick he could smoke.",
+    "audio_length_seconds": 4.656
+  },
+  {
+    "id": "0aa06b202d487ae31e06f6cee5a6f44139dcdcb6b28ddba1ab005f4828dac322a145eecaee8e1d69943789ad50f4d00421dd5b575d19671f143421d051b3fce6",
+    "audio_path": "audio_dataset/0aa06b202d487ae31e06f6cee5a6f44139dcdcb6b28ddba1ab005f4828dac322a145eecaee8e1d69943789ad50f4d00421dd5b575d19671f143421d051b3fce6.wav",
+    "original_text": "It has a million megapixels.",
+    "simplified_text": "It has one million small parts that make up a picture.",
+    "audio_length_seconds": 4.056
+  },
+  {
+    "id": "0aa06b202d487ae31e06f6cee5a6f44139dcdcb6b28ddba1ab005f4828dac322a145eecaee8e1d69943789ad50f4d00421dd5b575d19671f143421d051b3fce6",
+    "audio_path": "audio_dataset/0aa06b202d487ae31e06f6cee5a6f44139dcdcb6b28ddba1ab005f4828dac322a145eecaee8e1d69943789ad50f4d00421dd5b575d19671f143421d051b3fce6.wav",
+    "original_text": "He is driving it in broad daylight.",
+    "simplified_text": "He is going by car when the sun is up and bright.",
+    "audio_length_seconds": 4.296
+  },
+  {
+    "id": "0aa8ef19818913e6fe8c7c5fb563ccb7b537528252fda2464b2df2b099b71093a98651ca67916f2b75f49846aec16a97c5927f35ea274186630970a5d68f831f",
+    "audio_path": "audio_dataset/0aa8ef19818913e6fe8c7c5fb563ccb7b537528252fda2464b2df2b099b71093a98651ca67916f2b75f49846aec16a97c5927f35ea274186630970a5d68f831f.wav",
+    "original_text": "Police knew that Edward owned the items and did not want them seized.",
+    "simplified_text": "The people who keep the peace knew that Edward had the things and did not want them taken away.",
+    "audio_length_seconds": 5.76
+  },
+  {
+    "id": "0aa8ef19818913e6fe8c7c5fb563ccb7b537528252fda2464b2df2b099b71093a98651ca67916f2b75f49846aec16a97c5927f35ea274186630970a5d68f831f",
+    "audio_path": "audio_dataset/0aa8ef19818913e6fe8c7c5fb563ccb7b537528252fda2464b2df2b099b71093a98651ca67916f2b75f49846aec16a97c5927f35ea274186630970a5d68f831f.wav",
+    "original_text": "Eyton.",
+    "simplified_text": "Eyton is a name for a place where people live. It is a small area with houses and land. People there live and work, and the place is part of a bigger area with other places like it.",
+    "audio_length_seconds": 2.196
+  },
+  {
+    "id": "0aa8ef19818913e6fe8c7c5fb563ccb7b537528252fda2464b2df2b099b71093a98651ca67916f2b75f49846aec16a97c5927f35ea274186630970a5d68f831f",
+    "audio_path": "audio_dataset/0aa8ef19818913e6fe8c7c5fb563ccb7b537528252fda2464b2df2b099b71093a98651ca67916f2b75f49846aec16a97c5927f35ea274186630970a5d68f831f.wav",
+    "original_text": "It was built by people associated with the railroads in Macon.",
+    "simplified_text": "It was made by people who work with the trains in Macon.",
+    "audio_length_seconds": 5.544
+  },
+  {
+    "id": "0aa8ef19818913e6fe8c7c5fb563ccb7b537528252fda2464b2df2b099b71093a98651ca67916f2b75f49846aec16a97c5927f35ea274186630970a5d68f831f",
+    "audio_path": "audio_dataset/0aa8ef19818913e6fe8c7c5fb563ccb7b537528252fda2464b2df2b099b71093a98651ca67916f2b75f49846aec16a97c5927f35ea274186630970a5d68f831f.wav",
+    "original_text": "Harkness and it was named Dingo Beach.",
+    "simplified_text": "Harkness and it was called Dingo Beach.",
+    "audio_length_seconds": 4.824
+  },
+  {
+    "id": "0ab16188d6d1292238430c986e1fb9bdcb8fdc2ab593555201f01e6c0e7d08d982c328883afc778914398a5fae5426de2fe123dec76995fb1d2414562ec12b92",
+    "audio_path": "audio_dataset/0ab16188d6d1292238430c986e1fb9bdcb8fdc2ab593555201f01e6c0e7d08d982c328883afc778914398a5fae5426de2fe123dec76995fb1d2414562ec12b92.wav",
+    "original_text": "The incident was blamed on a software glitch.",
+    "simplified_text": "The thing that went wrong was said to be because of a problem with the set of instructions that a computer uses to work.",
+    "audio_length_seconds": 4.5
+  },
+  {
+    "id": "0ab16188d6d1292238430c986e1fb9bdcb8fdc2ab593555201f01e6c0e7d08d982c328883afc778914398a5fae5426de2fe123dec76995fb1d2414562ec12b92",
+    "audio_path": "audio_dataset/0ab16188d6d1292238430c986e1fb9bdcb8fdc2ab593555201f01e6c0e7d08d982c328883afc778914398a5fae5426de2fe123dec76995fb1d2414562ec12b92.wav",
+    "original_text": "In some other parts of the temple, however, the emperor is simply called \"Pharaoh\".",
+    "simplified_text": "In some other parts of the big old building for gods, the man who is the head of the land is only called \"Pharaoh\".",
+    "audio_length_seconds": 6.66
+  },
+  {
+    "id": "0ab16188d6d1292238430c986e1fb9bdcb8fdc2ab593555201f01e6c0e7d08d982c328883afc778914398a5fae5426de2fe123dec76995fb1d2414562ec12b92",
+    "audio_path": "audio_dataset/0ab16188d6d1292238430c986e1fb9bdcb8fdc2ab593555201f01e6c0e7d08d982c328883afc778914398a5fae5426de2fe123dec76995fb1d2414562ec12b92.wav",
+    "original_text": "They also divorced.",
+    "simplified_text": "They also stopped being husband and wife.",
+    "audio_length_seconds": 3.168
+  },
+  {
+    "id": "0ab16188d6d1292238430c986e1fb9bdcb8fdc2ab593555201f01e6c0e7d08d982c328883afc778914398a5fae5426de2fe123dec76995fb1d2414562ec12b92",
+    "audio_path": "audio_dataset/0ab16188d6d1292238430c986e1fb9bdcb8fdc2ab593555201f01e6c0e7d08d982c328883afc778914398a5fae5426de2fe123dec76995fb1d2414562ec12b92.wav",
+    "original_text": "The energy from the Sun is an example of this form of energy conversion.",
+    "simplified_text": "The power from the Sun is a kind of change of power.",
+    "audio_length_seconds": 6.516
+  },
+  {
+    "id": "0ac4d7f67e453be7dbb66e513e9aa7dfdc40f066068ea3716bba99b2992e7a9c68745d2d24331acf6e996158b3c9451b09c687080e90cff151aa7f7dab2ce7c9",
+    "audio_path": "audio_dataset/0ac4d7f67e453be7dbb66e513e9aa7dfdc40f066068ea3716bba99b2992e7a9c68745d2d24331acf6e996158b3c9451b09c687080e90cff151aa7f7dab2ce7c9.wav",
+    "original_text": "It is the capital of Vatovavy-Fitovinany Region.",
+    "simplified_text": "It is the main big town in the area called Vatovavy-Fitovinany.",
+    "audio_length_seconds": 6.384
+  },
+  {
+    "id": "0ac4d7f67e453be7dbb66e513e9aa7dfdc40f066068ea3716bba99b2992e7a9c68745d2d24331acf6e996158b3c9451b09c687080e90cff151aa7f7dab2ce7c9",
+    "audio_path": "audio_dataset/0ac4d7f67e453be7dbb66e513e9aa7dfdc40f066068ea3716bba99b2992e7a9c68745d2d24331acf6e996158b3c9451b09c687080e90cff151aa7f7dab2ce7c9.wav",
+    "original_text": "No reason, however, was given as to the change of birth years.",
+    "simplified_text": "No good cause was told for the change of the years when people were born.",
+    "audio_length_seconds": 6.744
+  },
+  {
+    "id": "0ac4d7f67e453be7dbb66e513e9aa7dfdc40f066068ea3716bba99b2992e7a9c68745d2d24331acf6e996158b3c9451b09c687080e90cff151aa7f7dab2ce7c9",
+    "audio_path": "audio_dataset/0ac4d7f67e453be7dbb66e513e9aa7dfdc40f066068ea3716bba99b2992e7a9c68745d2d24331acf6e996158b3c9451b09c687080e90cff151aa7f7dab2ce7c9.wav",
+    "original_text": "The destroyer had a busy July.",
+    "simplified_text": "The thing that breaks things did a lot of work in the seventh month.",
+    "audio_length_seconds": 4.2
+  },
+  {
+    "id": "0ac4d7f67e453be7dbb66e513e9aa7dfdc40f066068ea3716bba99b2992e7a9c68745d2d24331acf6e996158b3c9451b09c687080e90cff151aa7f7dab2ce7c9",
+    "audio_path": "audio_dataset/0ac4d7f67e453be7dbb66e513e9aa7dfdc40f066068ea3716bba99b2992e7a9c68745d2d24331acf6e996158b3c9451b09c687080e90cff151aa7f7dab2ce7c9.wav",
+    "original_text": "She is more popular in South Korea than in Japan.",
+    "simplified_text": "She is liked by more people in the land to the south called Korea than in the land to the east called Japan.",
+    "audio_length_seconds": 5.28
+  },
+  {
+    "id": "0ad397aab4f07027e9f0cc40a55ff9abfd81841769f77f7745567d618e438bd70b34b949ab10ca37004875f911c64d9eb828190f1a7e0744a40cf27d2d9418fd",
+    "audio_path": "audio_dataset/0ad397aab4f07027e9f0cc40a55ff9abfd81841769f77f7745567d618e438bd70b34b949ab10ca37004875f911c64d9eb828190f1a7e0744a40cf27d2d9418fd.wav",
+    "original_text": "David B. and Lewis Trondheim.",
+    "simplified_text": "David B. and Lewis Trondheim. \n\n(Note: These are names, so they stay the same.)",
+    "audio_length_seconds": 4.752
+  },
+  {
+    "id": "0ad397aab4f07027e9f0cc40a55ff9abfd81841769f77f7745567d618e438bd70b34b949ab10ca37004875f911c64d9eb828190f1a7e0744a40cf27d2d9418fd",
+    "audio_path": "audio_dataset/0ad397aab4f07027e9f0cc40a55ff9abfd81841769f77f7745567d618e438bd70b34b949ab10ca37004875f911c64d9eb828190f1a7e0744a40cf27d2d9418fd.wav",
+    "original_text": "The legs are straight, and the toes and feet are pointed.",
+    "simplified_text": "The legs go in a line, and the ends of the feet and the small parts at the end of the feet point out.",
+    "audio_length_seconds": 5.472
+  },
+  {
+    "id": "0ad397aab4f07027e9f0cc40a55ff9abfd81841769f77f7745567d618e438bd70b34b949ab10ca37004875f911c64d9eb828190f1a7e0744a40cf27d2d9418fd",
+    "audio_path": "audio_dataset/0ad397aab4f07027e9f0cc40a55ff9abfd81841769f77f7745567d618e438bd70b34b949ab10ca37004875f911c64d9eb828190f1a7e0744a40cf27d2d9418fd.wav",
+    "original_text": "The great Mughal Akbar decided to invade Mandu and capture Roopmati and Baz Bahadur.",
+    "simplified_text": "The big ruler Akbar chose to go to the land called Mandu to take the woman Roopmati and the man Baz Bahadur.",
+    "audio_length_seconds": 10.488
+  },
+  {
+    "id": "0ad397aab4f07027e9f0cc40a55ff9abfd81841769f77f7745567d618e438bd70b34b949ab10ca37004875f911c64d9eb828190f1a7e0744a40cf27d2d9418fd",
+    "audio_path": "audio_dataset/0ad397aab4f07027e9f0cc40a55ff9abfd81841769f77f7745567d618e438bd70b34b949ab10ca37004875f911c64d9eb828190f1a7e0744a40cf27d2d9418fd.wav",
+    "original_text": "She was married to Captain James Pinson Labulo Davies, a wealthy Victorian Lagos philanthropist.",
+    "simplified_text": "She was the wife of a man named Captain James Pinson Labulo Davies. He was a rich man from Lagos who helped many people during the old days called the Victorian time.",
+    "audio_length_seconds": 9.576
+  },
+  {
+    "id": "0ad73cff15237ce49c2cace6af2e8ccf84cefb10b39d236e2fc0741c07bf268e546a99a244f43a9d50a51ceb81037a0589f34dcd37a0da804cf34fdc8052b306",
+    "audio_path": "audio_dataset/0ad73cff15237ce49c2cace6af2e8ccf84cefb10b39d236e2fc0741c07bf268e546a99a244f43a9d50a51ceb81037a0589f34dcd37a0da804cf34fdc8052b306.wav",
+    "original_text": "Glass also based his earlier Low Symphony on the David Bowie album, \"Low\".",
+    "simplified_text": "Glass also made his first Low Symphony from the David Bowie music album called \"Low\".",
+    "audio_length_seconds": 10.104
+  },
+  {
+    "id": "0ad73cff15237ce49c2cace6af2e8ccf84cefb10b39d236e2fc0741c07bf268e546a99a244f43a9d50a51ceb81037a0589f34dcd37a0da804cf34fdc8052b306",
+    "audio_path": "audio_dataset/0ad73cff15237ce49c2cace6af2e8ccf84cefb10b39d236e2fc0741c07bf268e546a99a244f43a9d50a51ceb81037a0589f34dcd37a0da804cf34fdc8052b306.wav",
+    "original_text": "McAskill was declared elected to the third position.",
+    "simplified_text": "McAskill was said to have won the third place.",
+    "audio_length_seconds": 5.856
+  },
+  {
+    "id": "0ad73cff15237ce49c2cace6af2e8ccf84cefb10b39d236e2fc0741c07bf268e546a99a244f43a9d50a51ceb81037a0589f34dcd37a0da804cf34fdc8052b306",
+    "audio_path": "audio_dataset/0ad73cff15237ce49c2cace6af2e8ccf84cefb10b39d236e2fc0741c07bf268e546a99a244f43a9d50a51ceb81037a0589f34dcd37a0da804cf34fdc8052b306.wav",
+    "original_text": "Chicot the Jester is a character in the novel.",
+    "simplified_text": "Chicot the Jester is a made-up person in a long story book.",
+    "audio_length_seconds": 5.904
+  },
+  {
+    "id": "0ad73cff15237ce49c2cace6af2e8ccf84cefb10b39d236e2fc0741c07bf268e546a99a244f43a9d50a51ceb81037a0589f34dcd37a0da804cf34fdc8052b306",
+    "audio_path": "audio_dataset/0ad73cff15237ce49c2cace6af2e8ccf84cefb10b39d236e2fc0741c07bf268e546a99a244f43a9d50a51ceb81037a0589f34dcd37a0da804cf34fdc8052b306.wav",
+    "original_text": "The origin of this extremely unusual feature is as yet unknown.",
+    "simplified_text": "The start of this very strange thing is not known yet.",
+    "audio_length_seconds": 5.424
+  },
+  {
+    "id": "0ad99145b91f5c3c689bb6578734abb8d086fe7a2302a2bb5f339d6f85f0a5483e1365ea08df6e357c10e17dde71af6538cea69cc41b860fd3054b2bc6546101",
+    "audio_path": "audio_dataset/0ad99145b91f5c3c689bb6578734abb8d086fe7a2302a2bb5f339d6f85f0a5483e1365ea08df6e357c10e17dde71af6538cea69cc41b860fd3054b2bc6546101.wav",
+    "original_text": "The southern portion of the department drops away towards the Pacific coast.",
+    "simplified_text": "The part of the place that is down to the south goes down and away close to the big water at the edge of the land.",
+    "audio_length_seconds": 10.272
+  },
+  {
+    "id": "0ad99145b91f5c3c689bb6578734abb8d086fe7a2302a2bb5f339d6f85f0a5483e1365ea08df6e357c10e17dde71af6538cea69cc41b860fd3054b2bc6546101",
+    "audio_path": "audio_dataset/0ad99145b91f5c3c689bb6578734abb8d086fe7a2302a2bb5f339d6f85f0a5483e1365ea08df6e357c10e17dde71af6538cea69cc41b860fd3054b2bc6546101.wav",
+    "original_text": "\"Sonny's Dream\" featured arrangements by Horace Tapscott.",
+    "simplified_text": "\"Sonny's Dream\" had music plans made by Horace Tapscott.",
+    "audio_length_seconds": 6.0
+  },
+  {
+    "id": "0ad99145b91f5c3c689bb6578734abb8d086fe7a2302a2bb5f339d6f85f0a5483e1365ea08df6e357c10e17dde71af6538cea69cc41b860fd3054b2bc6546101",
+    "audio_path": "audio_dataset/0ad99145b91f5c3c689bb6578734abb8d086fe7a2302a2bb5f339d6f85f0a5483e1365ea08df6e357c10e17dde71af6538cea69cc41b860fd3054b2bc6546101.wav",
+    "original_text": "Jack London worked in a jute mill before becoming a successful writer.",
+    "simplified_text": "Jack London did work at a place where they make cloth from plant fibers before he became a person who makes stories that many people like.",
+    "audio_length_seconds": 6.624
+  },
+  {
+    "id": "0ad99145b91f5c3c689bb6578734abb8d086fe7a2302a2bb5f339d6f85f0a5483e1365ea08df6e357c10e17dde71af6538cea69cc41b860fd3054b2bc6546101",
+    "audio_path": "audio_dataset/0ad99145b91f5c3c689bb6578734abb8d086fe7a2302a2bb5f339d6f85f0a5483e1365ea08df6e357c10e17dde71af6538cea69cc41b860fd3054b2bc6546101.wav",
+    "original_text": "Many huts are hosted and also offer sleeping accommodations.",
+    "simplified_text": "Lots of small homes are there and also let people sleep there.",
+    "audio_length_seconds": 5.64
+  },
+  {
+    "id": "0ae3296dc728aefeba295e19197b97b0d754e4e9c3d6e4278a632a69e660c16a24d7ff6400da36da941e4c0ef6a07a2e2579fa2841d89a36683cd85ee208e79d",
+    "audio_path": "audio_dataset/0ae3296dc728aefeba295e19197b97b0d754e4e9c3d6e4278a632a69e660c16a24d7ff6400da36da941e4c0ef6a07a2e2579fa2841d89a36683cd85ee208e79d.wav",
+    "original_text": "Witten was born in Baltimore, Maryland, to a Jewish family.",
+    "simplified_text": "Witten came to life in a city called Baltimore, in a place named Maryland. He was part of a family that follows the old way of the Jewish people.",
+    "audio_length_seconds": 6.528
+  },
+  {
+    "id": "0ae3296dc728aefeba295e19197b97b0d754e4e9c3d6e4278a632a69e660c16a24d7ff6400da36da941e4c0ef6a07a2e2579fa2841d89a36683cd85ee208e79d",
+    "audio_path": "audio_dataset/0ae3296dc728aefeba295e19197b97b0d754e4e9c3d6e4278a632a69e660c16a24d7ff6400da36da941e4c0ef6a07a2e2579fa2841d89a36683cd85ee208e79d.wav",
+    "original_text": "Mechanical, pneumatic, hydraulic, and other systems may also use analogue signals.",
+    "simplified_text": "Machines that work with air, water, or parts that move may also use signals that are like a smooth line, not just on or off.",
+    "audio_length_seconds": 8.088
+  },
+  {
+    "id": "0ae3296dc728aefeba295e19197b97b0d754e4e9c3d6e4278a632a69e660c16a24d7ff6400da36da941e4c0ef6a07a2e2579fa2841d89a36683cd85ee208e79d",
+    "audio_path": "audio_dataset/0ae3296dc728aefeba295e19197b97b0d754e4e9c3d6e4278a632a69e660c16a24d7ff6400da36da941e4c0ef6a07a2e2579fa2841d89a36683cd85ee208e79d.wav",
+    "original_text": "The Bureau of Reclamation clear cut and cleaned the lake bottom before it filled.",
+    "simplified_text": "The group that takes care of water took away all the trees and plants at the bottom of the lake before the lake got full of water.",
+    "audio_length_seconds": 7.704
+  },
+  {
+    "id": "0ae3296dc728aefeba295e19197b97b0d754e4e9c3d6e4278a632a69e660c16a24d7ff6400da36da941e4c0ef6a07a2e2579fa2841d89a36683cd85ee208e79d",
+    "audio_path": "audio_dataset/0ae3296dc728aefeba295e19197b97b0d754e4e9c3d6e4278a632a69e660c16a24d7ff6400da36da941e4c0ef6a07a2e2579fa2841d89a36683cd85ee208e79d.wav",
+    "original_text": "Married couples leave their patrilocal extended household only after several children are born.",
+    "simplified_text": "Men and women who are joined as man and wife live with the man\u2019s family. They only go away from that big home after they have many little ones.",
+    "audio_length_seconds": 8.568
+  },
+  {
+    "id": "0aed7dcec854bb788b2a4d7123641561b7430f40d6c33998a4ea04746c871b1277fcacd37158ee72205c4552d9bc12b538ca3ee2345df98691d35e360594cfc4",
+    "audio_path": "audio_dataset/0aed7dcec854bb788b2a4d7123641561b7430f40d6c33998a4ea04746c871b1277fcacd37158ee72205c4552d9bc12b538ca3ee2345df98691d35e360594cfc4.wav",
+    "original_text": "The Coster family valued education.",
+    "simplified_text": "The Coster family thought learning was very good and important.",
+    "audio_length_seconds": 5.736
+  },
+  {
+    "id": "0aed7dcec854bb788b2a4d7123641561b7430f40d6c33998a4ea04746c871b1277fcacd37158ee72205c4552d9bc12b538ca3ee2345df98691d35e360594cfc4",
+    "audio_path": "audio_dataset/0aed7dcec854bb788b2a4d7123641561b7430f40d6c33998a4ea04746c871b1277fcacd37158ee72205c4552d9bc12b538ca3ee2345df98691d35e360594cfc4.wav",
+    "original_text": "\u201cNo, I won\u2019t dance,\u201d she said softly.",
+    "simplified_text": "She said in a soft voice, \"No, I will not dance.\"",
+    "audio_length_seconds": 4.488
+  },
+  {
+    "id": "0aed7dcec854bb788b2a4d7123641561b7430f40d6c33998a4ea04746c871b1277fcacd37158ee72205c4552d9bc12b538ca3ee2345df98691d35e360594cfc4",
+    "audio_path": "audio_dataset/0aed7dcec854bb788b2a4d7123641561b7430f40d6c33998a4ea04746c871b1277fcacd37158ee72205c4552d9bc12b538ca3ee2345df98691d35e360594cfc4.wav",
+    "original_text": "No, but you are a Roman Catholic?",
+    "simplified_text": "No, but you are a Roman Catholic?\n\nNo, but you are a person who is part of the big group called the Roman Catholic.",
+    "audio_length_seconds": 4.104
+  },
+  {
+    "id": "0aed7dcec854bb788b2a4d7123641561b7430f40d6c33998a4ea04746c871b1277fcacd37158ee72205c4552d9bc12b538ca3ee2345df98691d35e360594cfc4",
+    "audio_path": "audio_dataset/0aed7dcec854bb788b2a4d7123641561b7430f40d6c33998a4ea04746c871b1277fcacd37158ee72205c4552d9bc12b538ca3ee2345df98691d35e360594cfc4.wav",
+    "original_text": "In theology he was a follower of Joseph Ratzinger's theories.",
+    "simplified_text": "In the study of what people believe about God, he was one who liked and followed the ideas of a man named Joseph Ratzinger.",
+    "audio_length_seconds": 5.472
+  },
+  {
+    "id": "0afa33284f3619f8d208ad99678cfa66ae2662848c8ef6822ae95799ea5c5942e6f47f04a16cf84aa3861290ee7fba03d02d8d07bd12490614227f983fcbc5f8",
+    "audio_path": "audio_dataset/0afa33284f3619f8d208ad99678cfa66ae2662848c8ef6822ae95799ea5c5942e6f47f04a16cf84aa3861290ee7fba03d02d8d07bd12490614227f983fcbc5f8.wav",
+    "original_text": "Both brothers attended Wellington College.",
+    "simplified_text": "Both boys went to a school called Wellington College.",
+    "audio_length_seconds": 3.456
+  },
+  {
+    "id": "0afa33284f3619f8d208ad99678cfa66ae2662848c8ef6822ae95799ea5c5942e6f47f04a16cf84aa3861290ee7fba03d02d8d07bd12490614227f983fcbc5f8",
+    "audio_path": "audio_dataset/0afa33284f3619f8d208ad99678cfa66ae2662848c8ef6822ae95799ea5c5942e6f47f04a16cf84aa3861290ee7fba03d02d8d07bd12490614227f983fcbc5f8.wav",
+    "original_text": "They usually cater to sub-regional markets of larger metropolitan areas.",
+    "simplified_text": "They most times give food and drink to smaller parts of big cities.",
+    "audio_length_seconds": 5.976
+  },
+  {
+    "id": "0afa33284f3619f8d208ad99678cfa66ae2662848c8ef6822ae95799ea5c5942e6f47f04a16cf84aa3861290ee7fba03d02d8d07bd12490614227f983fcbc5f8",
+    "audio_path": "audio_dataset/0afa33284f3619f8d208ad99678cfa66ae2662848c8ef6822ae95799ea5c5942e6f47f04a16cf84aa3861290ee7fba03d02d8d07bd12490614227f983fcbc5f8.wav",
+    "original_text": "The Fogle Flats are townhouses available to seniors.",
+    "simplified_text": "The Fogle Flats are homes in a group that older people can live in.",
+    "audio_length_seconds": 3.744
+  },
+  {
+    "id": "0afa33284f3619f8d208ad99678cfa66ae2662848c8ef6822ae95799ea5c5942e6f47f04a16cf84aa3861290ee7fba03d02d8d07bd12490614227f983fcbc5f8",
+    "audio_path": "audio_dataset/0afa33284f3619f8d208ad99678cfa66ae2662848c8ef6822ae95799ea5c5942e6f47f04a16cf84aa3861290ee7fba03d02d8d07bd12490614227f983fcbc5f8.wav",
+    "original_text": "They will often have a difficult time getting to sleep or staying asleep.",
+    "simplified_text": "They will many times have a hard time going to sleep or keeping sleep.",
+    "audio_length_seconds": 4.824
+  },
+  {
+    "id": "0afaf05b9e27fc0c99b04d78eaa230aa12d4835a56687746530c7e04767c0a464203665da0bfd197be469cad8f6a31225a0bdfbea32b9b0727fa77f155c616d3",
+    "audio_path": "audio_dataset/0afaf05b9e27fc0c99b04d78eaa230aa12d4835a56687746530c7e04767c0a464203665da0bfd197be469cad8f6a31225a0bdfbea32b9b0727fa77f155c616d3.wav",
+    "original_text": "Sneaker Pimps' version begins with a short sound clip from the movie.",
+    "simplified_text": "Sneaker Pimps' song starts with a small sound part from the moving picture.",
+    "audio_length_seconds": 9.288
+  },
+  {
+    "id": "0afaf05b9e27fc0c99b04d78eaa230aa12d4835a56687746530c7e04767c0a464203665da0bfd197be469cad8f6a31225a0bdfbea32b9b0727fa77f155c616d3",
+    "audio_path": "audio_dataset/0afaf05b9e27fc0c99b04d78eaa230aa12d4835a56687746530c7e04767c0a464203665da0bfd197be469cad8f6a31225a0bdfbea32b9b0727fa77f155c616d3.wav",
+    "original_text": "This was described as a tourism, leisure and retail attraction.",
+    "simplified_text": "This was said to be a place where people go to have fun, rest, and buy things.",
+    "audio_length_seconds": 6.744
+  },
+  {
+    "id": "0afaf05b9e27fc0c99b04d78eaa230aa12d4835a56687746530c7e04767c0a464203665da0bfd197be469cad8f6a31225a0bdfbea32b9b0727fa77f155c616d3",
+    "audio_path": "audio_dataset/0afaf05b9e27fc0c99b04d78eaa230aa12d4835a56687746530c7e04767c0a464203665da0bfd197be469cad8f6a31225a0bdfbea32b9b0727fa77f155c616d3.wav",
+    "original_text": "All figures below are provided by the Centre for Land Warfare Studies.",
+    "simplified_text": "All numbers under here come from the Place that looks at fights on land.",
+    "audio_length_seconds": 7.08
+  },
+  {
+    "id": "0afaf05b9e27fc0c99b04d78eaa230aa12d4835a56687746530c7e04767c0a464203665da0bfd197be469cad8f6a31225a0bdfbea32b9b0727fa77f155c616d3",
+    "audio_path": "audio_dataset/0afaf05b9e27fc0c99b04d78eaa230aa12d4835a56687746530c7e04767c0a464203665da0bfd197be469cad8f6a31225a0bdfbea32b9b0727fa77f155c616d3.wav",
+    "original_text": "She too later appeared in \"The Wildcats\" film, this time as a teacher.",
+    "simplified_text": "She also came later in the film called \"The Wildcats.\" This time, she was a person who helps others learn.",
+    "audio_length_seconds": 9.24
+  },
+  {
+    "id": "0afceca4cbb33b7cbffe0fabda848001a0c193b3895b6deab7991f8b003c2e899eeb294fb56483732edc126242c9446fba3bb3566dc29b5b4904e729de37a490",
+    "audio_path": "audio_dataset/0afceca4cbb33b7cbffe0fabda848001a0c193b3895b6deab7991f8b003c2e899eeb294fb56483732edc126242c9446fba3bb3566dc29b5b4904e729de37a490.wav",
+    "original_text": "Early settlers were primarily Palatine Germans.",
+    "simplified_text": "The first people who came to live here were mostly from a place called Palatine in Germany.",
+    "audio_length_seconds": 5.976
+  },
+  {
+    "id": "0afceca4cbb33b7cbffe0fabda848001a0c193b3895b6deab7991f8b003c2e899eeb294fb56483732edc126242c9446fba3bb3566dc29b5b4904e729de37a490",
+    "audio_path": "audio_dataset/0afceca4cbb33b7cbffe0fabda848001a0c193b3895b6deab7991f8b003c2e899eeb294fb56483732edc126242c9446fba3bb3566dc29b5b4904e729de37a490.wav",
+    "original_text": "The cause of extinction is unknown.",
+    "simplified_text": "Why something stops being alive is not known.",
+    "audio_length_seconds": 4.32
+  },
+  {
+    "id": "0afceca4cbb33b7cbffe0fabda848001a0c193b3895b6deab7991f8b003c2e899eeb294fb56483732edc126242c9446fba3bb3566dc29b5b4904e729de37a490",
+    "audio_path": "audio_dataset/0afceca4cbb33b7cbffe0fabda848001a0c193b3895b6deab7991f8b003c2e899eeb294fb56483732edc126242c9446fba3bb3566dc29b5b4904e729de37a490.wav",
+    "original_text": "It was released in Japan under the title \"Gungriffon: The Eurasian Conflict\".",
+    "simplified_text": "It was put out in the land called Japan with the name \"Gungriffon: The Fight in the Big Land Across.\"",
+    "audio_length_seconds": 7.956
+  },
+  {
+    "id": "0afceca4cbb33b7cbffe0fabda848001a0c193b3895b6deab7991f8b003c2e899eeb294fb56483732edc126242c9446fba3bb3566dc29b5b4904e729de37a490",
+    "audio_path": "audio_dataset/0afceca4cbb33b7cbffe0fabda848001a0c193b3895b6deab7991f8b003c2e899eeb294fb56483732edc126242c9446fba3bb3566dc29b5b4904e729de37a490.wav",
+    "original_text": "Diaz is also a Curtis alumnus and faculty member.",
+    "simplified_text": "Diaz is also a person who went to Curtis and now works there as a teacher.",
+    "audio_length_seconds": 6.156
+  },
+  {
+    "id": "0affcdad5a3d05e1b38976ea3921f570acb864ca8b3bc293f469cab9fb023f023381380d50ab3be8ee81cdeef4115ea2c36967b1bbf24f74ed16214709fc89b2",
+    "audio_path": "audio_dataset/0affcdad5a3d05e1b38976ea3921f570acb864ca8b3bc293f469cab9fb023f023381380d50ab3be8ee81cdeef4115ea2c36967b1bbf24f74ed16214709fc89b2.wav",
+    "original_text": "A black pearl stolen from an Indian idol is reputedly cursed.",
+    "simplified_text": "A black round shiny stone taken from a god\u2019s small statue from a far land is said to have a bad power.",
+    "audio_length_seconds": 6.876
+  },
+  {
+    "id": "0affcdad5a3d05e1b38976ea3921f570acb864ca8b3bc293f469cab9fb023f023381380d50ab3be8ee81cdeef4115ea2c36967b1bbf24f74ed16214709fc89b2",
+    "audio_path": "audio_dataset/0affcdad5a3d05e1b38976ea3921f570acb864ca8b3bc293f469cab9fb023f023381380d50ab3be8ee81cdeef4115ea2c36967b1bbf24f74ed16214709fc89b2.wav",
+    "original_text": "He serves as an officer in the Air National Guard.",
+    "simplified_text": "He works as a helper who is in charge in the Air National Guard.",
+    "audio_length_seconds": 5.796
+  },
+  {
+    "id": "0affcdad5a3d05e1b38976ea3921f570acb864ca8b3bc293f469cab9fb023f023381380d50ab3be8ee81cdeef4115ea2c36967b1bbf24f74ed16214709fc89b2",
+    "audio_path": "audio_dataset/0affcdad5a3d05e1b38976ea3921f570acb864ca8b3bc293f469cab9fb023f023381380d50ab3be8ee81cdeef4115ea2c36967b1bbf24f74ed16214709fc89b2.wav",
+    "original_text": "Kroh married twice.",
+    "simplified_text": "Kroh got a wife two times.",
+    "audio_length_seconds": 3.456
+  },
+  {
+    "id": "0affcdad5a3d05e1b38976ea3921f570acb864ca8b3bc293f469cab9fb023f023381380d50ab3be8ee81cdeef4115ea2c36967b1bbf24f74ed16214709fc89b2",
+    "audio_path": "audio_dataset/0affcdad5a3d05e1b38976ea3921f570acb864ca8b3bc293f469cab9fb023f023381380d50ab3be8ee81cdeef4115ea2c36967b1bbf24f74ed16214709fc89b2.wav",
+    "original_text": "The main focus after the foundation was gymnastics.",
+    "simplified_text": "The most important thing after the first big step was moving the body in many ways like jumping and bending.",
+    "audio_length_seconds": 5.976
+  },
+  {
+    "id": "0b073dedfee19d040042c477fcc0cc29d8fb06386a74cc0c02503ba1f311e72e05114c318c8fae2ecbf3b54f940382fa252e9d439e8448ee28355a25ae0ae7ec",
+    "audio_path": "audio_dataset/0b073dedfee19d040042c477fcc0cc29d8fb06386a74cc0c02503ba1f311e72e05114c318c8fae2ecbf3b54f940382fa252e9d439e8448ee28355a25ae0ae7ec.wav",
+    "original_text": "Sweetwater High School is part of Monroe County Schools.",
+    "simplified_text": "Sweetwater High School is one school that is part of the group of schools in the area called Monroe County.",
+    "audio_length_seconds": 6.096
+  },
+  {
+    "id": "0b073dedfee19d040042c477fcc0cc29d8fb06386a74cc0c02503ba1f311e72e05114c318c8fae2ecbf3b54f940382fa252e9d439e8448ee28355a25ae0ae7ec",
+    "audio_path": "audio_dataset/0b073dedfee19d040042c477fcc0cc29d8fb06386a74cc0c02503ba1f311e72e05114c318c8fae2ecbf3b54f940382fa252e9d439e8448ee28355a25ae0ae7ec.wav",
+    "original_text": "These had body color bumpers.",
+    "simplified_text": "These had bumpers that were the same color as their bodies.",
+    "audio_length_seconds": 3.936
+  },
+  {
+    "id": "0b073dedfee19d040042c477fcc0cc29d8fb06386a74cc0c02503ba1f311e72e05114c318c8fae2ecbf3b54f940382fa252e9d439e8448ee28355a25ae0ae7ec",
+    "audio_path": "audio_dataset/0b073dedfee19d040042c477fcc0cc29d8fb06386a74cc0c02503ba1f311e72e05114c318c8fae2ecbf3b54f940382fa252e9d439e8448ee28355a25ae0ae7ec.wav",
+    "original_text": "Thomson died at his estate in Swampscott, Massachusetts.",
+    "simplified_text": "Thomson died at his big home in a town called Swampscott, in a state called Massachusetts.",
+    "audio_length_seconds": 6.384
+  },
+  {
+    "id": "0b073dedfee19d040042c477fcc0cc29d8fb06386a74cc0c02503ba1f311e72e05114c318c8fae2ecbf3b54f940382fa252e9d439e8448ee28355a25ae0ae7ec",
+    "audio_path": "audio_dataset/0b073dedfee19d040042c477fcc0cc29d8fb06386a74cc0c02503ba1f311e72e05114c318c8fae2ecbf3b54f940382fa252e9d439e8448ee28355a25ae0ae7ec.wav",
+    "original_text": "After these events, he began to actually construct his first dolls.",
+    "simplified_text": "After these things, he began to really build his first small people.",
+    "audio_length_seconds": 6.576
+  },
+  {
+    "id": "0b0f51f0a4e1d26ba9b4ad45178d3459c9f8744a1f4c8de07797e1c4e193a20e55ed800bfa6781631d2a9b8d42f289fe3561fcccfda213b6ad73c4443a3c317e",
+    "audio_path": "audio_dataset/0b0f51f0a4e1d26ba9b4ad45178d3459c9f8744a1f4c8de07797e1c4e193a20e55ed800bfa6781631d2a9b8d42f289fe3561fcccfda213b6ad73c4443a3c317e.wav",
+    "original_text": "The cities of Fenton and Linden were formed from areas formerly within the township.",
+    "simplified_text": "The towns called Fenton and Linden came from parts that were once inside the larger town area.",
+    "audio_length_seconds": 7.248
+  },
+  {
+    "id": "0b0f51f0a4e1d26ba9b4ad45178d3459c9f8744a1f4c8de07797e1c4e193a20e55ed800bfa6781631d2a9b8d42f289fe3561fcccfda213b6ad73c4443a3c317e",
+    "audio_path": "audio_dataset/0b0f51f0a4e1d26ba9b4ad45178d3459c9f8744a1f4c8de07797e1c4e193a20e55ed800bfa6781631d2a9b8d42f289fe3561fcccfda213b6ad73c4443a3c317e.wav",
+    "original_text": "The closest larger centres to Alameda are Estevan, Weyburn, Regina, and Minot, North Dakota.",
+    "simplified_text": "The nearest big towns to Alameda are Estevan, Weyburn, Regina, and Minot, in the state called North Dakota.",
+    "audio_length_seconds": 7.584
+  },
+  {
+    "id": "0b0f51f0a4e1d26ba9b4ad45178d3459c9f8744a1f4c8de07797e1c4e193a20e55ed800bfa6781631d2a9b8d42f289fe3561fcccfda213b6ad73c4443a3c317e",
+    "audio_path": "audio_dataset/0b0f51f0a4e1d26ba9b4ad45178d3459c9f8744a1f4c8de07797e1c4e193a20e55ed800bfa6781631d2a9b8d42f289fe3561fcccfda213b6ad73c4443a3c317e.wav",
+    "original_text": "Los Angeles became the capital of the film industry.",
+    "simplified_text": "Los Angeles became the main place for making movies.",
+    "audio_length_seconds": 4.416
+  },
+  {
+    "id": "0b0f51f0a4e1d26ba9b4ad45178d3459c9f8744a1f4c8de07797e1c4e193a20e55ed800bfa6781631d2a9b8d42f289fe3561fcccfda213b6ad73c4443a3c317e",
+    "audio_path": "audio_dataset/0b0f51f0a4e1d26ba9b4ad45178d3459c9f8744a1f4c8de07797e1c4e193a20e55ed800bfa6781631d2a9b8d42f289fe3561fcccfda213b6ad73c4443a3c317e.wav",
+    "original_text": "\"The Blueprint\" received rave reviews from critics.",
+    "simplified_text": "\"The plan for a building got very good words from people who check writing and art.\"",
+    "audio_length_seconds": 5.088
+  },
+  {
+    "id": "0b2f70d6a88af63307c6777c7d2562468bcb4b44d6af1c750b957d57b377a1bcf04087ddcc777b57b59ef5c0b9720afa8ffadf411d6231ba8f1713e92241c524",
+    "audio_path": "audio_dataset/0b2f70d6a88af63307c6777c7d2562468bcb4b44d6af1c750b957d57b377a1bcf04087ddcc777b57b59ef5c0b9720afa8ffadf411d6231ba8f1713e92241c524.wav",
+    "original_text": "This plank was made for walking on.",
+    "simplified_text": "This flat piece of wood was made so people can walk on it.",
+    "audio_length_seconds": 3.552
+  },
+  {
+    "id": "0b2f70d6a88af63307c6777c7d2562468bcb4b44d6af1c750b957d57b377a1bcf04087ddcc777b57b59ef5c0b9720afa8ffadf411d6231ba8f1713e92241c524",
+    "audio_path": "audio_dataset/0b2f70d6a88af63307c6777c7d2562468bcb4b44d6af1c750b957d57b377a1bcf04087ddcc777b57b59ef5c0b9720afa8ffadf411d6231ba8f1713e92241c524.wav",
+    "original_text": "We have recovered most of the deleted files, but some are still being processed.",
+    "simplified_text": "We have got back most of the lost files, but some are still being worked on.",
+    "audio_length_seconds": 5.304
+  },
+  {
+    "id": "0b3dd25d5bb6b86d27f5d5abd322c07bb66c446c684ff83dbfb5e4aae3968002e98621b3a70897401a17554a5737dde4d4ce383fdbb65b1da69f8eb45d551b9e",
+    "audio_path": "audio_dataset/0b3dd25d5bb6b86d27f5d5abd322c07bb66c446c684ff83dbfb5e4aae3968002e98621b3a70897401a17554a5737dde4d4ce383fdbb65b1da69f8eb45d551b9e.wav",
+    "original_text": "They are also capable of delivering much higher acceleration and shorter takeoffs.",
+    "simplified_text": "They can also make things go much faster and start going in a shorter time.",
+    "audio_length_seconds": 6.96
+  },
+  {
+    "id": "0b3dd25d5bb6b86d27f5d5abd322c07bb66c446c684ff83dbfb5e4aae3968002e98621b3a70897401a17554a5737dde4d4ce383fdbb65b1da69f8eb45d551b9e",
+    "audio_path": "audio_dataset/0b3dd25d5bb6b86d27f5d5abd322c07bb66c446c684ff83dbfb5e4aae3968002e98621b3a70897401a17554a5737dde4d4ce383fdbb65b1da69f8eb45d551b9e.wav",
+    "original_text": "Newspapers from Australia and Israel even pictured the mayor with his hair ablaze.",
+    "simplified_text": "News papers from the land called Australia and the land called Israel even showed the man who leads the town with his hair on fire.",
+    "audio_length_seconds": 8.808
+  },
+  {
+    "id": "0b3dd25d5bb6b86d27f5d5abd322c07bb66c446c684ff83dbfb5e4aae3968002e98621b3a70897401a17554a5737dde4d4ce383fdbb65b1da69f8eb45d551b9e",
+    "audio_path": "audio_dataset/0b3dd25d5bb6b86d27f5d5abd322c07bb66c446c684ff83dbfb5e4aae3968002e98621b3a70897401a17554a5737dde4d4ce383fdbb65b1da69f8eb45d551b9e.wav",
+    "original_text": "When I need a new album to listen to, I make one.",
+    "simplified_text": "When I want to hear new songs, I make a set of songs myself.",
+    "audio_length_seconds": 5.184
+  },
+  {
+    "id": "0b3dd25d5bb6b86d27f5d5abd322c07bb66c446c684ff83dbfb5e4aae3968002e98621b3a70897401a17554a5737dde4d4ce383fdbb65b1da69f8eb45d551b9e",
+    "audio_path": "audio_dataset/0b3dd25d5bb6b86d27f5d5abd322c07bb66c446c684ff83dbfb5e4aae3968002e98621b3a70897401a17554a5737dde4d4ce383fdbb65b1da69f8eb45d551b9e.wav",
+    "original_text": "Using an incompressible fluid increases system rigidity and reduces compliant behavior.",
+    "simplified_text": "Using a kind of liquid that does not get smaller when pressed makes the whole thing more stiff and less able to bend or move easily.",
+    "audio_length_seconds": 8.928
+  },
+  {
+    "id": "0b4028121f87e8916ead59f0b0d4c4fe527a9c0160e99bd674dfe133b64252ca76e08dca74bcd4b509c925b0efedf07449b5cd400dc0dd6fcc955dd941d7c038",
+    "audio_path": "audio_dataset/0b4028121f87e8916ead59f0b0d4c4fe527a9c0160e99bd674dfe133b64252ca76e08dca74bcd4b509c925b0efedf07449b5cd400dc0dd6fcc955dd941d7c038.wav",
+    "original_text": "The town of Panama moved to the crossing of the two railroads.",
+    "simplified_text": "The place called Panama moved to the place where two railroads cross each other.",
+    "audio_length_seconds": 6.696
+  },
+  {
+    "id": "0b4028121f87e8916ead59f0b0d4c4fe527a9c0160e99bd674dfe133b64252ca76e08dca74bcd4b509c925b0efedf07449b5cd400dc0dd6fcc955dd941d7c038",
+    "audio_path": "audio_dataset/0b4028121f87e8916ead59f0b0d4c4fe527a9c0160e99bd674dfe133b64252ca76e08dca74bcd4b509c925b0efedf07449b5cd400dc0dd6fcc955dd941d7c038.wav",
+    "original_text": "Driesch developed a deep interest in Psychical Research and Parapsychology.",
+    "simplified_text": "Driesch began to like very much the study of the mind and strange things that happen but cannot be seen or touched.",
+    "audio_length_seconds": 6.816
+  },
+  {
+    "id": "0b4028121f87e8916ead59f0b0d4c4fe527a9c0160e99bd674dfe133b64252ca76e08dca74bcd4b509c925b0efedf07449b5cd400dc0dd6fcc955dd941d7c038",
+    "audio_path": "audio_dataset/0b4028121f87e8916ead59f0b0d4c4fe527a9c0160e99bd674dfe133b64252ca76e08dca74bcd4b509c925b0efedf07449b5cd400dc0dd6fcc955dd941d7c038.wav",
+    "original_text": "Such buttons were often mounted on a patch of coloured cloth or gold embroidery.",
+    "simplified_text": "These kinds of small round things were many times put on a small part of cloth with color or on cloth with shiny gold threads.",
+    "audio_length_seconds": 6.264
+  },
+  {
+    "id": "0b4028121f87e8916ead59f0b0d4c4fe527a9c0160e99bd674dfe133b64252ca76e08dca74bcd4b509c925b0efedf07449b5cd400dc0dd6fcc955dd941d7c038",
+    "audio_path": "audio_dataset/0b4028121f87e8916ead59f0b0d4c4fe527a9c0160e99bd674dfe133b64252ca76e08dca74bcd4b509c925b0efedf07449b5cd400dc0dd6fcc955dd941d7c038.wav",
+    "original_text": "But their lives are not sacred.",
+    "simplified_text": "But their lives are not held very high or kept very safe.",
+    "audio_length_seconds": 3.456
+  },
+  {
+    "id": "0b40ec284222ca9116de5b51463157c577dc24cbef7009efda8ba4855f2bd40a4d5e0a6c7478c5c0fd882b518e761f6d0e209590f1f2a196a0363a1569bb7658",
+    "audio_path": "audio_dataset/0b40ec284222ca9116de5b51463157c577dc24cbef7009efda8ba4855f2bd40a4d5e0a6c7478c5c0fd882b518e761f6d0e209590f1f2a196a0363a1569bb7658.wav",
+    "original_text": "That\u2019s music to my ears!",
+    "simplified_text": "That is good sound for me to hear!",
+    "audio_length_seconds": 5.4
+  },
+  {
+    "id": "0b40ec284222ca9116de5b51463157c577dc24cbef7009efda8ba4855f2bd40a4d5e0a6c7478c5c0fd882b518e761f6d0e209590f1f2a196a0363a1569bb7658",
+    "audio_path": "audio_dataset/0b40ec284222ca9116de5b51463157c577dc24cbef7009efda8ba4855f2bd40a4d5e0a6c7478c5c0fd882b518e761f6d0e209590f1f2a196a0363a1569bb7658.wav",
+    "original_text": "There he got unconscious.",
+    "simplified_text": "He went to a place and then he did not know what was going on.",
+    "audio_length_seconds": 4.608
+  },
+  {
+    "id": "0b40ec284222ca9116de5b51463157c577dc24cbef7009efda8ba4855f2bd40a4d5e0a6c7478c5c0fd882b518e761f6d0e209590f1f2a196a0363a1569bb7658",
+    "audio_path": "audio_dataset/0b40ec284222ca9116de5b51463157c577dc24cbef7009efda8ba4855f2bd40a4d5e0a6c7478c5c0fd882b518e761f6d0e209590f1f2a196a0363a1569bb7658.wav",
+    "original_text": "Robert Rex was the team captain.",
+    "simplified_text": "Robert Rex was the leader of the group of people who work or play together.",
+    "audio_length_seconds": 5.58
+  },
+  {
+    "id": "0b40ec284222ca9116de5b51463157c577dc24cbef7009efda8ba4855f2bd40a4d5e0a6c7478c5c0fd882b518e761f6d0e209590f1f2a196a0363a1569bb7658",
+    "audio_path": "audio_dataset/0b40ec284222ca9116de5b51463157c577dc24cbef7009efda8ba4855f2bd40a4d5e0a6c7478c5c0fd882b518e761f6d0e209590f1f2a196a0363a1569bb7658.wav",
+    "original_text": "Very little is known about the life of the artist.",
+    "simplified_text": "Not much is known about the life of the person who makes art.",
+    "audio_length_seconds": 5.76
+  },
+  {
+    "id": "0b503b8826484ffe107c5bec98867bd271f73ebeeb958124d8b552c4cd143254d01ac3dcf257e390803ca4385a23fb4ba4f5a5554e6e3de5604d295626e957f2",
+    "audio_path": "audio_dataset/0b503b8826484ffe107c5bec98867bd271f73ebeeb958124d8b552c4cd143254d01ac3dcf257e390803ca4385a23fb4ba4f5a5554e6e3de5604d295626e957f2.wav",
+    "original_text": "Over the shield there is golden crown.",
+    "simplified_text": "Above the shield, there is a golden crown.  \n(\u201cGolden\u201d means made of gold, a very shiny, yellow metal.)",
+    "audio_length_seconds": 7.704
+  },
+  {
+    "id": "0b503b8826484ffe107c5bec98867bd271f73ebeeb958124d8b552c4cd143254d01ac3dcf257e390803ca4385a23fb4ba4f5a5554e6e3de5604d295626e957f2",
+    "audio_path": "audio_dataset/0b503b8826484ffe107c5bec98867bd271f73ebeeb958124d8b552c4cd143254d01ac3dcf257e390803ca4385a23fb4ba4f5a5554e6e3de5604d295626e957f2.wav",
+    "original_text": "It was the first of four election victories in a row for Taschereau.",
+    "simplified_text": "It was the first time in a row that Taschereau won four times in a row in a choice of people to work in a place where laws are made.",
+    "audio_length_seconds": 6.6
+  },
+  {
+    "id": "0b503b8826484ffe107c5bec98867bd271f73ebeeb958124d8b552c4cd143254d01ac3dcf257e390803ca4385a23fb4ba4f5a5554e6e3de5604d295626e957f2",
+    "audio_path": "audio_dataset/0b503b8826484ffe107c5bec98867bd271f73ebeeb958124d8b552c4cd143254d01ac3dcf257e390803ca4385a23fb4ba4f5a5554e6e3de5604d295626e957f2.wav",
+    "original_text": "It is also used in the evening to protect the hay from morning dew.",
+    "simplified_text": "It is also used in the night time to keep the dry grass safe from the wet drops that come in the early day.",
+    "audio_length_seconds": 5.016
+  },
+  {
+    "id": "0b503b8826484ffe107c5bec98867bd271f73ebeeb958124d8b552c4cd143254d01ac3dcf257e390803ca4385a23fb4ba4f5a5554e6e3de5604d295626e957f2",
+    "audio_path": "audio_dataset/0b503b8826484ffe107c5bec98867bd271f73ebeeb958124d8b552c4cd143254d01ac3dcf257e390803ca4385a23fb4ba4f5a5554e6e3de5604d295626e957f2.wav",
+    "original_text": "He attended Franklin High School in Stockton.",
+    "simplified_text": "He went to Franklin High School in Stockton.",
+    "audio_length_seconds": 4.368
+  },
+  {
+    "id": "0b5635960517ec1aad4e2a06c42da11963e3050f3f9aa6323c56ee12b2adbbacce7024b6a566f605cae9b8bdf56a39ba6dd10d5bd1adcee3d140eff6034db743",
+    "audio_path": "audio_dataset/0b5635960517ec1aad4e2a06c42da11963e3050f3f9aa6323c56ee12b2adbbacce7024b6a566f605cae9b8bdf56a39ba6dd10d5bd1adcee3d140eff6034db743.wav",
+    "original_text": "Large mammal surveys continue to take place in Cambodia, hoping to rediscover living kouprey.",
+    "simplified_text": "Big animal checks keep going in Cambodia, trying to find living kouprey again.  \n(Note: \"kouprey\" is the name of a type of big animal.)",
+    "audio_length_seconds": 8.784
+  },
+  {
+    "id": "0b5635960517ec1aad4e2a06c42da11963e3050f3f9aa6323c56ee12b2adbbacce7024b6a566f605cae9b8bdf56a39ba6dd10d5bd1adcee3d140eff6034db743",
+    "audio_path": "audio_dataset/0b5635960517ec1aad4e2a06c42da11963e3050f3f9aa6323c56ee12b2adbbacce7024b6a566f605cae9b8bdf56a39ba6dd10d5bd1adcee3d140eff6034db743.wav",
+    "original_text": "It has a summit over long, thus \"Broad Peak\".",
+    "simplified_text": "It has a top that is far and wide, so it is called \"Wide Top.\"",
+    "audio_length_seconds": 5.016
+  },
+  {
+    "id": "0b5635960517ec1aad4e2a06c42da11963e3050f3f9aa6323c56ee12b2adbbacce7024b6a566f605cae9b8bdf56a39ba6dd10d5bd1adcee3d140eff6034db743",
+    "audio_path": "audio_dataset/0b5635960517ec1aad4e2a06c42da11963e3050f3f9aa6323c56ee12b2adbbacce7024b6a566f605cae9b8bdf56a39ba6dd10d5bd1adcee3d140eff6034db743.wav",
+    "original_text": "The word Islam Hadhari consists of two words, Islam and Hadhari.",
+    "simplified_text": "The name Islam Hadhari is made up of two words: Islam and Hadhari.",
+    "audio_length_seconds": 7.584
+  },
+  {
+    "id": "0b5635960517ec1aad4e2a06c42da11963e3050f3f9aa6323c56ee12b2adbbacce7024b6a566f605cae9b8bdf56a39ba6dd10d5bd1adcee3d140eff6034db743",
+    "audio_path": "audio_dataset/0b5635960517ec1aad4e2a06c42da11963e3050f3f9aa6323c56ee12b2adbbacce7024b6a566f605cae9b8bdf56a39ba6dd10d5bd1adcee3d140eff6034db743.wav",
+    "original_text": "When she used color, however, Zeisler gravitated towards red.",
+    "simplified_text": "When she put on color, Zeisler went close to red.",
+    "audio_length_seconds": 5.376
+  },
+  {
+    "id": "0b5c4c23805991bf0773b4320908c01c6a83b70aa622cfaafa8063638277a3205865509b7c82b3fca3d83e5ed135c22d3a0fb70f5889a8ecc29f9b744268dbab",
+    "audio_path": "audio_dataset/0b5c4c23805991bf0773b4320908c01c6a83b70aa622cfaafa8063638277a3205865509b7c82b3fca3d83e5ed135c22d3a0fb70f5889a8ecc29f9b744268dbab.wav",
+    "original_text": "He went to college at Alabama.",
+    "simplified_text": "He went to a place for big learning at Alabama.",
+    "audio_length_seconds": 4.68
+  },
+  {
+    "id": "0b5c4c23805991bf0773b4320908c01c6a83b70aa622cfaafa8063638277a3205865509b7c82b3fca3d83e5ed135c22d3a0fb70f5889a8ecc29f9b744268dbab",
+    "audio_path": "audio_dataset/0b5c4c23805991bf0773b4320908c01c6a83b70aa622cfaafa8063638277a3205865509b7c82b3fca3d83e5ed135c22d3a0fb70f5889a8ecc29f9b744268dbab.wav",
+    "original_text": "Past winners include other local hockey players Andrew Raycroft and Andrew Shaw.",
+    "simplified_text": "Before now, people who won also were other nearby ice hockey players named Andrew Raycroft and Andrew Shaw.",
+    "audio_length_seconds": 7.2
+  },
+  {
+    "id": "0b5c4c23805991bf0773b4320908c01c6a83b70aa622cfaafa8063638277a3205865509b7c82b3fca3d83e5ed135c22d3a0fb70f5889a8ecc29f9b744268dbab",
+    "audio_path": "audio_dataset/0b5c4c23805991bf0773b4320908c01c6a83b70aa622cfaafa8063638277a3205865509b7c82b3fca3d83e5ed135c22d3a0fb70f5889a8ecc29f9b744268dbab.wav",
+    "original_text": "The song is partly in Spanish and features vocals from Colombian singer Maluma.",
+    "simplified_text": "The song is made with some words in the Spanish way of talking. It has the voice of a man who sings and comes from the land called Colombia. His name is Maluma.",
+    "audio_length_seconds": 7.056
+  },
+  {
+    "id": "0b5c4c23805991bf0773b4320908c01c6a83b70aa622cfaafa8063638277a3205865509b7c82b3fca3d83e5ed135c22d3a0fb70f5889a8ecc29f9b744268dbab",
+    "audio_path": "audio_dataset/0b5c4c23805991bf0773b4320908c01c6a83b70aa622cfaafa8063638277a3205865509b7c82b3fca3d83e5ed135c22d3a0fb70f5889a8ecc29f9b744268dbab.wav",
+    "original_text": "Contemporaries described \"Monty\" as the \"grand old man\" of Connecticut Agricultural College.",
+    "simplified_text": "People who lived at the same time said Monty was the big old man of the school for farming in Connecticut.",
+    "audio_length_seconds": 8.496
+  },
+  {
+    "id": "0b65b657ebcdc28069d5d1df6908fdb8d3bcb2e7b7ab96ddc5cb97b367aa66b49cceae11d7d98a96eeea6aa5e474a1faf279ad9cfa6064a82c1e14cce6d9fabd",
+    "audio_path": "audio_dataset/0b65b657ebcdc28069d5d1df6908fdb8d3bcb2e7b7ab96ddc5cb97b367aa66b49cceae11d7d98a96eeea6aa5e474a1faf279ad9cfa6064a82c1e14cce6d9fabd.wav",
+    "original_text": "The policemen took Kiselyov straight to the police office in the presence of journalists.",
+    "simplified_text": "The men who work to keep us safe took Kiselyov right to the place where they work when other people who write or talk about news were there.",
+    "audio_length_seconds": 7.02
+  },
+  {
+    "id": "0b65b657ebcdc28069d5d1df6908fdb8d3bcb2e7b7ab96ddc5cb97b367aa66b49cceae11d7d98a96eeea6aa5e474a1faf279ad9cfa6064a82c1e14cce6d9fabd",
+    "audio_path": "audio_dataset/0b65b657ebcdc28069d5d1df6908fdb8d3bcb2e7b7ab96ddc5cb97b367aa66b49cceae11d7d98a96eeea6aa5e474a1faf279ad9cfa6064a82c1e14cce6d9fabd.wav",
+    "original_text": "Italy and Germany shared the silver medal on second place.",
+    "simplified_text": "Italy and Germany both got the second prize with the silver medal.",
+    "audio_length_seconds": 4.428
+  },
+  {
+    "id": "0b65b657ebcdc28069d5d1df6908fdb8d3bcb2e7b7ab96ddc5cb97b367aa66b49cceae11d7d98a96eeea6aa5e474a1faf279ad9cfa6064a82c1e14cce6d9fabd",
+    "audio_path": "audio_dataset/0b65b657ebcdc28069d5d1df6908fdb8d3bcb2e7b7ab96ddc5cb97b367aa66b49cceae11d7d98a96eeea6aa5e474a1faf279ad9cfa6064a82c1e14cce6d9fabd.wav",
+    "original_text": "This is the only of this name in the United States.",
+    "simplified_text": "This is the one and only with this name in the whole country called the United States.",
+    "audio_length_seconds": 4.716
+  },
+  {
+    "id": "0b65b657ebcdc28069d5d1df6908fdb8d3bcb2e7b7ab96ddc5cb97b367aa66b49cceae11d7d98a96eeea6aa5e474a1faf279ad9cfa6064a82c1e14cce6d9fabd",
+    "audio_path": "audio_dataset/0b65b657ebcdc28069d5d1df6908fdb8d3bcb2e7b7ab96ddc5cb97b367aa66b49cceae11d7d98a96eeea6aa5e474a1faf279ad9cfa6064a82c1e14cce6d9fabd.wav",
+    "original_text": "Solar panels and recycled asphalt were incorporated to make the structure more environmentally friendly.",
+    "simplified_text": "Solar boards and old road parts were used to make the building better for the earth.",
+    "audio_length_seconds": 7.488
+  },
+  {
+    "id": "0b66e8e83e5d26a18e312920bcc1600bd46a4ca2f6a8edeff12ffb4e59b66e63fb12fe061588eab04b2694d693c45f01b39dd8498660cd5cfb0246de8fbca911",
+    "audio_path": "audio_dataset/0b66e8e83e5d26a18e312920bcc1600bd46a4ca2f6a8edeff12ffb4e59b66e63fb12fe061588eab04b2694d693c45f01b39dd8498660cd5cfb0246de8fbca911.wav",
+    "original_text": "\"Brae\" is the Lowland Scots word for the slope or brow of a hill.",
+    "simplified_text": "\"Brae\" is a word used in Lowland Scots. It means the side or the top part of a hill.",
+    "audio_length_seconds": 5.832
+  },
+  {
+    "id": "0b66e8e83e5d26a18e312920bcc1600bd46a4ca2f6a8edeff12ffb4e59b66e63fb12fe061588eab04b2694d693c45f01b39dd8498660cd5cfb0246de8fbca911",
+    "audio_path": "audio_dataset/0b66e8e83e5d26a18e312920bcc1600bd46a4ca2f6a8edeff12ffb4e59b66e63fb12fe061588eab04b2694d693c45f01b39dd8498660cd5cfb0246de8fbca911.wav",
+    "original_text": "Katherine brought her four children Edward, Arthur, Katherine and Ann to the marriage.",
+    "simplified_text": "Katherine came with her four kids named Edward, Arthur, Katherine, and Ann to the big day when two people say they will be together forever.",
+    "audio_length_seconds": 6.6
+  },
+  {
+    "id": "0b66e8e83e5d26a18e312920bcc1600bd46a4ca2f6a8edeff12ffb4e59b66e63fb12fe061588eab04b2694d693c45f01b39dd8498660cd5cfb0246de8fbca911",
+    "audio_path": "audio_dataset/0b66e8e83e5d26a18e312920bcc1600bd46a4ca2f6a8edeff12ffb4e59b66e63fb12fe061588eab04b2694d693c45f01b39dd8498660cd5cfb0246de8fbca911.wav",
+    "original_text": "The name \"Baidicheng\" literally means White Emperor City.",
+    "simplified_text": "The name \"Baidicheng\" means the city of the white ruler.",
+    "audio_length_seconds": 6.384
+  },
+  {
+    "id": "0b66e8e83e5d26a18e312920bcc1600bd46a4ca2f6a8edeff12ffb4e59b66e63fb12fe061588eab04b2694d693c45f01b39dd8498660cd5cfb0246de8fbca911",
+    "audio_path": "audio_dataset/0b66e8e83e5d26a18e312920bcc1600bd46a4ca2f6a8edeff12ffb4e59b66e63fb12fe061588eab04b2694d693c45f01b39dd8498660cd5cfb0246de8fbca911.wav",
+    "original_text": "Another cause of brittleness is the use of data structures that restrict values.",
+    "simplified_text": "One more reason for being easy to break is to use ways to hold many things that do not let some things be.",
+    "audio_length_seconds": 6.216
+  },
+  {
+    "id": "0b6a89c33d995ce46950f61ebc9dfdbed1fd4b6e2d32c8d1df8906794cab8c3897ad9862c8084040a21ea8b3184af87aa8502f454f31d434264b5cc12b6a4cf0",
+    "audio_path": "audio_dataset/0b6a89c33d995ce46950f61ebc9dfdbed1fd4b6e2d32c8d1df8906794cab8c3897ad9862c8084040a21ea8b3184af87aa8502f454f31d434264b5cc12b6a4cf0.wav",
+    "original_text": "A stent was fitted to open up the blockages.",
+    "simplified_text": "A small, thin tube was put inside the body to help open a way that was closed or blocked.",
+    "audio_length_seconds": 4.968
+  },
+  {
+    "id": "0b6a89c33d995ce46950f61ebc9dfdbed1fd4b6e2d32c8d1df8906794cab8c3897ad9862c8084040a21ea8b3184af87aa8502f454f31d434264b5cc12b6a4cf0",
+    "audio_path": "audio_dataset/0b6a89c33d995ce46950f61ebc9dfdbed1fd4b6e2d32c8d1df8906794cab8c3897ad9862c8084040a21ea8b3184af87aa8502f454f31d434264b5cc12b6a4cf0.wav",
+    "original_text": "We appreciate your cooperation Mr Doe.",
+    "simplified_text": "We thank you for working with us, Mr Doe.",
+    "audio_length_seconds": 4.368
+  },
+  {
+    "id": "0b6a89c33d995ce46950f61ebc9dfdbed1fd4b6e2d32c8d1df8906794cab8c3897ad9862c8084040a21ea8b3184af87aa8502f454f31d434264b5cc12b6a4cf0",
+    "audio_path": "audio_dataset/0b6a89c33d995ce46950f61ebc9dfdbed1fd4b6e2d32c8d1df8906794cab8c3897ad9862c8084040a21ea8b3184af87aa8502f454f31d434264b5cc12b6a4cf0.wav",
+    "original_text": "A kind of angry smile just dawns upon her face.",
+    "simplified_text": "A small smile that shows she is a little mad comes on her face.",
+    "audio_length_seconds": 4.368
+  },
+  {
+    "id": "0b6a89c33d995ce46950f61ebc9dfdbed1fd4b6e2d32c8d1df8906794cab8c3897ad9862c8084040a21ea8b3184af87aa8502f454f31d434264b5cc12b6a4cf0",
+    "audio_path": "audio_dataset/0b6a89c33d995ce46950f61ebc9dfdbed1fd4b6e2d32c8d1df8906794cab8c3897ad9862c8084040a21ea8b3184af87aa8502f454f31d434264b5cc12b6a4cf0.wav",
+    "original_text": "It is twenty-five minutes after its time this afternoon.",
+    "simplified_text": "It is five and twenty minutes after the set time this afternoon.",
+    "audio_length_seconds": 4.824
+  },
+  {
+    "id": "0b6afdf7644a6387d3df2d01c7a1db4d9f2c2913ed6af0e7abe670ece157a7cd9b04a8aac769d376f6e8f375c1624b83324651d70adc7c7dcfef055c39409c37",
+    "audio_path": "audio_dataset/0b6afdf7644a6387d3df2d01c7a1db4d9f2c2913ed6af0e7abe670ece157a7cd9b04a8aac769d376f6e8f375c1624b83324651d70adc7c7dcfef055c39409c37.wav",
+    "original_text": "The Heritage Museum of Northwest Florida is located in Valparaiso.",
+    "simplified_text": "The old place that keeps and shows things from the past in the top left part of Florida is in a town called Valparaiso.",
+    "audio_length_seconds": 8.071854166666666
+  },
+  {
+    "id": "0b6afdf7644a6387d3df2d01c7a1db4d9f2c2913ed6af0e7abe670ece157a7cd9b04a8aac769d376f6e8f375c1624b83324651d70adc7c7dcfef055c39409c37",
+    "audio_path": "audio_dataset/0b6afdf7644a6387d3df2d01c7a1db4d9f2c2913ed6af0e7abe670ece157a7cd9b04a8aac769d376f6e8f375c1624b83324651d70adc7c7dcfef055c39409c37.wav",
+    "original_text": "Hallbeck had previously been a guest illustrator for over a year.",
+    "simplified_text": "Hallbeck had before been a guest who draws pictures for more than one year.",
+    "audio_length_seconds": 7.653895833333333
+  },
+  {
+    "id": "0b6afdf7644a6387d3df2d01c7a1db4d9f2c2913ed6af0e7abe670ece157a7cd9b04a8aac769d376f6e8f375c1624b83324651d70adc7c7dcfef055c39409c37",
+    "audio_path": "audio_dataset/0b6afdf7644a6387d3df2d01c7a1db4d9f2c2913ed6af0e7abe670ece157a7cd9b04a8aac769d376f6e8f375c1624b83324651d70adc7c7dcfef055c39409c37.wav",
+    "original_text": "They are often narrow circular rings made from metal, or less commonly, plastic.",
+    "simplified_text": "They are many times small round things that go all the way around, made from hard shiny stuff that comes from the earth, or not so many times, made from soft stuff that comes from oil.",
+    "audio_length_seconds": 9.038375
+  },
+  {
+    "id": "0b6afdf7644a6387d3df2d01c7a1db4d9f2c2913ed6af0e7abe670ece157a7cd9b04a8aac769d376f6e8f375c1624b83324651d70adc7c7dcfef055c39409c37",
+    "audio_path": "audio_dataset/0b6afdf7644a6387d3df2d01c7a1db4d9f2c2913ed6af0e7abe670ece157a7cd9b04a8aac769d376f6e8f375c1624b83324651d70adc7c7dcfef055c39409c37.wav",
+    "original_text": "Computer keyboards contain membranes with printed circuits that sense when a key is pressed.",
+    "simplified_text": "A computer keyboard has thin sheets with drawn paths that feel when a button is pushed.",
+    "audio_length_seconds": 9.6130625
+  },
+  {
+    "id": "0b70de186fa349477d405ab33417fbb8f5a01ccf567dd952a49fcaa0f97879ffba5908f2614c9cc5a91e5089e16b462f49542bc00931ea0004a18564e6f75bd4",
+    "audio_path": "audio_dataset/0b70de186fa349477d405ab33417fbb8f5a01ccf567dd952a49fcaa0f97879ffba5908f2614c9cc5a91e5089e16b462f49542bc00931ea0004a18564e6f75bd4.wav",
+    "original_text": "The station also airs community announcements for no fee.",
+    "simplified_text": "The place where trains come also shows messages for people that do not ask for money.",
+    "audio_length_seconds": 5.868
+  },
+  {
+    "id": "0b70de186fa349477d405ab33417fbb8f5a01ccf567dd952a49fcaa0f97879ffba5908f2614c9cc5a91e5089e16b462f49542bc00931ea0004a18564e6f75bd4",
+    "audio_path": "audio_dataset/0b70de186fa349477d405ab33417fbb8f5a01ccf567dd952a49fcaa0f97879ffba5908f2614c9cc5a91e5089e16b462f49542bc00931ea0004a18564e6f75bd4.wav",
+    "original_text": "Following the Hellmouth's closure, hundreds of potential slayers have been awakened.",
+    "simplified_text": "After the Hellmouth was closed, many people who can fight bad things woke up.",
+    "audio_length_seconds": 9.216
+  },
+  {
+    "id": "0b70de186fa349477d405ab33417fbb8f5a01ccf567dd952a49fcaa0f97879ffba5908f2614c9cc5a91e5089e16b462f49542bc00931ea0004a18564e6f75bd4",
+    "audio_path": "audio_dataset/0b70de186fa349477d405ab33417fbb8f5a01ccf567dd952a49fcaa0f97879ffba5908f2614c9cc5a91e5089e16b462f49542bc00931ea0004a18564e6f75bd4.wav",
+    "original_text": "When heated before the blowpipe it decrepitates violently, breaking up into white pearly scales.",
+    "simplified_text": "When you put it near a hot small pipe that blows air, it breaks with a strong sound and falls apart into small white shiny pieces like small flat things.",
+    "audio_length_seconds": 9.468
+  },
+  {
+    "id": "0b70de186fa349477d405ab33417fbb8f5a01ccf567dd952a49fcaa0f97879ffba5908f2614c9cc5a91e5089e16b462f49542bc00931ea0004a18564e6f75bd4",
+    "audio_path": "audio_dataset/0b70de186fa349477d405ab33417fbb8f5a01ccf567dd952a49fcaa0f97879ffba5908f2614c9cc5a91e5089e16b462f49542bc00931ea0004a18564e6f75bd4.wav",
+    "original_text": "The king goes to see and find the leper there.",
+    "simplified_text": "The man who is the head of the land goes to look and find the sick man who has skin that is very bad there.",
+    "audio_length_seconds": 4.716
+  },
+  {
+    "id": "0b7214133d702d0f1559aeb114bc0b434f368bc85425f1d6f6b68035d3318980f671cd613f08815e05c4aabaedc07d461775b4a850704fb5d1c2826a8cd41476",
+    "audio_path": "audio_dataset/0b7214133d702d0f1559aeb114bc0b434f368bc85425f1d6f6b68035d3318980f671cd613f08815e05c4aabaedc07d461775b4a850704fb5d1c2826a8cd41476.wav",
+    "original_text": "Later Maria Theresa arranged for it to be rebuilt in late Baroque style.",
+    "simplified_text": "Later Maria Theresa made a plan so it could be built again in a new style called late Baroque.  \n\n(Note: \"Baroque\" is a name for a style of art and building from a long time ago.)",
+    "audio_length_seconds": 8.46
+  },
+  {
+    "id": "0b7214133d702d0f1559aeb114bc0b434f368bc85425f1d6f6b68035d3318980f671cd613f08815e05c4aabaedc07d461775b4a850704fb5d1c2826a8cd41476",
+    "audio_path": "audio_dataset/0b7214133d702d0f1559aeb114bc0b434f368bc85425f1d6f6b68035d3318980f671cd613f08815e05c4aabaedc07d461775b4a850704fb5d1c2826a8cd41476.wav",
+    "original_text": "His first education was in the field of medicine.",
+    "simplified_text": "His first learning was about the care and help of sick people.",
+    "audio_length_seconds": 5.436
+  },
+  {
+    "id": "0b7214133d702d0f1559aeb114bc0b434f368bc85425f1d6f6b68035d3318980f671cd613f08815e05c4aabaedc07d461775b4a850704fb5d1c2826a8cd41476",
+    "audio_path": "audio_dataset/0b7214133d702d0f1559aeb114bc0b434f368bc85425f1d6f6b68035d3318980f671cd613f08815e05c4aabaedc07d461775b4a850704fb5d1c2826a8cd41476.wav",
+    "original_text": "Bibi was wounded and died of her injuries in the hospital emergency room.",
+    "simplified_text": "Bibi got hurt and died from her hurt places in the big help house for sick people.",
+    "audio_length_seconds": 7.308
+  },
+  {
+    "id": "0b7214133d702d0f1559aeb114bc0b434f368bc85425f1d6f6b68035d3318980f671cd613f08815e05c4aabaedc07d461775b4a850704fb5d1c2826a8cd41476",
+    "audio_path": "audio_dataset/0b7214133d702d0f1559aeb114bc0b434f368bc85425f1d6f6b68035d3318980f671cd613f08815e05c4aabaedc07d461775b4a850704fb5d1c2826a8cd41476.wav",
+    "original_text": "He is thought to have died in the battle for Staraya Russa.",
+    "simplified_text": "He is said to have died in the big fight for the town called Staraya Russa.",
+    "audio_length_seconds": 6.336
+  },
+  {
+    "id": "0b74e2e15ff5f24e74540936b35d95e7b90b8eef59eb376029be95b95c63eb2d7082a35d17bfec89124855a77e99783851ff6dc3b3d734e15fab0b892e355c4c",
+    "audio_path": "audio_dataset/0b74e2e15ff5f24e74540936b35d95e7b90b8eef59eb376029be95b95c63eb2d7082a35d17bfec89124855a77e99783851ff6dc3b3d734e15fab0b892e355c4c.wav",
+    "original_text": "As a solo artist he writes all his songs.",
+    "simplified_text": "He is one person who makes music. He writes all the words and sounds for his music.",
+    "audio_length_seconds": 8.544
+  },
+  {
+    "id": "0b74e2e15ff5f24e74540936b35d95e7b90b8eef59eb376029be95b95c63eb2d7082a35d17bfec89124855a77e99783851ff6dc3b3d734e15fab0b892e355c4c",
+    "audio_path": "audio_dataset/0b74e2e15ff5f24e74540936b35d95e7b90b8eef59eb376029be95b95c63eb2d7082a35d17bfec89124855a77e99783851ff6dc3b3d734e15fab0b892e355c4c.wav",
+    "original_text": "With time, this process leads to a mushy surface layer, known as grease ice.",
+    "simplified_text": "After some time, this way of change makes a soft, wet, and cold top part. People call this part \"grease ice.\"",
+    "audio_length_seconds": 5.736
+  },
+  {
+    "id": "0b74e2e15ff5f24e74540936b35d95e7b90b8eef59eb376029be95b95c63eb2d7082a35d17bfec89124855a77e99783851ff6dc3b3d734e15fab0b892e355c4c",
+    "audio_path": "audio_dataset/0b74e2e15ff5f24e74540936b35d95e7b90b8eef59eb376029be95b95c63eb2d7082a35d17bfec89124855a77e99783851ff6dc3b3d734e15fab0b892e355c4c.wav",
+    "original_text": "This pitch stood on the site of the present-day Wardlaw Street and Wardlaw Terrace.",
+    "simplified_text": "This place to play was where now you find Wardlaw Street and Wardlaw Terrace.",
+    "audio_length_seconds": 5.808
+  },
+  {
+    "id": "0b74e2e15ff5f24e74540936b35d95e7b90b8eef59eb376029be95b95c63eb2d7082a35d17bfec89124855a77e99783851ff6dc3b3d734e15fab0b892e355c4c",
+    "audio_path": "audio_dataset/0b74e2e15ff5f24e74540936b35d95e7b90b8eef59eb376029be95b95c63eb2d7082a35d17bfec89124855a77e99783851ff6dc3b3d734e15fab0b892e355c4c.wav",
+    "original_text": "During this scene, Tigger teaches Roo the awesome Whoop-de-Dooper-Loop-de-Looper-Alley-Ooper Bounce.",
+    "simplified_text": "At this part, Tigger shows Roo how to do the big fun jump that goes up and down and all around with a happy sound.",
+    "audio_length_seconds": 7.56
+  },
+  {
+    "id": "0b76c4362d68b68851d599cdfacd9031087df970c179383064dd10e876dd6bfaa5e00a0d2adcecfe4b73234e09cbc8de21bf2c18c9aad76d0ea8e2770c56ebef",
+    "audio_path": "audio_dataset/0b76c4362d68b68851d599cdfacd9031087df970c179383064dd10e876dd6bfaa5e00a0d2adcecfe4b73234e09cbc8de21bf2c18c9aad76d0ea8e2770c56ebef.wav",
+    "original_text": "He went to Tuskegee Institute, where he learned printing as a trade.",
+    "simplified_text": "He went to a school in Tuskegee, where he learned how to make books and papers for work.",
+    "audio_length_seconds": 7.104
+  },
+  {
+    "id": "0b76c4362d68b68851d599cdfacd9031087df970c179383064dd10e876dd6bfaa5e00a0d2adcecfe4b73234e09cbc8de21bf2c18c9aad76d0ea8e2770c56ebef",
+    "audio_path": "audio_dataset/0b76c4362d68b68851d599cdfacd9031087df970c179383064dd10e876dd6bfaa5e00a0d2adcecfe4b73234e09cbc8de21bf2c18c9aad76d0ea8e2770c56ebef.wav",
+    "original_text": "Kedre Fairley and Doctor Napoleon Saunders are the vice principals.",
+    "simplified_text": "Kedre Fairley and Doctor Napoleon Saunders are the two people who help run the school when the main boss is not there.",
+    "audio_length_seconds": 6.264
+  },
+  {
+    "id": "0b76c4362d68b68851d599cdfacd9031087df970c179383064dd10e876dd6bfaa5e00a0d2adcecfe4b73234e09cbc8de21bf2c18c9aad76d0ea8e2770c56ebef",
+    "audio_path": "audio_dataset/0b76c4362d68b68851d599cdfacd9031087df970c179383064dd10e876dd6bfaa5e00a0d2adcecfe4b73234e09cbc8de21bf2c18c9aad76d0ea8e2770c56ebef.wav",
+    "original_text": "Amongst his apprentices was Edmund Morison Wimperis, who became a notable watercolour landscape painter.",
+    "simplified_text": "Among the people he taught was Edmund Morison Wimperis, who became a well-known person who made pictures of land and water using soft colors.",
+    "audio_length_seconds": 8.064
+  },
+  {
+    "id": "0b76c4362d68b68851d599cdfacd9031087df970c179383064dd10e876dd6bfaa5e00a0d2adcecfe4b73234e09cbc8de21bf2c18c9aad76d0ea8e2770c56ebef",
+    "audio_path": "audio_dataset/0b76c4362d68b68851d599cdfacd9031087df970c179383064dd10e876dd6bfaa5e00a0d2adcecfe4b73234e09cbc8de21bf2c18c9aad76d0ea8e2770c56ebef.wav",
+    "original_text": "Maurice protects Lulu and brings her home.",
+    "simplified_text": "Maurice keeps Lulu safe and takes her to her house.",
+    "audio_length_seconds": 4.584
+  },
+  {
+    "id": "0b81f6f2b77729d25643e1f23b2b71447bb9739e472a6a8cb39026d0a11b3cb9496c95161f0482c79d5f2c633bc2e1d926a0a9e6b888718e17c7500b7b48324f",
+    "audio_path": "audio_dataset/0b81f6f2b77729d25643e1f23b2b71447bb9739e472a6a8cb39026d0a11b3cb9496c95161f0482c79d5f2c633bc2e1d926a0a9e6b888718e17c7500b7b48324f.wav",
+    "original_text": "The classification scheme used on the arXiv is chosen to reflect the papers submitted.",
+    "simplified_text": "The way to put papers in groups on the arXiv is picked to show the papers sent in.",
+    "audio_length_seconds": 9.576
+  },
+  {
+    "id": "0b81f6f2b77729d25643e1f23b2b71447bb9739e472a6a8cb39026d0a11b3cb9496c95161f0482c79d5f2c633bc2e1d926a0a9e6b888718e17c7500b7b48324f",
+    "audio_path": "audio_dataset/0b81f6f2b77729d25643e1f23b2b71447bb9739e472a6a8cb39026d0a11b3cb9496c95161f0482c79d5f2c633bc2e1d926a0a9e6b888718e17c7500b7b48324f.wav",
+    "original_text": "Until today they own large areas of property around Nablus and Jenin.",
+    "simplified_text": "Up to now, they have big parts of land near Nablus and Jenin.",
+    "audio_length_seconds": 9.432
+  },
+  {
+    "id": "0b81f6f2b77729d25643e1f23b2b71447bb9739e472a6a8cb39026d0a11b3cb9496c95161f0482c79d5f2c633bc2e1d926a0a9e6b888718e17c7500b7b48324f",
+    "audio_path": "audio_dataset/0b81f6f2b77729d25643e1f23b2b71447bb9739e472a6a8cb39026d0a11b3cb9496c95161f0482c79d5f2c633bc2e1d926a0a9e6b888718e17c7500b7b48324f.wav",
+    "original_text": "Genres describe those works which share specific conventions.",
+    "simplified_text": "Genres tell about groups of works that have the same ways of doing things.",
+    "audio_length_seconds": 8.232
+  },
+  {
+    "id": "0b81f6f2b77729d25643e1f23b2b71447bb9739e472a6a8cb39026d0a11b3cb9496c95161f0482c79d5f2c633bc2e1d926a0a9e6b888718e17c7500b7b48324f",
+    "audio_path": "audio_dataset/0b81f6f2b77729d25643e1f23b2b71447bb9739e472a6a8cb39026d0a11b3cb9496c95161f0482c79d5f2c633bc2e1d926a0a9e6b888718e17c7500b7b48324f.wav",
+    "original_text": "I looked surprised and inquisitive.",
+    "simplified_text": "I looked like I did not know what was going on and wanted to learn more.",
+    "audio_length_seconds": 4.752
+  },
+  {
+    "id": "0b9d1d50e6bca0eb75e54aa0d38a5e6429d9e45dd34bf206949a53176d8278d32b73e1e0bec4d6d81334feca27f982e2b1827a4bb48114b7b0a53f676680984f",
+    "audio_path": "audio_dataset/0b9d1d50e6bca0eb75e54aa0d38a5e6429d9e45dd34bf206949a53176d8278d32b73e1e0bec4d6d81334feca27f982e2b1827a4bb48114b7b0a53f676680984f.wav",
+    "original_text": "The Chippewa River is a popular destination for recreational kayakers and canoers.",
+    "simplified_text": "The Chippewa River is a well-liked place where people go to use small boats that they move with paddles for fun.",
+    "audio_length_seconds": 6.744
+  },
+  {
+    "id": "0b9d1d50e6bca0eb75e54aa0d38a5e6429d9e45dd34bf206949a53176d8278d32b73e1e0bec4d6d81334feca27f982e2b1827a4bb48114b7b0a53f676680984f",
+    "audio_path": "audio_dataset/0b9d1d50e6bca0eb75e54aa0d38a5e6429d9e45dd34bf206949a53176d8278d32b73e1e0bec4d6d81334feca27f982e2b1827a4bb48114b7b0a53f676680984f.wav",
+    "original_text": "Unlike many other Tong killings, Gee and Sing were apprehended.",
+    "simplified_text": "Not like many other Tong killings, Gee and Sing were caught.",
+    "audio_length_seconds": 5.904
+  },
+  {
+    "id": "0b9d1d50e6bca0eb75e54aa0d38a5e6429d9e45dd34bf206949a53176d8278d32b73e1e0bec4d6d81334feca27f982e2b1827a4bb48114b7b0a53f676680984f",
+    "audio_path": "audio_dataset/0b9d1d50e6bca0eb75e54aa0d38a5e6429d9e45dd34bf206949a53176d8278d32b73e1e0bec4d6d81334feca27f982e2b1827a4bb48114b7b0a53f676680984f.wav",
+    "original_text": "The user interface was made up of text.",
+    "simplified_text": "The part of the computer or phone you see and touch to make it do things was made up of words.",
+    "audio_length_seconds": 4.056
+  },
+  {
+    "id": "0b9d1d50e6bca0eb75e54aa0d38a5e6429d9e45dd34bf206949a53176d8278d32b73e1e0bec4d6d81334feca27f982e2b1827a4bb48114b7b0a53f676680984f",
+    "audio_path": "audio_dataset/0b9d1d50e6bca0eb75e54aa0d38a5e6429d9e45dd34bf206949a53176d8278d32b73e1e0bec4d6d81334feca27f982e2b1827a4bb48114b7b0a53f676680984f.wav",
+    "original_text": "Sullivan's life has long been intimately linked with William and Mary.",
+    "simplified_text": "Sullivan\u2019s life has for a long time been closely tied to William and Mary.",
+    "audio_length_seconds": 5.856
+  },
+  {
+    "id": "0b9ed4603048fc0f41835380e7e00eb57df8d5184ec6c3afe39b57c8e7b664a4fe010f501659df5a3bbbcc3e0a246c5f28928b5063a0bc88a7f1af808b5538de",
+    "audio_path": "audio_dataset/0b9ed4603048fc0f41835380e7e00eb57df8d5184ec6c3afe39b57c8e7b664a4fe010f501659df5a3bbbcc3e0a246c5f28928b5063a0bc88a7f1af808b5538de.wav",
+    "original_text": "The Tui Tonga decline began due to numerous wars and internal pressure.",
+    "simplified_text": "The Tui Tonga go down start because many fights and hard times inside.",
+    "audio_length_seconds": 9.624
+  },
+  {
+    "id": "0b9ed4603048fc0f41835380e7e00eb57df8d5184ec6c3afe39b57c8e7b664a4fe010f501659df5a3bbbcc3e0a246c5f28928b5063a0bc88a7f1af808b5538de",
+    "audio_path": "audio_dataset/0b9ed4603048fc0f41835380e7e00eb57df8d5184ec6c3afe39b57c8e7b664a4fe010f501659df5a3bbbcc3e0a246c5f28928b5063a0bc88a7f1af808b5538de.wav",
+    "original_text": "King Kartavirya Arjuna sent his soldiers to take the cow.",
+    "simplified_text": "King Kartavirya Arjuna sent his men to get the cow.",
+    "audio_length_seconds": 6.696
+  },
+  {
+    "id": "0b9ed4603048fc0f41835380e7e00eb57df8d5184ec6c3afe39b57c8e7b664a4fe010f501659df5a3bbbcc3e0a246c5f28928b5063a0bc88a7f1af808b5538de",
+    "audio_path": "audio_dataset/0b9ed4603048fc0f41835380e7e00eb57df8d5184ec6c3afe39b57c8e7b664a4fe010f501659df5a3bbbcc3e0a246c5f28928b5063a0bc88a7f1af808b5538de.wav",
+    "original_text": "Those studies which have been done have largely been of low quality.",
+    "simplified_text": "Those tests that people did are mostly not very good.",
+    "audio_length_seconds": 6.024
+  },
+  {
+    "id": "0b9ed4603048fc0f41835380e7e00eb57df8d5184ec6c3afe39b57c8e7b664a4fe010f501659df5a3bbbcc3e0a246c5f28928b5063a0bc88a7f1af808b5538de",
+    "audio_path": "audio_dataset/0b9ed4603048fc0f41835380e7e00eb57df8d5184ec6c3afe39b57c8e7b664a4fe010f501659df5a3bbbcc3e0a246c5f28928b5063a0bc88a7f1af808b5538de.wav",
+    "original_text": "Calumet Heights was swampy and relatively unoccupied throughout the nineteenth century.",
+    "simplified_text": "Calumet Heights was wet and had not many people living there all through the 1800s.",
+    "audio_length_seconds": 8.784
+  },
+  {
+    "id": "0ba68fc644c9c889c16f524cb4f0171e20f689582fac3da2fdb1dd3c158afa622dd4086e73e8159eac6e277ed1ef23fa915026d2fd50a5be7f47dde66e765813",
+    "audio_path": "audio_dataset/0ba68fc644c9c889c16f524cb4f0171e20f689582fac3da2fdb1dd3c158afa622dd4086e73e8159eac6e277ed1ef23fa915026d2fd50a5be7f47dde66e765813.wav",
+    "original_text": "Golden Wonder now produces a number of different flavours of potato crisp.",
+    "simplified_text": "Golden Wonder now makes many kinds of potato chips with different tastes.",
+    "audio_length_seconds": 7.128
+  },
+  {
+    "id": "0ba68fc644c9c889c16f524cb4f0171e20f689582fac3da2fdb1dd3c158afa622dd4086e73e8159eac6e277ed1ef23fa915026d2fd50a5be7f47dde66e765813",
+    "audio_path": "audio_dataset/0ba68fc644c9c889c16f524cb4f0171e20f689582fac3da2fdb1dd3c158afa622dd4086e73e8159eac6e277ed1ef23fa915026d2fd50a5be7f47dde66e765813.wav",
+    "original_text": "Experienced and internationally recognized professionals staff the Centre.",
+    "simplified_text": "People who have done much work and who many people know from many lands work at the Centre.",
+    "audio_length_seconds": 6.048
+  },
+  {
+    "id": "0ba68fc644c9c889c16f524cb4f0171e20f689582fac3da2fdb1dd3c158afa622dd4086e73e8159eac6e277ed1ef23fa915026d2fd50a5be7f47dde66e765813",
+    "audio_path": "audio_dataset/0ba68fc644c9c889c16f524cb4f0171e20f689582fac3da2fdb1dd3c158afa622dd4086e73e8159eac6e277ed1ef23fa915026d2fd50a5be7f47dde66e765813.wav",
+    "original_text": "Hamilton was born in Fulham, southwest London.",
+    "simplified_text": "Hamilton was born in Fulham, a place in the south west part of London.",
+    "audio_length_seconds": 4.176
+  },
+  {
+    "id": "0ba68fc644c9c889c16f524cb4f0171e20f689582fac3da2fdb1dd3c158afa622dd4086e73e8159eac6e277ed1ef23fa915026d2fd50a5be7f47dde66e765813",
+    "audio_path": "audio_dataset/0ba68fc644c9c889c16f524cb4f0171e20f689582fac3da2fdb1dd3c158afa622dd4086e73e8159eac6e277ed1ef23fa915026d2fd50a5be7f47dde66e765813.wav",
+    "original_text": "Party systems can be distinguished by the effective number of parties.",
+    "simplified_text": "Party groups can be told apart by how many groups really work.",
+    "audio_length_seconds": 4.968
+  },
+  {
+    "id": "0bafb814798a71a5697a53bda93e44793e9ca749ce7057e3a2c3bbc71b52da5e775d44cd4232f9893f0b39af4114258638fc52cbeace7e6d1793c2b3b1cd4151",
+    "audio_path": "audio_dataset/0bafb814798a71a5697a53bda93e44793e9ca749ce7057e3a2c3bbc71b52da5e775d44cd4232f9893f0b39af4114258638fc52cbeace7e6d1793c2b3b1cd4151.wav",
+    "original_text": "Opening of the Imperial diet.",
+    "simplified_text": "Start of the big meeting of the rulers.",
+    "audio_length_seconds": 3.456
+  },
+  {
+    "id": "0bafb814798a71a5697a53bda93e44793e9ca749ce7057e3a2c3bbc71b52da5e775d44cd4232f9893f0b39af4114258638fc52cbeace7e6d1793c2b3b1cd4151",
+    "audio_path": "audio_dataset/0bafb814798a71a5697a53bda93e44793e9ca749ce7057e3a2c3bbc71b52da5e775d44cd4232f9893f0b39af4114258638fc52cbeace7e6d1793c2b3b1cd4151.wav",
+    "original_text": "I can't wait!",
+    "simplified_text": "I am not able to wait!",
+    "audio_length_seconds": 2.496
+  },
+  {
+    "id": "0bafb814798a71a5697a53bda93e44793e9ca749ce7057e3a2c3bbc71b52da5e775d44cd4232f9893f0b39af4114258638fc52cbeace7e6d1793c2b3b1cd4151",
+    "audio_path": "audio_dataset/0bafb814798a71a5697a53bda93e44793e9ca749ce7057e3a2c3bbc71b52da5e775d44cd4232f9893f0b39af4114258638fc52cbeace7e6d1793c2b3b1cd4151.wav",
+    "original_text": "She was really fond of her work colleagues.",
+    "simplified_text": "She liked the people she worked with a lot.",
+    "audio_length_seconds": 3.264
+  },
+  {
+    "id": "0bafb814798a71a5697a53bda93e44793e9ca749ce7057e3a2c3bbc71b52da5e775d44cd4232f9893f0b39af4114258638fc52cbeace7e6d1793c2b3b1cd4151",
+    "audio_path": "audio_dataset/0bafb814798a71a5697a53bda93e44793e9ca749ce7057e3a2c3bbc71b52da5e775d44cd4232f9893f0b39af4114258638fc52cbeace7e6d1793c2b3b1cd4151.wav",
+    "original_text": "He was awarded a first-class degree from the University of Cambridge",
+    "simplified_text": "He got the best kind of school paper from the big school in the town called Cambridge.",
+    "audio_length_seconds": 4.296
+  },
+  {
+    "id": "0bb6905fb787869a44eb5f4e536880d1a5d1668d79ee99db87aaf912341011bc8014f0da41da5d07df2dee377e4e765ea2e4fd24b74da10b3f14c7114dd85b7b",
+    "audio_path": "audio_dataset/0bb6905fb787869a44eb5f4e536880d1a5d1668d79ee99db87aaf912341011bc8014f0da41da5d07df2dee377e4e765ea2e4fd24b74da10b3f14c7114dd85b7b.wav",
+    "original_text": "Beasts get fat by change of pastures.",
+    "simplified_text": "Animals get fat by going to new fields.",
+    "audio_length_seconds": 2.952
+  },
+  {
+    "id": "0bb6905fb787869a44eb5f4e536880d1a5d1668d79ee99db87aaf912341011bc8014f0da41da5d07df2dee377e4e765ea2e4fd24b74da10b3f14c7114dd85b7b",
+    "audio_path": "audio_dataset/0bb6905fb787869a44eb5f4e536880d1a5d1668d79ee99db87aaf912341011bc8014f0da41da5d07df2dee377e4e765ea2e4fd24b74da10b3f14c7114dd85b7b.wav",
+    "original_text": "A gradual diminishing of loudness.",
+    "simplified_text": "A slow going down of how loud a sound is.",
+    "audio_length_seconds": 2.28
+  },
+  {
+    "id": "0bbe2504cb98365c98454ba4415ad6935a9794de7063d1c3400af1d456dd889ead7d413c02e5cf68b913da84acb88f72bc49b26eb02eb3e17ac5eb53784b3235",
+    "audio_path": "audio_dataset/0bbe2504cb98365c98454ba4415ad6935a9794de7063d1c3400af1d456dd889ead7d413c02e5cf68b913da84acb88f72bc49b26eb02eb3e17ac5eb53784b3235.wav",
+    "original_text": "Most are brown and cream in colour.",
+    "simplified_text": "Most are brown and light yellow in color.",
+    "audio_length_seconds": 3.996
+  },
+  {
+    "id": "0bbe2504cb98365c98454ba4415ad6935a9794de7063d1c3400af1d456dd889ead7d413c02e5cf68b913da84acb88f72bc49b26eb02eb3e17ac5eb53784b3235",
+    "audio_path": "audio_dataset/0bbe2504cb98365c98454ba4415ad6935a9794de7063d1c3400af1d456dd889ead7d413c02e5cf68b913da84acb88f72bc49b26eb02eb3e17ac5eb53784b3235.wav",
+    "original_text": "He died in hospital the next day.",
+    "simplified_text": "He went to the place where sick people go and did not live after that day.",
+    "audio_length_seconds": 3.96
+  },
+  {
+    "id": "0bbe2504cb98365c98454ba4415ad6935a9794de7063d1c3400af1d456dd889ead7d413c02e5cf68b913da84acb88f72bc49b26eb02eb3e17ac5eb53784b3235",
+    "audio_path": "audio_dataset/0bbe2504cb98365c98454ba4415ad6935a9794de7063d1c3400af1d456dd889ead7d413c02e5cf68b913da84acb88f72bc49b26eb02eb3e17ac5eb53784b3235.wav",
+    "original_text": "Gray and black market provided for flow of goods.",
+    "simplified_text": "The gray and black market helped goods to move from one place to another without using usual ways.",
+    "audio_length_seconds": 4.788
+  },
+  {
+    "id": "0bbe2504cb98365c98454ba4415ad6935a9794de7063d1c3400af1d456dd889ead7d413c02e5cf68b913da84acb88f72bc49b26eb02eb3e17ac5eb53784b3235",
+    "audio_path": "audio_dataset/0bbe2504cb98365c98454ba4415ad6935a9794de7063d1c3400af1d456dd889ead7d413c02e5cf68b913da84acb88f72bc49b26eb02eb3e17ac5eb53784b3235.wav",
+    "original_text": "At worst, he's dangerous.",
+    "simplified_text": "At the most bad, he can hurt.",
+    "audio_length_seconds": 3.888
+  },
+  {
+    "id": "0bc308b46d1629c9898d07af3e7f26dd8e21732d88bae508bbab2da85b03ad3d0ae2ede98beb5e82fb71df9917e4455e142d8e434226560f5e41c4f11cab0c69",
+    "audio_path": "audio_dataset/0bc308b46d1629c9898d07af3e7f26dd8e21732d88bae508bbab2da85b03ad3d0ae2ede98beb5e82fb71df9917e4455e142d8e434226560f5e41c4f11cab0c69.wav",
+    "original_text": "Under Soviet domination, Armenian folk music was taught in state-sponsored conservatoires.",
+    "simplified_text": "Under rule by the Soviet people, music made by the Armenian people was taught in big schools paid for by the state.",
+    "audio_length_seconds": 9.072
+  },
+  {
+    "id": "0bc308b46d1629c9898d07af3e7f26dd8e21732d88bae508bbab2da85b03ad3d0ae2ede98beb5e82fb71df9917e4455e142d8e434226560f5e41c4f11cab0c69",
+    "audio_path": "audio_dataset/0bc308b46d1629c9898d07af3e7f26dd8e21732d88bae508bbab2da85b03ad3d0ae2ede98beb5e82fb71df9917e4455e142d8e434226560f5e41c4f11cab0c69.wav",
+    "original_text": "The far less contributory precursor, Saint Marylebone, was a Conservative safe seat.",
+    "simplified_text": "The place called Saint Marylebone, which helped much less before, was a place where the people who like the Conservative group always win.",
+    "audio_length_seconds": 8.856
+  },
+  {
+    "id": "0bc308b46d1629c9898d07af3e7f26dd8e21732d88bae508bbab2da85b03ad3d0ae2ede98beb5e82fb71df9917e4455e142d8e434226560f5e41c4f11cab0c69",
+    "audio_path": "audio_dataset/0bc308b46d1629c9898d07af3e7f26dd8e21732d88bae508bbab2da85b03ad3d0ae2ede98beb5e82fb71df9917e4455e142d8e434226560f5e41c4f11cab0c69.wav",
+    "original_text": "Pinky and Perky!",
+    "simplified_text": "Pink and Small!",
+    "audio_length_seconds": 3.528
+  },
+  {
+    "id": "0bc308b46d1629c9898d07af3e7f26dd8e21732d88bae508bbab2da85b03ad3d0ae2ede98beb5e82fb71df9917e4455e142d8e434226560f5e41c4f11cab0c69",
+    "audio_path": "audio_dataset/0bc308b46d1629c9898d07af3e7f26dd8e21732d88bae508bbab2da85b03ad3d0ae2ede98beb5e82fb71df9917e4455e142d8e434226560f5e41c4f11cab0c69.wav",
+    "original_text": "The band takes music from all aspects of his lengthy career.",
+    "simplified_text": "The group uses sounds from all parts of his long time working with music.",
+    "audio_length_seconds": 6.576
+  },
+  {
+    "id": "0bcca9fbfbaaedd0d17771448987b35e08fd33325270087dee13c84d0e76e15b927d572335e33264a96e9502cdb40d18e3ae799663a0e86272a3de1d33ac207c",
+    "audio_path": "audio_dataset/0bcca9fbfbaaedd0d17771448987b35e08fd33325270087dee13c84d0e76e15b927d572335e33264a96e9502cdb40d18e3ae799663a0e86272a3de1d33ac207c.wav",
+    "original_text": "She tells him she wants only the best for him.",
+    "simplified_text": "She says to him she wants only what is the best for him.",
+    "audio_length_seconds": 5.688
+  },
+  {
+    "id": "0bcca9fbfbaaedd0d17771448987b35e08fd33325270087dee13c84d0e76e15b927d572335e33264a96e9502cdb40d18e3ae799663a0e86272a3de1d33ac207c",
+    "audio_path": "audio_dataset/0bcca9fbfbaaedd0d17771448987b35e08fd33325270087dee13c84d0e76e15b927d572335e33264a96e9502cdb40d18e3ae799663a0e86272a3de1d33ac207c.wav",
+    "original_text": "Newborn finless porpoises are reported to in length.",
+    "simplified_text": "Newborn finless porpoises are said to be about this long.",
+    "audio_length_seconds": 6.516
+  },
+  {
+    "id": "0bcca9fbfbaaedd0d17771448987b35e08fd33325270087dee13c84d0e76e15b927d572335e33264a96e9502cdb40d18e3ae799663a0e86272a3de1d33ac207c",
+    "audio_path": "audio_dataset/0bcca9fbfbaaedd0d17771448987b35e08fd33325270087dee13c84d0e76e15b927d572335e33264a96e9502cdb40d18e3ae799663a0e86272a3de1d33ac207c.wav",
+    "original_text": "He is also eligible to represent Nigeria at international level.",
+    "simplified_text": "He can also go and speak for Nigeria in big world games.",
+    "audio_length_seconds": 5.508
+  },
+  {
+    "id": "0bcca9fbfbaaedd0d17771448987b35e08fd33325270087dee13c84d0e76e15b927d572335e33264a96e9502cdb40d18e3ae799663a0e86272a3de1d33ac207c",
+    "audio_path": "audio_dataset/0bcca9fbfbaaedd0d17771448987b35e08fd33325270087dee13c84d0e76e15b927d572335e33264a96e9502cdb40d18e3ae799663a0e86272a3de1d33ac207c.wav",
+    "original_text": "Most children were from former Soviet republics and former Yugoslavia.",
+    "simplified_text": "Most kids came from old countries that used to be called Soviet and old countries that used to be called Yugoslavia.",
+    "audio_length_seconds": 6.516
+  },
+  {
+    "id": "0bd5f0f110c6beb522169a86c8f8042ec0fdf86c1811a3efda4741f4352673202cf35e4f72e2cd0143c38b0bcd5a5ebd77c2dcb1c45ddc5c1e6c2e2e74ccaf49",
+    "audio_path": "audio_dataset/0bd5f0f110c6beb522169a86c8f8042ec0fdf86c1811a3efda4741f4352673202cf35e4f72e2cd0143c38b0bcd5a5ebd77c2dcb1c45ddc5c1e6c2e2e74ccaf49.wav",
+    "original_text": "The train operates local on the entire line at all times.",
+    "simplified_text": "The train runs near and far on the whole path all the time.",
+    "audio_length_seconds": 5.928
+  },
+  {
+    "id": "0bd5f0f110c6beb522169a86c8f8042ec0fdf86c1811a3efda4741f4352673202cf35e4f72e2cd0143c38b0bcd5a5ebd77c2dcb1c45ddc5c1e6c2e2e74ccaf49",
+    "audio_path": "audio_dataset/0bd5f0f110c6beb522169a86c8f8042ec0fdf86c1811a3efda4741f4352673202cf35e4f72e2cd0143c38b0bcd5a5ebd77c2dcb1c45ddc5c1e6c2e2e74ccaf49.wav",
+    "original_text": "It travels from Atlanta to Turners Corner, north-northeast of Dahlonega.",
+    "simplified_text": "It goes from a big city named Atlanta to a small place called Turners Corner. This place is to the top and a little to the right of a town named Dahlonega.",
+    "audio_length_seconds": 7.512
+  },
+  {
+    "id": "0bd5f0f110c6beb522169a86c8f8042ec0fdf86c1811a3efda4741f4352673202cf35e4f72e2cd0143c38b0bcd5a5ebd77c2dcb1c45ddc5c1e6c2e2e74ccaf49",
+    "audio_path": "audio_dataset/0bd5f0f110c6beb522169a86c8f8042ec0fdf86c1811a3efda4741f4352673202cf35e4f72e2cd0143c38b0bcd5a5ebd77c2dcb1c45ddc5c1e6c2e2e74ccaf49.wav",
+    "original_text": "VeilSide produces a bodykit called \"Fortune\" which replaces all body panels except the roof.",
+    "simplified_text": "VeilSide makes a set of parts for a car called \"Fortune.\" This set takes the place of all the outside parts of the car\u2019s body except the top part that covers the inside.",
+    "audio_length_seconds": 8.28
+  },
+  {
+    "id": "0bd5f0f110c6beb522169a86c8f8042ec0fdf86c1811a3efda4741f4352673202cf35e4f72e2cd0143c38b0bcd5a5ebd77c2dcb1c45ddc5c1e6c2e2e74ccaf49",
+    "audio_path": "audio_dataset/0bd5f0f110c6beb522169a86c8f8042ec0fdf86c1811a3efda4741f4352673202cf35e4f72e2cd0143c38b0bcd5a5ebd77c2dcb1c45ddc5c1e6c2e2e74ccaf49.wav",
+    "original_text": "Ultimately, Anney returns to Glen.",
+    "simplified_text": "At last, Anney goes back to Glen.",
+    "audio_length_seconds": 4.752
+  },
+  {
+    "id": "0bd77418c57fcea867365887a75734f1681c4cf4696c849e1f5dc5f8f9f01c55cc9625f5af7e75f035d45a525eaae87ef9c50d5200e2b98807f51d1025bccd07",
+    "audio_path": "audio_dataset/0bd77418c57fcea867365887a75734f1681c4cf4696c849e1f5dc5f8f9f01c55cc9625f5af7e75f035d45a525eaae87ef9c50d5200e2b98807f51d1025bccd07.wav",
+    "original_text": "But these things happen so often!",
+    "simplified_text": "But these things happen many times.",
+    "audio_length_seconds": 3.936
+  },
+  {
+    "id": "0bd77418c57fcea867365887a75734f1681c4cf4696c849e1f5dc5f8f9f01c55cc9625f5af7e75f035d45a525eaae87ef9c50d5200e2b98807f51d1025bccd07",
+    "audio_path": "audio_dataset/0bd77418c57fcea867365887a75734f1681c4cf4696c849e1f5dc5f8f9f01c55cc9625f5af7e75f035d45a525eaae87ef9c50d5200e2b98807f51d1025bccd07.wav",
+    "original_text": "Titles in the franchise have received a variety of awards.",
+    "simplified_text": "Games in the group have got many different prizes.",
+    "audio_length_seconds": 5.424
+  },
+  {
+    "id": "0bd77418c57fcea867365887a75734f1681c4cf4696c849e1f5dc5f8f9f01c55cc9625f5af7e75f035d45a525eaae87ef9c50d5200e2b98807f51d1025bccd07",
+    "audio_path": "audio_dataset/0bd77418c57fcea867365887a75734f1681c4cf4696c849e1f5dc5f8f9f01c55cc9625f5af7e75f035d45a525eaae87ef9c50d5200e2b98807f51d1025bccd07.wav",
+    "original_text": "Negrete has led a more quiet life in Mexico since he retired from playing.",
+    "simplified_text": "Negrete has lived a more calm life in Mexico since he stopped play.",
+    "audio_length_seconds": 6.384
+  },
+  {
+    "id": "0bd77418c57fcea867365887a75734f1681c4cf4696c849e1f5dc5f8f9f01c55cc9625f5af7e75f035d45a525eaae87ef9c50d5200e2b98807f51d1025bccd07",
+    "audio_path": "audio_dataset/0bd77418c57fcea867365887a75734f1681c4cf4696c849e1f5dc5f8f9f01c55cc9625f5af7e75f035d45a525eaae87ef9c50d5200e2b98807f51d1025bccd07.wav",
+    "original_text": "\"Don't dream of moving,\" said Rowe.",
+    "simplified_text": "Rowe said, \"Do not think about moving.\"",
+    "audio_length_seconds": 4.104
+  },
+  {
+    "id": "0be302970922f9b106512b882fb77e7451e2a83b0dc4c42d79030c1d8bcae5561a1fe8e595ac31af2ddbeca133f94e23af9d05802e4775f4282639a55e5c21af",
+    "audio_path": "audio_dataset/0be302970922f9b106512b882fb77e7451e2a83b0dc4c42d79030c1d8bcae5561a1fe8e595ac31af2ddbeca133f94e23af9d05802e4775f4282639a55e5c21af.wav",
+    "original_text": "The ballad features little more than piano, and was delivered in falsetto.",
+    "simplified_text": "The song has just a small piano sound, and the voice was made high and light.",
+    "audio_length_seconds": 9.264
+  },
+  {
+    "id": "0be302970922f9b106512b882fb77e7451e2a83b0dc4c42d79030c1d8bcae5561a1fe8e595ac31af2ddbeca133f94e23af9d05802e4775f4282639a55e5c21af",
+    "audio_path": "audio_dataset/0be302970922f9b106512b882fb77e7451e2a83b0dc4c42d79030c1d8bcae5561a1fe8e595ac31af2ddbeca133f94e23af9d05802e4775f4282639a55e5c21af.wav",
+    "original_text": "After serving three years in prison, he studied journalism at Norfolk State University.",
+    "simplified_text": "After he spent three years in a place for people who do bad things, he learned how to write news at a school called Norfolk State University.",
+    "audio_length_seconds": 9.0
+  },
+  {
+    "id": "0be302970922f9b106512b882fb77e7451e2a83b0dc4c42d79030c1d8bcae5561a1fe8e595ac31af2ddbeca133f94e23af9d05802e4775f4282639a55e5c21af",
+    "audio_path": "audio_dataset/0be302970922f9b106512b882fb77e7451e2a83b0dc4c42d79030c1d8bcae5561a1fe8e595ac31af2ddbeca133f94e23af9d05802e4775f4282639a55e5c21af.wav",
+    "original_text": "Harlyckan has been the club's home ever since.",
+    "simplified_text": "Harlyckan has been the place where the club lives for a long time.",
+    "audio_length_seconds": 6.312
+  },
+  {
+    "id": "0be302970922f9b106512b882fb77e7451e2a83b0dc4c42d79030c1d8bcae5561a1fe8e595ac31af2ddbeca133f94e23af9d05802e4775f4282639a55e5c21af",
+    "audio_path": "audio_dataset/0be302970922f9b106512b882fb77e7451e2a83b0dc4c42d79030c1d8bcae5561a1fe8e595ac31af2ddbeca133f94e23af9d05802e4775f4282639a55e5c21af.wav",
+    "original_text": "That song is also included on the band's album \"Introducing Happiness\".",
+    "simplified_text": "That song is also in the group\u2019s music book called \"Introducing Happiness.\"",
+    "audio_length_seconds": 7.272
+  },
+  {
+    "id": "0be6b20df1110e5e6e1db9dcaf8a413538ca5bbdded71c16d15c4bd6b89b66740e8c41fde458eabd7aa913e7f0fd6bc1dd878fcfd939ef53760e36fe7e73c878",
+    "audio_path": "audio_dataset/0be6b20df1110e5e6e1db9dcaf8a413538ca5bbdded71c16d15c4bd6b89b66740e8c41fde458eabd7aa913e7f0fd6bc1dd878fcfd939ef53760e36fe7e73c878.wav",
+    "original_text": "It is now long and wide.",
+    "simplified_text": "It is now big from side to side and from front to back.",
+    "audio_length_seconds": 3.6
+  },
+  {
+    "id": "0be6b20df1110e5e6e1db9dcaf8a413538ca5bbdded71c16d15c4bd6b89b66740e8c41fde458eabd7aa913e7f0fd6bc1dd878fcfd939ef53760e36fe7e73c878",
+    "audio_path": "audio_dataset/0be6b20df1110e5e6e1db9dcaf8a413538ca5bbdded71c16d15c4bd6b89b66740e8c41fde458eabd7aa913e7f0fd6bc1dd878fcfd939ef53760e36fe7e73c878.wav",
+    "original_text": "Prime Minister Scott Morrison described the allegations as \"deeply disturbing and troubling\".",
+    "simplified_text": "The main leader of the country, Scott Morrison, said the claims were very bad and made people worry a lot.",
+    "audio_length_seconds": 7.992
+  },
+  {
+    "id": "0be6b20df1110e5e6e1db9dcaf8a413538ca5bbdded71c16d15c4bd6b89b66740e8c41fde458eabd7aa913e7f0fd6bc1dd878fcfd939ef53760e36fe7e73c878",
+    "audio_path": "audio_dataset/0be6b20df1110e5e6e1db9dcaf8a413538ca5bbdded71c16d15c4bd6b89b66740e8c41fde458eabd7aa913e7f0fd6bc1dd878fcfd939ef53760e36fe7e73c878.wav",
+    "original_text": "Crosbie is married and has three children.",
+    "simplified_text": "Crosbie has a wife or husband and has three boys or girls who are his own.",
+    "audio_length_seconds": 4.068
+  },
+  {
+    "id": "0be6b20df1110e5e6e1db9dcaf8a413538ca5bbdded71c16d15c4bd6b89b66740e8c41fde458eabd7aa913e7f0fd6bc1dd878fcfd939ef53760e36fe7e73c878",
+    "audio_path": "audio_dataset/0be6b20df1110e5e6e1db9dcaf8a413538ca5bbdded71c16d15c4bd6b89b66740e8c41fde458eabd7aa913e7f0fd6bc1dd878fcfd939ef53760e36fe7e73c878.wav",
+    "original_text": "It was also the site of severe civil strife and labour conflicts.",
+    "simplified_text": "It was also the place where many bad fights between people in the same country happened and where many workers had big troubles with the people who own the work.",
+    "audio_length_seconds": 6.696
+  },
+  {
+    "id": "0be6f2671c1ab2388c5a1ac5f7d5f696253a6d7fa8e2847515af551f76769faa1dbaf091b3d52b8dc0126d6d216f80e8d143150c2d734a8b529add170881d244",
+    "audio_path": "audio_dataset/0be6f2671c1ab2388c5a1ac5f7d5f696253a6d7fa8e2847515af551f76769faa1dbaf091b3d52b8dc0126d6d216f80e8d143150c2d734a8b529add170881d244.wav",
+    "original_text": "The division was part of the German advance to the English Channel through Belgium.",
+    "simplified_text": "The group of soldiers was part of the German move forward to the water at the edge of England by going across the land called Belgium.",
+    "audio_length_seconds": 6.576
+  },
+  {
+    "id": "0be6f2671c1ab2388c5a1ac5f7d5f696253a6d7fa8e2847515af551f76769faa1dbaf091b3d52b8dc0126d6d216f80e8d143150c2d734a8b529add170881d244",
+    "audio_path": "audio_dataset/0be6f2671c1ab2388c5a1ac5f7d5f696253a6d7fa8e2847515af551f76769faa1dbaf091b3d52b8dc0126d6d216f80e8d143150c2d734a8b529add170881d244.wav",
+    "original_text": "It is formed by adding a -u to the verb stem.",
+    "simplified_text": "It is made by putting a -u at the end of the main part of the doing word.",
+    "audio_length_seconds": 6.24
+  },
+  {
+    "id": "0be6f2671c1ab2388c5a1ac5f7d5f696253a6d7fa8e2847515af551f76769faa1dbaf091b3d52b8dc0126d6d216f80e8d143150c2d734a8b529add170881d244",
+    "audio_path": "audio_dataset/0be6f2671c1ab2388c5a1ac5f7d5f696253a6d7fa8e2847515af551f76769faa1dbaf091b3d52b8dc0126d6d216f80e8d143150c2d734a8b529add170881d244.wav",
+    "original_text": "This is a major question in monetary reform.",
+    "simplified_text": "This is a big ask about changing how money is made and used.",
+    "audio_length_seconds": 4.2
+  },
+  {
+    "id": "0be6f2671c1ab2388c5a1ac5f7d5f696253a6d7fa8e2847515af551f76769faa1dbaf091b3d52b8dc0126d6d216f80e8d143150c2d734a8b529add170881d244",
+    "audio_path": "audio_dataset/0be6f2671c1ab2388c5a1ac5f7d5f696253a6d7fa8e2847515af551f76769faa1dbaf091b3d52b8dc0126d6d216f80e8d143150c2d734a8b529add170881d244.wav",
+    "original_text": "International waters have no sovereignty, ergo is \"Terra nullius\" as no state controls it.",
+    "simplified_text": "Water that is out far from any land does not belong to any one group or place. So, this water is like \"land with no owner\" because no country is in charge of it.",
+    "audio_length_seconds": 7.992
+  },
+  {
+    "id": "0be8ed34c8aeefac97285ed4b3f103202c847dacb35e60c3d65468775e7ac4249eee30e6ee52c7d70adabdec3cd5db5d527345dcc33fd2cafd9c0038d8b209d0",
+    "audio_path": "audio_dataset/0be8ed34c8aeefac97285ed4b3f103202c847dacb35e60c3d65468775e7ac4249eee30e6ee52c7d70adabdec3cd5db5d527345dcc33fd2cafd9c0038d8b209d0.wav",
+    "original_text": "He also founded an institute devoted to the theories of Confucianism.",
+    "simplified_text": "He also made a place where people learn about the ideas of Confucius.",
+    "audio_length_seconds": 6.192
+  },
+  {
+    "id": "0be8ed34c8aeefac97285ed4b3f103202c847dacb35e60c3d65468775e7ac4249eee30e6ee52c7d70adabdec3cd5db5d527345dcc33fd2cafd9c0038d8b209d0",
+    "audio_path": "audio_dataset/0be8ed34c8aeefac97285ed4b3f103202c847dacb35e60c3d65468775e7ac4249eee30e6ee52c7d70adabdec3cd5db5d527345dcc33fd2cafd9c0038d8b209d0.wav",
+    "original_text": "The opening can then be permanently tied off or clamped temporarily.",
+    "simplified_text": "The open part can then be closed for good by tying it, or closed for a short time by using a clamp (a thing that holds tight).",
+    "audio_length_seconds": 5.976
+  },
+  {
+    "id": "0be8ed34c8aeefac97285ed4b3f103202c847dacb35e60c3d65468775e7ac4249eee30e6ee52c7d70adabdec3cd5db5d527345dcc33fd2cafd9c0038d8b209d0",
+    "audio_path": "audio_dataset/0be8ed34c8aeefac97285ed4b3f103202c847dacb35e60c3d65468775e7ac4249eee30e6ee52c7d70adabdec3cd5db5d527345dcc33fd2cafd9c0038d8b209d0.wav",
+    "original_text": "He would fight and survive action at the Battle of Vimy Ridge.",
+    "simplified_text": "He would fight and stay alive in the big fight at the place called Vimy Ridge.",
+    "audio_length_seconds": 5.4
+  },
+  {
+    "id": "0be8ed34c8aeefac97285ed4b3f103202c847dacb35e60c3d65468775e7ac4249eee30e6ee52c7d70adabdec3cd5db5d527345dcc33fd2cafd9c0038d8b209d0",
+    "audio_path": "audio_dataset/0be8ed34c8aeefac97285ed4b3f103202c847dacb35e60c3d65468775e7ac4249eee30e6ee52c7d70adabdec3cd5db5d527345dcc33fd2cafd9c0038d8b209d0.wav",
+    "original_text": "Forensic work is now contracted out to the private sector or carried out in-house.",
+    "simplified_text": "Work to find out about crime is now given to small groups not part of the government or done inside the main group.",
+    "audio_length_seconds": 6.408
+  },
+  {
+    "id": "0c09461bbb936deda9d6298c0866134d570a56e308864fd7cdf55a3d4300e66e0079d7ad4c60e4d391ecb90dc4984adcd24ee6bc70a5543d75d3793524531458",
+    "audio_path": "audio_dataset/0c09461bbb936deda9d6298c0866134d570a56e308864fd7cdf55a3d4300e66e0079d7ad4c60e4d391ecb90dc4984adcd24ee6bc70a5543d75d3793524531458.wav",
+    "original_text": "The island has many schools and participates in student exchanges with schools in Athens.",
+    "simplified_text": "The land with water all around it has many places where kids go to learn. It takes part in a plan where kids go to learn in other places, like the big city called Athens.",
+    "audio_length_seconds": 8.676
+  },
+  {
+    "id": "0c09461bbb936deda9d6298c0866134d570a56e308864fd7cdf55a3d4300e66e0079d7ad4c60e4d391ecb90dc4984adcd24ee6bc70a5543d75d3793524531458",
+    "audio_path": "audio_dataset/0c09461bbb936deda9d6298c0866134d570a56e308864fd7cdf55a3d4300e66e0079d7ad4c60e4d391ecb90dc4984adcd24ee6bc70a5543d75d3793524531458.wav",
+    "original_text": "Rokola is a name of the son of Degei.",
+    "simplified_text": "Rokola is the name of the boy who is the son of Degei.",
+    "audio_length_seconds": 5.724
+  },
+  {
+    "id": "0c09461bbb936deda9d6298c0866134d570a56e308864fd7cdf55a3d4300e66e0079d7ad4c60e4d391ecb90dc4984adcd24ee6bc70a5543d75d3793524531458",
+    "audio_path": "audio_dataset/0c09461bbb936deda9d6298c0866134d570a56e308864fd7cdf55a3d4300e66e0079d7ad4c60e4d391ecb90dc4984adcd24ee6bc70a5543d75d3793524531458.wav",
+    "original_text": "Gerald Massey's monumental work on African origins suggested that the poem reflected Egyptian religion.",
+    "simplified_text": "Gerald Massey\u2019s very big work about where people in Africa first came from said that the poem showed the old beliefs of Egypt.",
+    "audio_length_seconds": 8.964
+  },
+  {
+    "id": "0c09461bbb936deda9d6298c0866134d570a56e308864fd7cdf55a3d4300e66e0079d7ad4c60e4d391ecb90dc4984adcd24ee6bc70a5543d75d3793524531458",
+    "audio_path": "audio_dataset/0c09461bbb936deda9d6298c0866134d570a56e308864fd7cdf55a3d4300e66e0079d7ad4c60e4d391ecb90dc4984adcd24ee6bc70a5543d75d3793524531458.wav",
+    "original_text": "This forced the school to take up collections to meet its payroll.",
+    "simplified_text": "This made the school ask people to give money so it could pay the people who work there.",
+    "audio_length_seconds": 4.932
+  },
+  {
+    "id": "0c1092231ec2fb9b86cf8c082f51e9c1cff56a9607e8f1a5004f86c35f89853c84f7d8fd66d3d692d3068d1304a77c6ba96c9a6efbd636f849c573f02504308c",
+    "audio_path": "audio_dataset/0c1092231ec2fb9b86cf8c082f51e9c1cff56a9607e8f1a5004f86c35f89853c84f7d8fd66d3d692d3068d1304a77c6ba96c9a6efbd636f849c573f02504308c.wav",
+    "original_text": "It borders the state of Kentucky.",
+    "simplified_text": "It is next to the state called Kentucky.",
+    "audio_length_seconds": 4.14
+  },
+  {
+    "id": "0c1092231ec2fb9b86cf8c082f51e9c1cff56a9607e8f1a5004f86c35f89853c84f7d8fd66d3d692d3068d1304a77c6ba96c9a6efbd636f849c573f02504308c",
+    "audio_path": "audio_dataset/0c1092231ec2fb9b86cf8c082f51e9c1cff56a9607e8f1a5004f86c35f89853c84f7d8fd66d3d692d3068d1304a77c6ba96c9a6efbd636f849c573f02504308c.wav",
+    "original_text": "Most farmers grow Jao rice.",
+    "simplified_text": "Most people who work with land grow a kind of rice called Jao.",
+    "audio_length_seconds": 4.716
+  },
+  {
+    "id": "0c1092231ec2fb9b86cf8c082f51e9c1cff56a9607e8f1a5004f86c35f89853c84f7d8fd66d3d692d3068d1304a77c6ba96c9a6efbd636f849c573f02504308c",
+    "audio_path": "audio_dataset/0c1092231ec2fb9b86cf8c082f51e9c1cff56a9607e8f1a5004f86c35f89853c84f7d8fd66d3d692d3068d1304a77c6ba96c9a6efbd636f849c573f02504308c.wav",
+    "original_text": "It falls under the command of the Ministry of Defense of Georgia.",
+    "simplified_text": "It is under the control of the group that takes care of keeping Georgia safe.",
+    "audio_length_seconds": 6.3
+  },
+  {
+    "id": "0c1092231ec2fb9b86cf8c082f51e9c1cff56a9607e8f1a5004f86c35f89853c84f7d8fd66d3d692d3068d1304a77c6ba96c9a6efbd636f849c573f02504308c",
+    "audio_path": "audio_dataset/0c1092231ec2fb9b86cf8c082f51e9c1cff56a9607e8f1a5004f86c35f89853c84f7d8fd66d3d692d3068d1304a77c6ba96c9a6efbd636f849c573f02504308c.wav",
+    "original_text": "She released her debut single \"Blondes\" with Capitol.",
+    "simplified_text": "She put out her first song called \"Blondes\" with a big music company named Capitol.",
+    "audio_length_seconds": 6.048
+  },
+  {
+    "id": "0c10d5f5dfbb18d34e74519dab3f7196bd12f30011d413d5332c708dde69a94616b45b20f8c370974e14fd7e0924eb1447ba57032c9657af14889de49638c4fd",
+    "audio_path": "audio_dataset/0c10d5f5dfbb18d34e74519dab3f7196bd12f30011d413d5332c708dde69a94616b45b20f8c370974e14fd7e0924eb1447ba57032c9657af14889de49638c4fd.wav",
+    "original_text": "As such, the molecule can be viewed as a derivative of acrolein.",
+    "simplified_text": "So, this small piece of stuff can be seen as a thing made from a small part of a thing called acrolein.",
+    "audio_length_seconds": 6.12
+  },
+  {
+    "id": "0c10d5f5dfbb18d34e74519dab3f7196bd12f30011d413d5332c708dde69a94616b45b20f8c370974e14fd7e0924eb1447ba57032c9657af14889de49638c4fd",
+    "audio_path": "audio_dataset/0c10d5f5dfbb18d34e74519dab3f7196bd12f30011d413d5332c708dde69a94616b45b20f8c370974e14fd7e0924eb1447ba57032c9657af14889de49638c4fd.wav",
+    "original_text": "Some flavors are distributed only to limited market areas.",
+    "simplified_text": "Some tastes are sent out only to small parts of the market.",
+    "audio_length_seconds": 5.472
+  },
+  {
+    "id": "0c10d5f5dfbb18d34e74519dab3f7196bd12f30011d413d5332c708dde69a94616b45b20f8c370974e14fd7e0924eb1447ba57032c9657af14889de49638c4fd",
+    "audio_path": "audio_dataset/0c10d5f5dfbb18d34e74519dab3f7196bd12f30011d413d5332c708dde69a94616b45b20f8c370974e14fd7e0924eb1447ba57032c9657af14889de49638c4fd.wav",
+    "original_text": "These often have plastic blades, which are adequate for the soft wax.",
+    "simplified_text": "These many times have plastic parts that cut, which are good enough for soft wax.",
+    "audio_length_seconds": 6.024
+  },
+  {
+    "id": "0c10d5f5dfbb18d34e74519dab3f7196bd12f30011d413d5332c708dde69a94616b45b20f8c370974e14fd7e0924eb1447ba57032c9657af14889de49638c4fd",
+    "audio_path": "audio_dataset/0c10d5f5dfbb18d34e74519dab3f7196bd12f30011d413d5332c708dde69a94616b45b20f8c370974e14fd7e0924eb1447ba57032c9657af14889de49638c4fd.wav",
+    "original_text": "Alexander Goedicke was Nikolai Medtner's first cousin.",
+    "simplified_text": "Alexander Goedicke was the first cousin of Nikolai Medtner.  \n(A first cousin is a child of your aunt or uncle.)",
+    "audio_length_seconds": 5.112
+  },
+  {
+    "id": "0c1f6df652b2b6fccaacab3fdbe7d42bf891efda19906db4dcb75a8c3480d3c339add1b0c32668e1b4698a57edae799564c88465d07a8237cb64a26f75fcfbc4",
+    "audio_path": "audio_dataset/0c1f6df652b2b6fccaacab3fdbe7d42bf891efda19906db4dcb75a8c3480d3c339add1b0c32668e1b4698a57edae799564c88465d07a8237cb64a26f75fcfbc4.wav",
+    "original_text": "He is only seen in the later part of the series.",
+    "simplified_text": "He is only seen in the last part of the story that comes after the first parts.",
+    "audio_length_seconds": 5.256
+  },
+  {
+    "id": "0c1f6df652b2b6fccaacab3fdbe7d42bf891efda19906db4dcb75a8c3480d3c339add1b0c32668e1b4698a57edae799564c88465d07a8237cb64a26f75fcfbc4",
+    "audio_path": "audio_dataset/0c1f6df652b2b6fccaacab3fdbe7d42bf891efda19906db4dcb75a8c3480d3c339add1b0c32668e1b4698a57edae799564c88465d07a8237cb64a26f75fcfbc4.wav",
+    "original_text": "Another report discusses possible Chinese espionage at natural gas facilities.",
+    "simplified_text": "One more paper talks about what may be secret watching by people from China at places where gas from the earth is kept and used.",
+    "audio_length_seconds": 6.948
+  },
+  {
+    "id": "0c1f6df652b2b6fccaacab3fdbe7d42bf891efda19906db4dcb75a8c3480d3c339add1b0c32668e1b4698a57edae799564c88465d07a8237cb64a26f75fcfbc4",
+    "audio_path": "audio_dataset/0c1f6df652b2b6fccaacab3fdbe7d42bf891efda19906db4dcb75a8c3480d3c339add1b0c32668e1b4698a57edae799564c88465d07a8237cb64a26f75fcfbc4.wav",
+    "original_text": "Clara grows suspicious of what the four are up to and confronts Cal.",
+    "simplified_text": "Clara starts to feel she can\u2019t trust what the four are doing and goes to ask Cal about it.",
+    "audio_length_seconds": 5.724
+  },
+  {
+    "id": "0c1f6df652b2b6fccaacab3fdbe7d42bf891efda19906db4dcb75a8c3480d3c339add1b0c32668e1b4698a57edae799564c88465d07a8237cb64a26f75fcfbc4",
+    "audio_path": "audio_dataset/0c1f6df652b2b6fccaacab3fdbe7d42bf891efda19906db4dcb75a8c3480d3c339add1b0c32668e1b4698a57edae799564c88465d07a8237cb64a26f75fcfbc4.wav",
+    "original_text": "It is found in cool waters of the Southern Hemisphere.",
+    "simplified_text": "You see it in cold water down under the line that goes around the earth in the middle.",
+    "audio_length_seconds": 4.536
+  },
+  {
+    "id": "0c2446f51c7f9c6350a59fe71b73a279c7e8d664789c9390418158634450508005636e3d0675607f8feb4b9b40cff959bd0c070caa6f06b2bdb8cc903141eb6c",
+    "audio_path": "audio_dataset/0c2446f51c7f9c6350a59fe71b73a279c7e8d664789c9390418158634450508005636e3d0675607f8feb4b9b40cff959bd0c070caa6f06b2bdb8cc903141eb6c.wav",
+    "original_text": "Democrat State Senator Martin Quezada is running for the Democratic nomination.",
+    "simplified_text": "Martin Quezada, a man who works as a law maker for his state and is part of the group called the Democrats, is trying to be the choice of the Democrats for a new law maker job.",
+    "audio_length_seconds": 8.856
+  },
+  {
+    "id": "0c2446f51c7f9c6350a59fe71b73a279c7e8d664789c9390418158634450508005636e3d0675607f8feb4b9b40cff959bd0c070caa6f06b2bdb8cc903141eb6c",
+    "audio_path": "audio_dataset/0c2446f51c7f9c6350a59fe71b73a279c7e8d664789c9390418158634450508005636e3d0675607f8feb4b9b40cff959bd0c070caa6f06b2bdb8cc903141eb6c.wav",
+    "original_text": "John Frankenheimer was the director and Martin Manulis the producer.",
+    "simplified_text": "John Frankenheimer was the person who led making the movie and Martin Manulis was the person who paid for making the movie.",
+    "audio_length_seconds": 7.992
+  },
+  {
+    "id": "0c2446f51c7f9c6350a59fe71b73a279c7e8d664789c9390418158634450508005636e3d0675607f8feb4b9b40cff959bd0c070caa6f06b2bdb8cc903141eb6c",
+    "audio_path": "audio_dataset/0c2446f51c7f9c6350a59fe71b73a279c7e8d664789c9390418158634450508005636e3d0675607f8feb4b9b40cff959bd0c070caa6f06b2bdb8cc903141eb6c.wav",
+    "original_text": "He was known as the \"Kerry Packer of Sri Lankan cricket\".",
+    "simplified_text": "He was called the Kerry Packer for the game with a ball that people play in Sri Lanka. \n\n(Note: Kerry Packer was a famous man who changed the way the game was shown on TV and how it was played.)",
+    "audio_length_seconds": 6.192
+  },
+  {
+    "id": "0c2446f51c7f9c6350a59fe71b73a279c7e8d664789c9390418158634450508005636e3d0675607f8feb4b9b40cff959bd0c070caa6f06b2bdb8cc903141eb6c",
+    "audio_path": "audio_dataset/0c2446f51c7f9c6350a59fe71b73a279c7e8d664789c9390418158634450508005636e3d0675607f8feb4b9b40cff959bd0c070caa6f06b2bdb8cc903141eb6c.wav",
+    "original_text": "Harmony vocals during the last minute of the song were provided by Janie Fricke.",
+    "simplified_text": "Other voices that sound good with the main voice at the last time part of the song were given by Janie Fricke.",
+    "audio_length_seconds": 7.632
+  },
+  {
+    "id": "0c32eef355ac432cb85e300e25ae99442cc80ed8d1158e15a950d7672283d2f42338ab8e3f83d144a4ca2e337d360751d168ea1b5c57d9cab5fbd6d93f22c254",
+    "audio_path": "audio_dataset/0c32eef355ac432cb85e300e25ae99442cc80ed8d1158e15a950d7672283d2f42338ab8e3f83d144a4ca2e337d360751d168ea1b5c57d9cab5fbd6d93f22c254.wav",
+    "original_text": "Dangers on the upper river include shallow, extremely braided channels, and aufeis.",
+    "simplified_text": "Dangers on the top part of the river include places where the water is not deep, many small river paths that cross each other, and thick ice that stays for a long time.",
+    "audio_length_seconds": 5.568
+  },
+  {
+    "id": "0c32eef355ac432cb85e300e25ae99442cc80ed8d1158e15a950d7672283d2f42338ab8e3f83d144a4ca2e337d360751d168ea1b5c57d9cab5fbd6d93f22c254",
+    "audio_path": "audio_dataset/0c32eef355ac432cb85e300e25ae99442cc80ed8d1158e15a950d7672283d2f42338ab8e3f83d144a4ca2e337d360751d168ea1b5c57d9cab5fbd6d93f22c254.wav",
+    "original_text": "I took myself to have reached the ultimate.",
+    "simplified_text": "I went to a place where I could not go any more.",
+    "audio_length_seconds": 3.768
+  },
+  {
+    "id": "0c32eef355ac432cb85e300e25ae99442cc80ed8d1158e15a950d7672283d2f42338ab8e3f83d144a4ca2e337d360751d168ea1b5c57d9cab5fbd6d93f22c254",
+    "audio_path": "audio_dataset/0c32eef355ac432cb85e300e25ae99442cc80ed8d1158e15a950d7672283d2f42338ab8e3f83d144a4ca2e337d360751d168ea1b5c57d9cab5fbd6d93f22c254.wav",
+    "original_text": "Musicians Liam Lynch and Matt Crocco created and performed the series.",
+    "simplified_text": "Music men Liam Lynch and Matt Crocco made and played the show.",
+    "audio_length_seconds": 5.784
+  },
+  {
+    "id": "0c32eef355ac432cb85e300e25ae99442cc80ed8d1158e15a950d7672283d2f42338ab8e3f83d144a4ca2e337d360751d168ea1b5c57d9cab5fbd6d93f22c254",
+    "audio_path": "audio_dataset/0c32eef355ac432cb85e300e25ae99442cc80ed8d1158e15a950d7672283d2f42338ab8e3f83d144a4ca2e337d360751d168ea1b5c57d9cab5fbd6d93f22c254.wav",
+    "original_text": "Some Alpha Beta stores carried more than the customary supermarket merchandise.",
+    "simplified_text": "Some Alpha Beta stores had more things than the usual store had.",
+    "audio_length_seconds": 6.264
+  },
+  {
+    "id": "0c3a04abf82942ecdb4aa455287b1046dddb0217a7d5d0a65ef30c21f66be6657e6fe183d50b422ad4ca2a9be13c8e18381191ec79c2449e7e9028a55cf4c187",
+    "audio_path": "audio_dataset/0c3a04abf82942ecdb4aa455287b1046dddb0217a7d5d0a65ef30c21f66be6657e6fe183d50b422ad4ca2a9be13c8e18381191ec79c2449e7e9028a55cf4c187.wav",
+    "original_text": "I am quite surprised that the restaurant finally fixed the lighting problem.",
+    "simplified_text": "I am very full of a big feeling because the place where people eat food at last made the light work right.",
+    "audio_length_seconds": 6.216
+  },
+  {
+    "id": "0c3a04abf82942ecdb4aa455287b1046dddb0217a7d5d0a65ef30c21f66be6657e6fe183d50b422ad4ca2a9be13c8e18381191ec79c2449e7e9028a55cf4c187",
+    "audio_path": "audio_dataset/0c3a04abf82942ecdb4aa455287b1046dddb0217a7d5d0a65ef30c21f66be6657e6fe183d50b422ad4ca2a9be13c8e18381191ec79c2449e7e9028a55cf4c187.wav",
+    "original_text": "The goalie is showing off his reflexes today.",
+    "simplified_text": "The player who stops the ball from going into the net is showing how fast he can move his hands and body today.",
+    "audio_length_seconds": 4.848
+  },
+  {
+    "id": "0c4fc763165c2bc42620319ce3f89a40d4dceac57710b2d2d951c2db23d9ec4443c5e2c2a6715925cbdf7d639dc18a4b415a06b75d566c0a027166b793d54fdb",
+    "audio_path": "audio_dataset/0c4fc763165c2bc42620319ce3f89a40d4dceac57710b2d2d951c2db23d9ec4443c5e2c2a6715925cbdf7d639dc18a4b415a06b75d566c0a027166b793d54fdb.wav",
+    "original_text": "There are also several prototypes and test airframes at the three manufacturing sites.",
+    "simplified_text": "There are also some first models and test airplane bodies at the three places where they make them.",
+    "audio_length_seconds": 5.076
+  },
+  {
+    "id": "0c4fc763165c2bc42620319ce3f89a40d4dceac57710b2d2d951c2db23d9ec4443c5e2c2a6715925cbdf7d639dc18a4b415a06b75d566c0a027166b793d54fdb",
+    "audio_path": "audio_dataset/0c4fc763165c2bc42620319ce3f89a40d4dceac57710b2d2d951c2db23d9ec4443c5e2c2a6715925cbdf7d639dc18a4b415a06b75d566c0a027166b793d54fdb.wav",
+    "original_text": "Weller was the guest yell-king during the Huskies' homecoming football game against Stanford.",
+    "simplified_text": "Weller was the person who made loud sounds with his voice to cheer during the Huskies' big home game where they played football and met the team from Stanford.",
+    "audio_length_seconds": 5.904
+  },
+  {
+    "id": "0c4fc763165c2bc42620319ce3f89a40d4dceac57710b2d2d951c2db23d9ec4443c5e2c2a6715925cbdf7d639dc18a4b415a06b75d566c0a027166b793d54fdb",
+    "audio_path": "audio_dataset/0c4fc763165c2bc42620319ce3f89a40d4dceac57710b2d2d951c2db23d9ec4443c5e2c2a6715925cbdf7d639dc18a4b415a06b75d566c0a027166b793d54fdb.wav",
+    "original_text": "It's the very core feeling we should have in making games.",
+    "simplified_text": "It is the most deep and true feel we must have when we make games.",
+    "audio_length_seconds": 4.032
+  },
+  {
+    "id": "0c4fc763165c2bc42620319ce3f89a40d4dceac57710b2d2d951c2db23d9ec4443c5e2c2a6715925cbdf7d639dc18a4b415a06b75d566c0a027166b793d54fdb",
+    "audio_path": "audio_dataset/0c4fc763165c2bc42620319ce3f89a40d4dceac57710b2d2d951c2db23d9ec4443c5e2c2a6715925cbdf7d639dc18a4b415a06b75d566c0a027166b793d54fdb.wav",
+    "original_text": "Although strictly charged to ensure its safety, Harris lost the manuscript.",
+    "simplified_text": "Though told to keep it safe, Harris lost the written paper.",
+    "audio_length_seconds": 4.644
+  },
+  {
+    "id": "0c50b10ff0e15b40b485c7d71e6ccbbcef76c8c8c2f346b2c0cfd0af00b852c0a3b134c926fadaf017bc66e1b3a989eec9cbac1bad4dba847dddab611c85b02c",
+    "audio_path": "audio_dataset/0c50b10ff0e15b40b485c7d71e6ccbbcef76c8c8c2f346b2c0cfd0af00b852c0a3b134c926fadaf017bc66e1b3a989eec9cbac1bad4dba847dddab611c85b02c.wav",
+    "original_text": "Lally once tried to be romantic with Giulio, but was rejected.",
+    "simplified_text": "Lally one time tried to show love to Giulio, but Giulio did not want it.",
+    "audio_length_seconds": 6.6
+  },
+  {
+    "id": "0c50b10ff0e15b40b485c7d71e6ccbbcef76c8c8c2f346b2c0cfd0af00b852c0a3b134c926fadaf017bc66e1b3a989eec9cbac1bad4dba847dddab611c85b02c",
+    "audio_path": "audio_dataset/0c50b10ff0e15b40b485c7d71e6ccbbcef76c8c8c2f346b2c0cfd0af00b852c0a3b134c926fadaf017bc66e1b3a989eec9cbac1bad4dba847dddab611c85b02c.wav",
+    "original_text": "Oral narcotic medications are also often used.",
+    "simplified_text": "Medicines that you take by mouth that make you feel less pain are also used many times.",
+    "audio_length_seconds": 4.92
+  },
+  {
+    "id": "0c50b10ff0e15b40b485c7d71e6ccbbcef76c8c8c2f346b2c0cfd0af00b852c0a3b134c926fadaf017bc66e1b3a989eec9cbac1bad4dba847dddab611c85b02c",
+    "audio_path": "audio_dataset/0c50b10ff0e15b40b485c7d71e6ccbbcef76c8c8c2f346b2c0cfd0af00b852c0a3b134c926fadaf017bc66e1b3a989eec9cbac1bad4dba847dddab611c85b02c.wav",
+    "original_text": "Instant miso soup is available in single-serving packets.",
+    "simplified_text": "You can get a quick soup made with a kind of bean mix in small bags that are for one person.",
+    "audio_length_seconds": 5.424
+  },
+  {
+    "id": "0c50b10ff0e15b40b485c7d71e6ccbbcef76c8c8c2f346b2c0cfd0af00b852c0a3b134c926fadaf017bc66e1b3a989eec9cbac1bad4dba847dddab611c85b02c",
+    "audio_path": "audio_dataset/0c50b10ff0e15b40b485c7d71e6ccbbcef76c8c8c2f346b2c0cfd0af00b852c0a3b134c926fadaf017bc66e1b3a989eec9cbac1bad4dba847dddab611c85b02c.wav",
+    "original_text": "Cloud State University.",
+    "simplified_text": "Cloud State School",
+    "audio_length_seconds": 3.072
+  },
+  {
+    "id": "0c50b9551caf119a6feca296ed7dd5315171f2ff0886326cb7301f38c9318eed55875452a301cb746ccea329a8730cf0bac1962f50011df119088b3f068adcd1",
+    "audio_path": "audio_dataset/0c50b9551caf119a6feca296ed7dd5315171f2ff0886326cb7301f38c9318eed55875452a301cb746ccea329a8730cf0bac1962f50011df119088b3f068adcd1.wav",
+    "original_text": "There are playing fields.",
+    "simplified_text": "There are places where kids and people can play games outside.",
+    "audio_length_seconds": 7.512
+  },
+  {
+    "id": "0c50b9551caf119a6feca296ed7dd5315171f2ff0886326cb7301f38c9318eed55875452a301cb746ccea329a8730cf0bac1962f50011df119088b3f068adcd1",
+    "audio_path": "audio_dataset/0c50b9551caf119a6feca296ed7dd5315171f2ff0886326cb7301f38c9318eed55875452a301cb746ccea329a8730cf0bac1962f50011df119088b3f068adcd1.wav",
+    "original_text": "Its reporters network covers all of Kyushu.",
+    "simplified_text": "Its news people all over Kyushu tell about what happens there.",
+    "audio_length_seconds": 7.224
+  },
+  {
+    "id": "0c50b9551caf119a6feca296ed7dd5315171f2ff0886326cb7301f38c9318eed55875452a301cb746ccea329a8730cf0bac1962f50011df119088b3f068adcd1",
+    "audio_path": "audio_dataset/0c50b9551caf119a6feca296ed7dd5315171f2ff0886326cb7301f38c9318eed55875452a301cb746ccea329a8730cf0bac1962f50011df119088b3f068adcd1.wav",
+    "original_text": "Similarities in nominal and pronominal prefixes determine what noun belongs to what noun class.",
+    "simplified_text": "Words put at the start of names and words that take the place of names show which group a name is part of.",
+    "audio_length_seconds": 9.048
+  },
+  {
+    "id": "0c50b9551caf119a6feca296ed7dd5315171f2ff0886326cb7301f38c9318eed55875452a301cb746ccea329a8730cf0bac1962f50011df119088b3f068adcd1",
+    "audio_path": "audio_dataset/0c50b9551caf119a6feca296ed7dd5315171f2ff0886326cb7301f38c9318eed55875452a301cb746ccea329a8730cf0bac1962f50011df119088b3f068adcd1.wav",
+    "original_text": "Five railway stations are currently in operation.",
+    "simplified_text": "Five train places are now open and working.",
+    "audio_length_seconds": 5.424
+  },
+  {
+    "id": "0c55829f2c836d6e8ab37f06646f89554f731d5ffd12e3cc463b6e166508d3f9862ee53bdfdbb2f0739d5f85cd2d2e8dc54b3e6d887a217f759e1b6566f8043d",
+    "audio_path": "audio_dataset/0c55829f2c836d6e8ab37f06646f89554f731d5ffd12e3cc463b6e166508d3f9862ee53bdfdbb2f0739d5f85cd2d2e8dc54b3e6d887a217f759e1b6566f8043d.wav",
+    "original_text": "I haven't any watch.",
+    "simplified_text": "I do not have a thing to see the time.",
+    "audio_length_seconds": 4.224
+  },
+  {
+    "id": "0c5d79597a5797a3210cffe7f4ea14e2fe875fb0eb9fd75f0ba88c302f85151d6f18ae4b7cd0707f2c414920f3bc2094507e7f903d7cf32818f616b88da9425f",
+    "audio_path": "audio_dataset/0c5d79597a5797a3210cffe7f4ea14e2fe875fb0eb9fd75f0ba88c302f85151d6f18ae4b7cd0707f2c414920f3bc2094507e7f903d7cf32818f616b88da9425f.wav",
+    "original_text": "There are many local cultures around the world, with similarities and differences.",
+    "simplified_text": "There are many small groups of people in many parts of the earth. These groups have things that are the same and things that are not the same.",
+    "audio_length_seconds": 6.048
+  },
+  {
+    "id": "0c5d79597a5797a3210cffe7f4ea14e2fe875fb0eb9fd75f0ba88c302f85151d6f18ae4b7cd0707f2c414920f3bc2094507e7f903d7cf32818f616b88da9425f",
+    "audio_path": "audio_dataset/0c5d79597a5797a3210cffe7f4ea14e2fe875fb0eb9fd75f0ba88c302f85151d6f18ae4b7cd0707f2c414920f3bc2094507e7f903d7cf32818f616b88da9425f.wav",
+    "original_text": "Ricks also notes several references to \"gates\" in that Book, as in Dylan's song.",
+    "simplified_text": "Rick says there are many times the word \"gate\" is used in that Book, like in Dylan\u2019s song.",
+    "audio_length_seconds": 6.84
+  },
+  {
+    "id": "0c5d79597a5797a3210cffe7f4ea14e2fe875fb0eb9fd75f0ba88c302f85151d6f18ae4b7cd0707f2c414920f3bc2094507e7f903d7cf32818f616b88da9425f",
+    "audio_path": "audio_dataset/0c5d79597a5797a3210cffe7f4ea14e2fe875fb0eb9fd75f0ba88c302f85151d6f18ae4b7cd0707f2c414920f3bc2094507e7f903d7cf32818f616b88da9425f.wav",
+    "original_text": "It is built from the remains of three old barns and a stable.",
+    "simplified_text": "It is made from the parts left from three old big farm houses and a place where horses stay.",
+    "audio_length_seconds": 5.076
+  }
+]
