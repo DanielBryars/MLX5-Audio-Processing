@@ -27,3 +27,4 @@ datasets
 git+https://github.com/openai/whisper.git
 openai
 dotenv
+spacy

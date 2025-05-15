@@ -1,8 +1,11 @@
 import os
-import openai
+from openai import OpenAI
+
+client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
 import json
 from words import get_thing_explainer_vocab
-import openai
+from openai import OpenAI
+
 import time
 from datasets import load_dataset
 from dotenv import load_dotenv
@@ -20,21 +23,22 @@ def make_prompt(original_text, allowed_words_list):
     )
 
 # 🧠 Simplifier
+#
 def simplify_transcripts(entries, allowed_words, model="gpt-4"):
     simplified = []
+    token_counter = 0
+
     for i, entry in enumerate(entries):
         text = entry["text"]
         prompt = make_prompt(text, allowed_words)
         try:
-            response = openai.ChatCompletion.create(
-                model=model,
-                messages=[{"role": "user", "content": prompt}],
-                temperature=0.7,
-            )
+            response = client.chat.completions.create(model=model,
+            messages=[{"role": "user", "content": prompt}],
+            temperature=0.7)
 
-            usage = response['usage']
-            token_counter += usage['total_tokens']
-            print(f"Used {usage['total_tokens']} tokens this call, {token_counter} total so far.")
+            usage = response.usage
+            token_counter += usage.total_tokens
+            print(f"Used {usage.total_tokens} tokens this call, {token_counter} total so far.")
 
             reply = response.choices[0].message.content.strip()
             print(f"[{i}] ✅")
@@ -48,8 +52,6 @@ def simplify_transcripts(entries, allowed_words, model="gpt-4"):
             "original_text": text,
             "simplified_text": reply
         })
-
-        time.sleep(1.1)
     return simplified
 
 
@@ -72,10 +74,6 @@ def simplify_transcripts(entries, allowed_words, model="gpt-4"):
 #The microscope allows scientists to observe microorganisms.
 
 # 🔐 Load API key from environment
-openai.api_key = os.environ.get("OPENAI_API_KEY")
-
-if openai.api_key is None:
-    raise ValueError("OPENAI_API_KEY not found in environment.")
 
 allowed_words = get_thing_explainer_vocab()
 
