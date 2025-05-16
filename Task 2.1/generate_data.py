@@ -13,6 +13,15 @@ from dotenv import load_dotenv
 load_dotenv()
 from tqdm import tqdm
 
+import os
+import soundfile as sf
+from datasets import load_dataset
+
+
+output_dir = "audio_dataset"
+os.makedirs(output_dir, exist_ok=True)
+
+
 # 🧾 Prompt generator
 def make_prompt(original_text, allowed_words_list):
     allowed_str = ", ".join(sorted(allowed_words_list)) + ", ..."
@@ -108,72 +117,72 @@ print("Logged in")
 
 
 #split = "test"
-split = "train"
 #split = "validation"
 
-samples_length = 300
+splits = ["train", "test", "validation"]
+samples_lengths = [300,100,100]
+
+for i,split in enumerate(splits):
+    samples_length = samples_lengths[i]
+
+    print (f"Preparing audio data for '{split}' '{samples_length}'")
+
+    ds = load_dataset("mozilla-foundation/common_voice_13_0", "en", split=f"{split}[:1%]",trust_remote_code=True)
+    print("Loaded dataset")
+
+    samples = ds.select(range(samples_length))  # start small
+    print("Selected Samples")
+    
+    metadata = []
+
+    for sample in tqdm(samples,"Saving Audio"):
+
+        a_path = sample["path"]
+
+        r_path = os.path.join(*a_path.strip(os.sep).split(os.sep)[-2:])
+
+        filename = f"{r_path}.wav"
+        filepath = os.path.join(output_dir, filename)
+
+        audio_array = sample["audio"]["array"]
+        sample_rate = sample["audio"]["sampling_rate"]
+        length_seconds = len(audio_array) / sample_rate
+
+        # Save audio as WAV
+        sf.write(filepath, audio_array, sample_rate)
+
+        # Store metadata
+        metadata.append({
+            "id": filename,
+            "file_path": filepath,
+            "text": sample["sentence"],
+            "audio_length_seconds": length_seconds
+        })
+
+    # 🚀 Simplify
+
+    #The microscope allows scientists to observe microorganisms
+    #The microscope allows scientists to observe microorganisms.
+
+    # 🔐 Load API key from environment
+
+    allowed_words = get_thing_explainer_vocab()
+
+    #Explore computer buildings (datacenters), the flat rocks we live on (tectonic plates), the things you use to steer a plane (airliner cockpit controls), and the little bags of water you're made of (cells)
 
 
-from datasets import load_dataset
-ds = load_dataset("mozilla-foundation/common_voice_13_0", "en", split=f"{split}[:1%]",trust_remote_code=True)
-print("Loaded dataset")
+    #entries = [{
+    #    "id": "id",
+    #    "file": "file",
+    #    "text": "datacenters"
+    #}]
 
-samples = ds.select(range(samples_length))  # start small
-print("Selected Samples")
+    print("Simplyfying transcripts")
 
+    results = simplify_transcripts(metadata, allowed_words)
 
-import os
-import soundfile as sf
+    print(results)
 
-output_dir = "audio_dataset"
-os.makedirs(output_dir, exist_ok=True)
-
-metadata = []
-
-for sample in tqdm(samples,"Saving Audio"):
-
-    filename = f"{sample['path']}.wav"
-    filepath = os.path.join(output_dir, filename)
-
-    audio_array = sample["audio"]["array"]
-    sample_rate = sample["audio"]["sampling_rate"]
-    length_seconds = len(audio_array) / sample_rate
-
-    # Save audio as WAV
-    sf.write(filepath, audio_array, sample_rate)
-
-    # Store metadata
-    metadata.append({
-        "id": sample["path"],
-        "file_path": filepath,
-        "text": sample["sentence"],
-        "audio_length_seconds": length_seconds
-    })
-
-# 🚀 Simplify
-
-#The microscope allows scientists to observe microorganisms
-#The microscope allows scientists to observe microorganisms.
-
-# 🔐 Load API key from environment
-
-allowed_words = get_thing_explainer_vocab()
-
-#Explore computer buildings (datacenters), the flat rocks we live on (tectonic plates), the things you use to steer a plane (airliner cockpit controls), and the little bags of water you're made of (cells)
-
-
-#entries = [{
-#    "id": "id",
-#    "file": "file",
-#    "text": "datacenters"
-#}]
-
-print("Simplyfying transcripts")
-
-results = simplify_transcripts(metadata, allowed_words)
-
-print(results)
-
-import json
-with open(f"{split}_audio_dataset_results_{samples_length}.json", "w") as f:
-    json.dump(results, f, indent=2)
+    import json
+    with open(f"{split}_audio_dataset_results_{samples_length}.json", "w") as f:
+        json.dump(results, f, indent=2)
