@@ -7,12 +7,15 @@ from transformers import WhisperTokenizer, WhisperForConditionalGeneration
 import torch
 from words import get_thing_explainer_vocab
 from torch.optim import AdamW
+from transformers import get_scheduler
+
 #from AudioDataset import AudioDataset
 from torch.utils.data import DataLoader
 import torch
 import torchaudio
 import wandb
 from model import *
+from torch.nn import CrossEntropyLoss
 
 ts = datetime.datetime.now().strftime('%Y_%m_%d__%H_%M_%S')
 
@@ -20,47 +23,36 @@ device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 model = WhisperForConditionalGeneration.from_pretrained("openai/whisper-small")
 
 #Freeze encoder
-model.model.encoder.requires_grad_(False)
-for param in model.model.encoder.parameters():
-    param.requires_grad = False
+#model.model.encoder.requires_grad_(False)
+#for param in model.model.encoder.parameters():
+#    param.requires_grad = False
 
 hyperparameters = {
         'learning_rate': 5e-6,
         'weight_decay': 0.001,
-        'batch_size': 20,
+        'batch_size': 8,
         'patience': 5,
-        'num_epochs':30
+        'num_epochs':30,
+        'language_token': LANGUAGE_TOKEN
 }
 
-wandb.init(project='MLX7-W5-AUDIO-107', config=hyperparameters)
+wandb.init(project='MLX7-W5-AUDIO-210', config=hyperparameters)
 config = wandb.config
-
-optimizer = AdamW(filter(lambda p: p.requires_grad, model.parameters()), lr=hyperparameters["learning_rate"])
-
-from torch.nn import CrossEntropyLoss
-
-loss_fn = CrossEntropyLoss(ignore_index=-100)  # Padding tokens masked
-
-from tqdm import tqdm
-
-model.train()
-model.to(device)
-
-num_epochs = hyperparameters["num_epochs"]
 
 processor = WhisperProcessor.from_pretrained("openai/whisper-small")
 
-if MONROE_ENGLISH_TOKEN not in processor.tokenizer.get_vocab():
-    print(f"Adding token {MONROE_ENGLISH_TOKEN}")
-    processor.tokenizer.add_tokens([MONROE_ENGLISH_TOKEN])
+if LANGUAGE_TOKEN not in processor.tokenizer.get_vocab():
+    print(f"Adding token {LANGUAGE_TOKEN}")
+    processor.tokenizer.add_tokens([LANGUAGE_TOKEN])
     model.resize_token_embeddings(len(processor.tokenizer))
+else:
+    print(f"{LANGUAGE_TOKEN} already present")
 
+#optimizer = AdamW(filter(lambda p: p.requires_grad, model.parameters()), lr=hyperparameters["learning_rate"])
 script_dir = os.path.dirname(os.path.abspath(__file__))
-
 
 train_dataset = AudioDataset(script_dir,"train_audio_dataset_results_300.json", processor)
 val_dataset = AudioDataset(script_dir,"validation_audio_dataset_results_100.json", processor)
-
 train_dataloader = DataLoader(
     train_dataset,
     batch_size=hyperparameters["batch_size"],
@@ -73,6 +65,35 @@ val_loader = DataLoader(
     batch_size=hyperparameters["batch_size"],
     collate_fn=whisper_collate_fn
 )
+
+optimizer = AdamW([
+    {"params": model.model.encoder.parameters(), "lr": hyperparameters['learning_rate'] * 0.1},
+    {"params": model.model.decoder.parameters(), "lr": hyperparameters['learning_rate']}
+])
+
+num_training_steps = hyperparameters['num_epochs'] * len(train_dataloader)
+lr_scheduler = get_scheduler(
+        "linear",
+        optimizer=optimizer,
+        num_warmup_steps=500,
+        num_training_steps=num_training_steps,
+    )
+
+
+loss_fn = CrossEntropyLoss(ignore_index=-100)  # Padding tokens masked
+
+from tqdm import tqdm
+
+model.train()
+model.to(device)
+
+num_epochs = hyperparameters["num_epochs"]
+
+
+
+
+
+
 
 step = 0
 best_val_loss = float('inf')
@@ -117,14 +138,20 @@ for epoch in epoch_pbar:
         input_features = batch["input_features"].to(device)  # Already preprocessed
         labels = batch["labels"].to(device)
 
+        #decoder_input_ids = labels[:, :-1].contiguous()
+        #label_ids = labels[:, 1:].contiguous()
+
         # 3. Forward + Loss
         outputs = model(input_features=input_features, labels=labels)
 
         loss = outputs.loss
 
-        optimizer.zero_grad()
         loss.backward()
+        torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
         optimizer.step()
+        lr_scheduler.step()
+        optimizer.zero_grad()
+
 
         total_loss += loss.item()
 

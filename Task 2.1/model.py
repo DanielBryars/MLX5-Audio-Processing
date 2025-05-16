@@ -75,7 +75,7 @@ def decode_outputs(logits, tokenizer, stop_token="<|endoftranscript|>"):
     token_ids = torch.argmax(logits, dim=-1)
 
     # Decode into text
-    decoded_texts = tokenizer.batch_decode(token_ids, skip_special_tokens=False)
+    decoded_texts = tokenizer.batch_decode(token_ids, skip_special_tokens=True)
 
     cleaned_texts = []
     for text in decoded_texts:
@@ -89,7 +89,8 @@ def decode_outputs(logits, tokenizer, stop_token="<|endoftranscript|>"):
 
     return cleaned_texts
 
-MONROE_ENGLISH_TOKEN = "<|monroe|>"
+#LANGUAGE_TOKEN = "<|monroe|>"
+LANGUAGE_TOKEN = "<|en|>"
 
 class AudioDataset(Dataset):
     def __init__(self, basepath, json_path, processor):
@@ -112,7 +113,7 @@ class AudioDataset(Dataset):
         audio_path = os.path.join(self.basepath ,entry["audio_path"])
         simplified_text = entry["simplified_text"] #monroe simple english
 
-        text = f"<|startoftranscript|>{MONROE_ENGLISH_TOKEN}<|notimestamps|> {simplified_text} <|endoftranscript|>"
+        text = f"<|startoftranscript|>{LANGUAGE_TOKEN}<|transcribe|><|notimestamps|> {simplified_text} <|endoftranscript|>"
 
         # Load audio (mono)
         waveform, sr = torchaudio.load(audio_path)
