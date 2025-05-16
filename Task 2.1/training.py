@@ -27,12 +27,12 @@ for param in model.model.encoder.parameters():
 hyperparameters = {
         'learning_rate': 1e-5,
         'weight_decay': 0.001,
-        'batch_size': 16,
+        'batch_size': 20,
         'patience': 3,
         'num_epochs':12
 }
 
-wandb.init(project='MLX7-W5-AUDIO-105', config=hyperparameters)
+wandb.init(project='MLX7-W5-AUDIO-107', config=hyperparameters)
 config = wandb.config
 
 optimizer = AdamW(filter(lambda p: p.requires_grad, model.parameters()), lr=hyperparameters["learning_rate"])
@@ -52,7 +52,7 @@ processor = WhisperProcessor.from_pretrained("openai/whisper-small")
 
 if MONROE_ENGLISH_TOKEN not in processor.tokenizer.get_vocab():
     print(f"Adding token {MONROE_ENGLISH_TOKEN}")
-    processor.tokenizer.add_tokens(["<|monroe|>"])
+    processor.tokenizer.add_tokens([MONROE_ENGLISH_TOKEN])
     model.resize_token_embeddings(len(processor.tokenizer))
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
