@@ -104,12 +104,23 @@ def simplify_transcripts(entries, allowed_words, model="gpt-4.1-mini-2025-04-14"
 
 from huggingface_hub import login
 login(token=os.environ.get("HUGGINGFACE_API_KEY"))
+print("Logged in")
 
-split = "test"
+
+#split = "test"
+split = "train"
+#split = "validation"
+
+samples_length = 300
+
+
 from datasets import load_dataset
 ds = load_dataset("mozilla-foundation/common_voice_13_0", "en", split=f"{split}[:1%]",trust_remote_code=True)
-samples_length = 100
+print("Loaded dataset")
+
 samples = ds.select(range(samples_length))  # start small
+print("Selected Samples")
+
 
 import os
 import soundfile as sf
@@ -120,7 +131,8 @@ os.makedirs(output_dir, exist_ok=True)
 metadata = []
 
 for sample in tqdm(samples,"Saving Audio"):
-    filename = f"{sample['client_id']}.wav"
+
+    filename = f"{sample['path']}.wav"
     filepath = os.path.join(output_dir, filename)
 
     audio_array = sample["audio"]["array"]
@@ -132,7 +144,7 @@ for sample in tqdm(samples,"Saving Audio"):
 
     # Store metadata
     metadata.append({
-        "id": sample["client_id"],
+        "id": sample["path"],
         "file_path": filepath,
         "text": sample["sentence"],
         "audio_length_seconds": length_seconds
@@ -156,8 +168,9 @@ allowed_words = get_thing_explainer_vocab()
 #    "text": "datacenters"
 #}]
 
-results = simplify_transcripts(metadata, allowed_words)
+print("Simplyfying transcripts")
 
+results = simplify_transcripts(metadata, allowed_words)
 
 print(results)
 
