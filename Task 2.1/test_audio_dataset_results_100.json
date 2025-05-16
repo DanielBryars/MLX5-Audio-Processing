@@ -1,702 +1,702 @@
 [
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_27710027.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_27710027.mp3.wav",
+    "id": "en_test_0/common_voice_en_27710027.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_27710027.mp3.wav",
     "original_text": "Joe Keaton disapproved of films, and Buster also had reservations about the medium.",
-    "simplified_text": "Joe Keaton did not like movies, and Buster also had some worries about them.",
+    "simplified_text": "Joe Keaton did not like movies, and Buster was also not sure about them.",
     "audio_length_seconds": 6.3
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_699711.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_699711.mp3.wav",
+    "id": "en_test_0/common_voice_en_699711.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_699711.mp3.wav",
     "original_text": "She'll be all right.",
-    "simplified_text": "She will be fine.",
+    "simplified_text": "She will be okay.",
     "audio_length_seconds": 2.184
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_21953345.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_21953345.mp3.wav",
+    "id": "en_test_0/common_voice_en_21953345.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_21953345.mp3.wav",
     "original_text": "six",
-    "simplified_text": "Six means the number after five and before seven. It is how many things you count when you have one more than five.",
+    "simplified_text": "six = a number after five and before seven",
     "audio_length_seconds": 6.576
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_18132047.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_18132047.mp3.wav",
+    "id": "en_test_0/common_voice_en_18132047.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_18132047.mp3.wav",
     "original_text": "All's well that ends well.",
-    "simplified_text": "All is good when it ends good.",
+    "simplified_text": "Everything is good if it ends good.",
     "audio_length_seconds": 4.176
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_27340672.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_27340672.mp3.wav",
+    "id": "en_test_0/common_voice_en_27340672.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_27340672.mp3.wav",
     "original_text": "It is a busy market town that serves a large surrounding area.",
-    "simplified_text": "It is a town with many people and many things to buy that helps the big land all around it.",
+    "simplified_text": "It is a town with many people and many shops that helps many places around it.",
     "audio_length_seconds": 6.66
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_30620431.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_30620431.mp3.wav",
+    "id": "en_test_0/common_voice_en_30620431.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_30620431.mp3.wav",
     "original_text": "Elizabeth was about the same age as Maria.",
-    "simplified_text": "Elizabeth was near the same age as Maria.",
+    "simplified_text": "Elizabeth was almost the same age as Maria.",
     "audio_length_seconds": 6.84
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_32534115.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_32534115.mp3.wav",
+    "id": "en_test_0/common_voice_en_32534115.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_32534115.mp3.wav",
     "original_text": "It blooms between October and March producing yellow flowers.",
-    "simplified_text": "It grows and shows flowers from the time after September until the time before April. The flowers have the color of the sun.",
+    "simplified_text": "It grows and makes yellow flowers from the time after September until the time before April.",
     "audio_length_seconds": 7.308
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_17263741.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_17263741.mp3.wav",
+    "id": "en_test_0/common_voice_en_17263741.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_17263741.mp3.wav",
     "original_text": "Do you mean it?",
-    "simplified_text": "Do you want to say it?",
+    "simplified_text": "You want to know if what you said is true?",
     "audio_length_seconds": 5.976
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_17893917.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_17893917.mp3.wav",
+    "id": "en_test_0/common_voice_en_17893917.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_17893917.mp3.wav",
     "original_text": "The new patch is less invasive than the old one, but still causes regressions.",
-    "simplified_text": "The new patch does not go in as much as the old one, but it still makes some old problems come back.",
+    "simplified_text": "The new patch does not change things as much as the old one, but it still makes some things go back or get worse.",
     "audio_length_seconds": 6.456
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_17561821.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_17561821.mp3.wav",
+    "id": "en_test_0/common_voice_en_17561821.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_17561821.mp3.wav",
     "original_text": "How is Mozilla going to handle ambiguities like queue and cue?",
-    "simplified_text": "How will Mozilla deal with words that sound the same but mean different things, like \"queue\" and \"cue\"?",
+    "simplified_text": "How will Mozilla deal with words that sound the same but have different meanings, like \"queue\" and \"cue\"?",
     "audio_length_seconds": 7.056
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_59751.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_59751.mp3.wav",
+    "id": "en_test_0/common_voice_en_59751.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_59751.mp3.wav",
     "original_text": "I guess you must think I'm kinda batty.",
-    "simplified_text": "I think you must think I am a little bit crazy.",
+    "simplified_text": "I think you may feel I am a bit mad.",
     "audio_length_seconds": 3.6
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_17914141.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_17914141.mp3.wav",
+    "id": "en_test_0/common_voice_en_17914141.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_17914141.mp3.wav",
     "original_text": "No one near the remote machine you could ring?",
-    "simplified_text": "Is there not anybody close to the far away machine you can call?",
+    "simplified_text": "Is there no one close to the far-away machine you can call?",
     "audio_length_seconds": 4.176
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_18064497.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_18064497.mp3.wav",
+    "id": "en_test_0/common_voice_en_18064497.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_18064497.mp3.wav",
     "original_text": "Sauce for the goose is sauce for the gander.",
-    "simplified_text": "Sauce that is good for one bird is good for the other bird too.",
+    "simplified_text": "A sauce that is good for one bird is good for the other bird too.  \n(This means what is fair or right for one person should be fair or right for another.)",
     "audio_length_seconds": 5.232
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_18902772.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_18902772.mp3.wav",
+    "id": "en_test_0/common_voice_en_18902772.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_18902772.mp3.wav",
     "original_text": "Groves started writing songs when she was four years old.",
-    "simplified_text": "Groves began to put words and sounds together to make music when she was four years old.",
+    "simplified_text": "Groves began to make words for music when she was four years old.",
     "audio_length_seconds": 7.032
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_30735068.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_30735068.mp3.wav",
+    "id": "en_test_0/common_voice_en_30735068.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_30735068.mp3.wav",
     "original_text": "His uncle Mike Shula was the former head coach at Alabama.",
-    "simplified_text": "His uncle Mike Shula was the one who used to be the main coach at Alabama.",
+    "simplified_text": "His uncle Mike Shula was the old main coach at Alabama.",
     "audio_length_seconds": 6.156
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_32659844.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_32659844.mp3.wav",
+    "id": "en_test_0/common_voice_en_32659844.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_32659844.mp3.wav",
     "original_text": "Representatives to Miss Supranational and Miss Grand International was also elected.",
-    "simplified_text": "People picked to go to Miss Supranational and Miss Grand International were also chosen.",
+    "simplified_text": "People who will go to Miss Supranational and Miss Grand International were also chosen.",
     "audio_length_seconds": 5.076
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_18295850.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_18295850.mp3.wav",
+    "id": "en_test_0/common_voice_en_18295850.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_18295850.mp3.wav",
     "original_text": "The long-lived bridge still stands today.",
-    "simplified_text": "The bridge that has been alive for a very long time is still here now.",
+    "simplified_text": "The bridge that has lived for a very long time is still there now.",
     "audio_length_seconds": 5.184
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_665631.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_665631.mp3.wav",
+    "id": "en_test_0/common_voice_en_665631.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_665631.mp3.wav",
     "original_text": "There was nothing to hold him back except himself.",
-    "simplified_text": "There was no thing to stop him but him.",
+    "simplified_text": "There was no thing to stop him but he did it himself.",
     "audio_length_seconds": 4.944
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_18297811.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_18297811.mp3.wav",
+    "id": "en_test_0/common_voice_en_18297811.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_18297811.mp3.wav",
     "original_text": "We spoke often.",
     "simplified_text": "We talked many times.",
     "audio_length_seconds": 3.552
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_32705641.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_32705641.mp3.wav",
+    "id": "en_test_0/common_voice_en_32705641.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_32705641.mp3.wav",
     "original_text": "He resided in Kawali Galuh.",
     "simplified_text": "He lived in a place called Kawali Galuh.",
     "audio_length_seconds": 6.444
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_32643242.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_32643242.mp3.wav",
+    "id": "en_test_0/common_voice_en_32643242.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_32643242.mp3.wav",
     "original_text": "He was Protestant.",
-    "simplified_text": "He was a person who believed in the kind of Christian faith that is not Catholic.",
+    "simplified_text": "He was a person who believed in God in a way different from people who go to the big church in Rome.",
     "audio_length_seconds": 2.808
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_456493.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_456493.mp3.wav",
+    "id": "en_test_0/common_voice_en_456493.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_456493.mp3.wav",
     "original_text": "The electrician looked puzzled.",
-    "simplified_text": "The man who works with wires and lights looked like he did not understand.",
+    "simplified_text": "The person who works with wires and lights looked like he did not know what to do.",
     "audio_length_seconds": 3.768
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_18179121.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_18179121.mp3.wav",
+    "id": "en_test_0/common_voice_en_18179121.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_18179121.mp3.wav",
     "original_text": "The ladder on the fire truck was not long enough.",
-    "simplified_text": "The step thing on the fire car was not big enough.",
+    "simplified_text": "The steps on the big red car for fire were not big enough to reach high.",
     "audio_length_seconds": 4.176
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_496376.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_496376.mp3.wav",
+    "id": "en_test_0/common_voice_en_496376.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_496376.mp3.wav",
     "original_text": "I will tell her what we decided.",
-    "simplified_text": "I will say to her what we chose.",
+    "simplified_text": "I will say to her what we choose.",
     "audio_length_seconds": 9.264
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_23730890.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_23730890.mp3.wav",
+    "id": "en_test_0/common_voice_en_23730890.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_23730890.mp3.wav",
     "original_text": "Enoxaparin belongs to the class of drugs known as low molecular weight heparins.",
-    "simplified_text": "Enoxaparin is a kind of medicine that is part of a group called low molecular weight heparins.  \n(Low molecular weight heparins are special medicines that help stop blood from making clots.)",
+    "simplified_text": "Enoxaparin is a kind of medicine that is part of a group of medicines called low molecular weight heparins.  \n(\u201cLow molecular weight heparins\u201d means a type of medicine that works in the body to stop blood from making clots and is made of small parts.)",
     "audio_length_seconds": 9.576
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_18274681.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_18274681.mp3.wav",
+    "id": "en_test_0/common_voice_en_18274681.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_18274681.mp3.wav",
     "original_text": "Good things come in small packages.",
     "simplified_text": "Good things come in small boxes.",
     "audio_length_seconds": 4.248
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_20141506.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_20141506.mp3.wav",
+    "id": "en_test_0/common_voice_en_20141506.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_20141506.mp3.wav",
     "original_text": "It is a member theater of the Union of the Theatres of Europe.",
-    "simplified_text": "It is a type of place where people act in front of others. This place is part of a group that includes many places like it all over the land called Europe. The group works together and shares ideas about acting and shows.",
+    "simplified_text": "It is a group place for plays that is part of a big group of play places all over Europe.",
     "audio_length_seconds": 5.976
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_572372.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_572372.mp3.wav",
+    "id": "en_test_0/common_voice_en_572372.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_572372.mp3.wav",
     "original_text": "YOU WANNA TAKE THIS OUTSIDE?",
-    "simplified_text": "Do you want to go out and fight?",
+    "simplified_text": "Do you want to go out to fight?",
     "audio_length_seconds": 3.84
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_19595713.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_19595713.mp3.wav",
+    "id": "en_test_0/common_voice_en_19595713.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_19595713.mp3.wav",
     "original_text": "The immersion in hot water also kills the silkworm pupa.",
-    "simplified_text": "The act of putting the silkworm baby into very hot water also makes it die.",
+    "simplified_text": "The act of putting the silkworm baby inside very warm water also makes it die.",
     "audio_length_seconds": 6.168
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_20888935.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_20888935.mp3.wav",
+    "id": "en_test_0/common_voice_en_20888935.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_20888935.mp3.wav",
     "original_text": "She married her business partner, Steve Lane.",
-    "simplified_text": "She said \"yes\" to marry the man she works with, Steve Lane.",
+    "simplified_text": "She got married to the man she works with, Steve Lane.",
     "audio_length_seconds": 4.056
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_18125649.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_18125649.mp3.wav",
+    "id": "en_test_0/common_voice_en_18125649.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_18125649.mp3.wav",
     "original_text": "The attack on our root server overstrained our senior administrator.",
-    "simplified_text": "The hit on our main big computer that holds all the main things was too much for the old man who takes care of it.",
+    "simplified_text": "The bad fight against the main big computer that holds the start of all our data made the old man who takes care of it very tired.",
     "audio_length_seconds": 6.984
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_36998276.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_36998276.mp3.wav",
+    "id": "en_test_0/common_voice_en_36998276.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_36998276.mp3.wav",
     "original_text": "Earlier proofs had been for permutation groups.",
-    "simplified_text": "Proofs before were for groups where things change place in order.",
+    "simplified_text": "Proofs before were for groups that change order.",
     "audio_length_seconds": 5.256
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_346569.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_346569.mp3.wav",
+    "id": "en_test_0/common_voice_en_346569.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_346569.mp3.wav",
     "original_text": "Do you want me?",
     "simplified_text": "You want me?",
     "audio_length_seconds": 4.296
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_15016096.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_15016096.mp3.wav",
+    "id": "en_test_0/common_voice_en_15016096.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_15016096.mp3.wav",
     "original_text": "That would be funny if he did.",
     "simplified_text": "That would be fun if he did.",
     "audio_length_seconds": 2.88
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_19706560.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_19706560.mp3.wav",
+    "id": "en_test_0/common_voice_en_19706560.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_19706560.mp3.wav",
     "original_text": "Although she had flowers and applause, Mavis said she was not content.",
-    "simplified_text": "Though she had flowers and claps, Mavis said she was not happy.",
+    "simplified_text": "Though she had nice flowers and people clapping, Mavis said she was not happy.",
     "audio_length_seconds": 7.176
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_32776153.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_32776153.mp3.wav",
+    "id": "en_test_0/common_voice_en_32776153.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_32776153.mp3.wav",
     "original_text": "She was scuttled with obsolete rocket motors off the coast of Virginia.",
-    "simplified_text": "She was moved with old rocket parts away from the land near Virginia.",
+    "simplified_text": "She was moved away by old rocket engines near the land by the water in Virginia.",
     "audio_length_seconds": 8.784
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_32701295.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_32701295.mp3.wav",
+    "id": "en_test_0/common_voice_en_32701295.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_32701295.mp3.wav",
     "original_text": "He serves as President and Vice President of several associations in Kazakhstan.",
-    "simplified_text": "He acts as the main leader and the second leader of many groups in the land called Kazakhstan.",
+    "simplified_text": "He works as the main leader and the second leader of some groups in the land called Kazakhstan.",
     "audio_length_seconds": 7.272
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_1885769.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_1885769.mp3.wav",
+    "id": "en_test_0/common_voice_en_1885769.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_1885769.mp3.wav",
     "original_text": "Add the column and put the sum here.",
-    "simplified_text": "Put the new line here and put the total here.",
+    "simplified_text": "Put the line of numbers and put the total here.",
     "audio_length_seconds": 4.512
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_20308606.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_20308606.mp3.wav",
+    "id": "en_test_0/common_voice_en_20308606.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_20308606.mp3.wav",
     "original_text": "A mansion was usually set on a one square.",
-    "simplified_text": "A big house was often put on a piece of land that is one side and one side the same length.",
+    "simplified_text": "A big house was most times put on one flat part of land.",
     "audio_length_seconds": 5.52
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_18891931.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_18891931.mp3.wav",
+    "id": "en_test_0/common_voice_en_18891931.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_18891931.mp3.wav",
     "original_text": "Alston commented that he felt the cartoonist \"might have had some racial intent\".",
-    "simplified_text": "Alston said that he thought the person who made the drawing might have wanted to show some feeling about people of different skin colors.",
+    "simplified_text": "Alston said he thought the person who made the pictures in the story might have wanted to show some feelings about people of different skin colors.",
     "audio_length_seconds": 9.0
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_15735183.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_15735183.mp3.wav",
+    "id": "en_test_0/common_voice_en_15735183.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_15735183.mp3.wav",
     "original_text": "Doing a handstand needs a lot of practice to learn.",
-    "simplified_text": "To do a handstand, you need to try many times to get good at it.",
+    "simplified_text": "To do a handstand, you need to try many times to get it right.",
     "audio_length_seconds": 8.544
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_12677.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_12677.mp3.wav",
+    "id": "en_test_0/common_voice_en_12677.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_12677.mp3.wav",
     "original_text": "Man in red tshirt and baseball cap viewed from above he is has a pile of posters",
-    "simplified_text": "Man in red shirt and hat seen from top. He has a big pile of paper with pictures on it.",
+    "simplified_text": "A man in a red shirt and a hat for baseball is seen from up high. He has a big pile of paper with pictures on them.",
     "audio_length_seconds": 6.144
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_19909115.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_19909115.mp3.wav",
+    "id": "en_test_0/common_voice_en_19909115.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_19909115.mp3.wav",
     "original_text": "The two films were then released within one day of each other.",
-    "simplified_text": "The two movies came out in one day close to each other.",
+    "simplified_text": "The two movies came out on days very close to each other.",
     "audio_length_seconds": 4.776
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_21687614.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_21687614.mp3.wav",
+    "id": "en_test_0/common_voice_en_21687614.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_21687614.mp3.wav",
     "original_text": "\u2018What did he say his name was?\u2019 asked the captain.",
-    "simplified_text": "The person in charge asked, \"What did he say his name was?\"",
+    "simplified_text": "The leader asked, \"What did he say his name is?\"",
     "audio_length_seconds": 5.136
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_35244283.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_35244283.mp3.wav",
+    "id": "en_test_0/common_voice_en_35244283.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_35244283.mp3.wav",
     "original_text": "He was commonly referred to as the \"Blacksmith of Ballinalee\".",
-    "simplified_text": "People often called him the man who makes things with black metal in a place called Ballinalee.",
+    "simplified_text": "He was often called the man who makes things from hot metal in the town called Ballinalee.",
     "audio_length_seconds": 5.868
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_35387333.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_35387333.mp3.wav",
+    "id": "en_test_0/common_voice_en_35387333.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_35387333.mp3.wav",
     "original_text": "No one else could claim that.",
-    "simplified_text": "Nobody else could say that is true.",
+    "simplified_text": "Nobody else could say that was true.",
     "audio_length_seconds": 3.708
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_22005778.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_22005778.mp3.wav",
+    "id": "en_test_0/common_voice_en_22005778.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_22005778.mp3.wav",
     "original_text": "yes",
-    "simplified_text": "Yes means you say \"I agree\" or \"I do.\" It shows you want to say good or true about what someone asks or says.",
+    "simplified_text": "yes = a word we say to show we agree or say ok",
     "audio_length_seconds": 3.288
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_33920938.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_33920938.mp3.wav",
+    "id": "en_test_0/common_voice_en_33920938.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_33920938.mp3.wav",
     "original_text": "He received his Ph.",
-    "simplified_text": "He got his big school paper.  \n\n(Note: \"Ph.\" means a very big school paper you get at the end of a long time learning, like a \"PhD.\" This is said as \"big school paper\" here.)",
+    "simplified_text": "He got his big paper that says he is able to do work as a doctor.",
     "audio_length_seconds": 7.452
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_26452532.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_26452532.mp3.wav",
+    "id": "en_test_0/common_voice_en_26452532.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_26452532.mp3.wav",
     "original_text": "Since their inception, Harris has been the band's principal composer and lyricist.",
-    "simplified_text": "Since they began, Harris has been the main one who makes the band\u2019s songs and words.",
+    "simplified_text": "Since the start of the band, Harris has been the main one who makes the songs and writes the words for the songs.",
     "audio_length_seconds": 6.3
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_601141.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_601141.mp3.wav",
+    "id": "en_test_0/common_voice_en_601141.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_601141.mp3.wav",
     "original_text": "After experiencing a mind-blowing sensual orgy, Mike was sure he had taken an overdose.",
-    "simplified_text": "After having a very strong and mixed feeling time with many people, Mike was sure he had taken too much of something.",
+    "simplified_text": "After going through a very strong and wild time with many close people, Mike was sure he had taken too much of a thing that changes the mind and body.",
     "audio_length_seconds": 8.112
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_19688238.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_19688238.mp3.wav",
+    "id": "en_test_0/common_voice_en_19688238.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_19688238.mp3.wav",
     "original_text": "Religious festivals include the Muslim Eids and the Christian Christmas and Easter.",
-    "simplified_text": "Religious festivals are days when people who believe in God or gods come together to celebrate. These days include the big days for people who follow the Muslim way, called Eid, and the big days for people who follow the Christian way, called Christmas and Easter.",
+    "simplified_text": "Religious festivals are special days people watch for their faith. Some are the Muslim Eids, and some are the Christian days called Christmas and Easter.",
     "audio_length_seconds": 9.624
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_17260286.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_17260286.mp3.wav",
+    "id": "en_test_0/common_voice_en_17260286.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_17260286.mp3.wav",
     "original_text": "What do you advise, sir?",
-    "simplified_text": "What do you say I should do, sir?",
+    "simplified_text": "What do you say is best, sir?",
     "audio_length_seconds": 2.112
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_17941982.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_17941982.mp3.wav",
+    "id": "en_test_0/common_voice_en_17941982.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_17941982.mp3.wav",
     "original_text": "Charles looked on, angry that there was nothing he could do.",
-    "simplified_text": "Charles saw it and was mad because he could not do any thing.",
+    "simplified_text": "Charles saw and was angry that he could not do any thing.",
     "audio_length_seconds": 5.664
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_20274470.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_20274470.mp3.wav",
+    "id": "en_test_0/common_voice_en_20274470.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_20274470.mp3.wav",
     "original_text": "Karina Smirnoff of \"Dancing With The Stars\" hosted the following month.",
-    "simplified_text": "Karina Smirnoff, who is a person that dances on the show called \"Dancing With The Stars,\" was the one who was in charge of the event that came the next month.",
+    "simplified_text": "Karina Smirnoff, who is a dancer on the TV show called \"Dancing With The Stars,\" was the one who talked and was in charge the next month.",
     "audio_length_seconds": 8.568
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_18929193.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_18929193.mp3.wav",
+    "id": "en_test_0/common_voice_en_18929193.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_18929193.mp3.wav",
     "original_text": "It is inhibited by the pneumotaxic centre.",
-    "simplified_text": "It is stopped by the part in the brain that helps to keep the breathing going right.",
+    "simplified_text": "It is stopped by the air control place in the brain.",
     "audio_length_seconds": 5.88
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_18001366.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_18001366.mp3.wav",
+    "id": "en_test_0/common_voice_en_18001366.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_18001366.mp3.wav",
     "original_text": "His wide grin earned many friends.",
     "simplified_text": "His big smile made many friends.",
     "audio_length_seconds": 3.696
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_26555335.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_26555335.mp3.wav",
+    "id": "en_test_0/common_voice_en_26555335.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_26555335.mp3.wav",
     "original_text": "An important person in the life of Emile Claus was the painter Jenny Montigny.",
-    "simplified_text": "A very good and well-known person in the life of Emile Claus was Jenny Montigny, who made pictures with paint.",
+    "simplified_text": "A very needed person in the life of Emile Claus was the art maker Jenny Montigny.",
     "audio_length_seconds": 7.848
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_20789189.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_20789189.mp3.wav",
+    "id": "en_test_0/common_voice_en_20789189.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_20789189.mp3.wav",
     "original_text": "In the United States, Federal Vehicle fleets refers to the federal government's vehicles.",
-    "simplified_text": "In the United States, the group of cars, trucks, and other moving things owned and used by the big group that runs the country is called the federal vehicle fleets.",
+    "simplified_text": "In the big country called the United States, the group of cars, trucks, and other things that move and are owned by the big central part of the government is what people call \"Federal Vehicle fleets.\" This means all the cars and trucks that the main government uses.",
     "audio_length_seconds": 10.344
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_34133600.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_34133600.mp3.wav",
+    "id": "en_test_0/common_voice_en_34133600.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_34133600.mp3.wav",
     "original_text": "Sedgwick was the brother of author Catharine Sedgwick.",
-    "simplified_text": "Sedgwick was the brother of the person who writes books, Catharine Sedgwick.",
+    "simplified_text": "Sedgwick was the boy who had the same father and mother as the woman who wrote books named Catharine Sedgwick.",
     "audio_length_seconds": 5.652
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_32203358.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_32203358.mp3.wav",
+    "id": "en_test_0/common_voice_en_32203358.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_32203358.mp3.wav",
     "original_text": "So also for ex Dassault Mirage.",
-    "simplified_text": "So, also for example, Dassault Mirage.",
+    "simplified_text": "So, same for example Dassault Mirage.",
     "audio_length_seconds": 4.644
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_28715410.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_28715410.mp3.wav",
+    "id": "en_test_0/common_voice_en_28715410.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_28715410.mp3.wav",
     "original_text": "It was won by a woman from Vara, Sweden.",
-    "simplified_text": "A woman from Vara, a place in Sweden, got it.",
+    "simplified_text": "A woman from Vara, a place in Sweden, won it.",
     "audio_length_seconds": 5.148
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_22338655.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_22338655.mp3.wav",
+    "id": "en_test_0/common_voice_en_22338655.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_22338655.mp3.wav",
     "original_text": "The prints are then delivered to the customer.",
-    "simplified_text": "The marks made on paper are then brought to the person who wants them.",
+    "simplified_text": "The marks are then brought to the one who buys.",
     "audio_length_seconds": 5.208
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_193576.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_193576.mp3.wav",
+    "id": "en_test_0/common_voice_en_193576.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_193576.mp3.wav",
     "original_text": "In spite of this, I still believed that there were men in Mars.",
     "simplified_text": "Even with this, I still thought there were men on Mars.",
     "audio_length_seconds": 11.856
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_635431.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_635431.mp3.wav",
+    "id": "en_test_0/common_voice_en_635431.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_635431.mp3.wav",
     "original_text": "The land was ruined, and I had to find some other way to earn a living.",
-    "simplified_text": "The ground was bad and could not be used, so I had to look for a new way to get money to live.",
+    "simplified_text": "The land was bad and no good, and I had to find some new way to get food and money to live.",
     "audio_length_seconds": 10.224
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_17961589.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_17961589.mp3.wav",
+    "id": "en_test_0/common_voice_en_17961589.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_17961589.mp3.wav",
     "original_text": "Footprints of mud and clay were on the floor.",
-    "simplified_text": "Marks made by soft wet earth and soft wet ground were on the floor.",
+    "simplified_text": "There were marks made by feet in soft wet earth and wet hard earth on the ground.",
     "audio_length_seconds": 3.816
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_26949722.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_26949722.mp3.wav",
+    "id": "en_test_0/common_voice_en_26949722.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_26949722.mp3.wav",
     "original_text": "Other well-known relatives in Handsome Lake's family included Governor Blacksnake, Red Jacket and Half-Town.",
-    "simplified_text": "Other well-known people in Handsome Lake's family were Governor Blacksnake, Red Jacket, and Half-Town. \n\n(Note: The names are special names and stay the same.)",
+    "simplified_text": "Other family people who everyone knows in Handsome Lake\u2019s family were Governor Blacksnake, Red Jacket, and Half-Town.",
     "audio_length_seconds": 9.936
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_155041.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_155041.mp3.wav",
+    "id": "en_test_0/common_voice_en_155041.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_155041.mp3.wav",
     "original_text": "I pointed out Mars, a bright dot of light.",
-    "simplified_text": "I showed Mars, a bright small light in the sky.",
+    "simplified_text": "I showed you a bright small spot of light in the sky. It is called Mars.",
     "audio_length_seconds": 4.464
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_25902308.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_25902308.mp3.wav",
+    "id": "en_test_0/common_voice_en_25902308.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_25902308.mp3.wav",
     "original_text": "He ended up running to the bars which fortified the windows of the first floor.",
-    "simplified_text": "He went and ran to the bars that made the first floor windows strong.",
+    "simplified_text": "He went fast to the bars that kept the first floor windows safe and strong.",
     "audio_length_seconds": 5.076
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_111075.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_111075.mp3.wav",
+    "id": "en_test_0/common_voice_en_111075.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_111075.mp3.wav",
     "original_text": "I know why I want to get back to my flock, he thought.",
-    "simplified_text": "I know why I want to go back to the group of my own, he thought.",
+    "simplified_text": "He thought, \"I know why I want to go back to my group of animals.\"",
     "audio_length_seconds": 4.176
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_36827090.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_36827090.mp3.wav",
+    "id": "en_test_0/common_voice_en_36827090.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_36827090.mp3.wav",
     "original_text": "Then they scrambled round the rocks to the other side of the house.",
-    "simplified_text": "Then they ran and climbed around the big stones to the far side of the house.",
+    "simplified_text": "Then they ran and climbed around the big hard things by the house to the side not near them.",
     "audio_length_seconds": 5.544
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_25512283.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_25512283.mp3.wav",
+    "id": "en_test_0/common_voice_en_25512283.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_25512283.mp3.wav",
     "original_text": "Many notable problem and study composers are also International Judges, including Genrikh Kasparyan.",
-    "simplified_text": "Many well-known people who make hard things and learn about music also help check and decide in big world contests. One of them is Genrikh Kasparyan.",
+    "simplified_text": "Lots of well-known people who make music and learn about music also work as judges for many places, like Genrikh Kasparyan.",
     "audio_length_seconds": 9.036
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_86584.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_86584.mp3.wav",
+    "id": "en_test_0/common_voice_en_86584.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_86584.mp3.wav",
     "original_text": "You should see the other guy, specifically, how good at fighting he is.",
-    "simplified_text": "You should look at the other man, how well he can fight.",
+    "simplified_text": "You should look at the other man, the one who fights well.",
     "audio_length_seconds": 7.296
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_19479960.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_19479960.mp3.wav",
+    "id": "en_test_0/common_voice_en_19479960.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_19479960.mp3.wav",
     "original_text": "He is of African-American and Italian descent.",
-    "simplified_text": "He is from families that come from Africa and from Italy.",
+    "simplified_text": "He is from two places. One place is where many Black people live in America. The other place is in a country far away in Europe called Italy.",
     "audio_length_seconds": 4.608
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_193520.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_193520.mp3.wav",
+    "id": "en_test_0/common_voice_en_193520.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_193520.mp3.wav",
     "original_text": "That's not Carson Sphinx.",
-    "simplified_text": "That is not the man named Carson Sphinx.",
+    "simplified_text": "That is not Carson Sphinx.",
     "audio_length_seconds": 5.184
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_18987361.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_18987361.mp3.wav",
+    "id": "en_test_0/common_voice_en_18987361.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_18987361.mp3.wav",
     "original_text": "Lorenz is listed as a Swiss heritage site of national significance.",
-    "simplified_text": "Lorenz is on a list of places in Switzerland that are very important for the whole country because of their old and special value.",
+    "simplified_text": "Lorenz is on a list of places in Switzerland that are very important for the whole country.",
     "audio_length_seconds": 8.496
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_27366699.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_27366699.mp3.wav",
+    "id": "en_test_0/common_voice_en_27366699.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_27366699.mp3.wav",
     "original_text": "I have never in life hit a tennis ball.",
-    "simplified_text": "I have not, at any time, in all my life, hit a ball used to play a game called tennis.",
+    "simplified_text": "I have not, at any time, in my life, hit a ball used for a game with a net and rackets.",
     "audio_length_seconds": 5.184
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_28819598.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_28819598.mp3.wav",
+    "id": "en_test_0/common_voice_en_28819598.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_28819598.mp3.wav",
     "original_text": "He is the first known and undisputed member of the Gediminids.",
-    "simplified_text": "He is the first person known for sure to be part of the Gediminid group.",
+    "simplified_text": "He is the first known and sure part of the Gediminids.\n\n(Note: \"known\" means people have found out about him; \"undisputed\" means no one says it is not true; \"member\" means he is one of the group called Gediminids.)",
     "audio_length_seconds": 7.236
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_20233685.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_20233685.mp3.wav",
+    "id": "en_test_0/common_voice_en_20233685.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_20233685.mp3.wav",
     "original_text": "Lion Rock is located north west of Wong Tai Sin.",
-    "simplified_text": "Lion Rock is at the top left side of Wong Tai Sin.",
+    "simplified_text": "Lion Rock is at the top left side from Wong Tai Sin.",
     "audio_length_seconds": 7.464
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_26957325.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_26957325.mp3.wav",
+    "id": "en_test_0/common_voice_en_26957325.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_26957325.mp3.wav",
     "original_text": "At dusk the Greek western flank was broken.",
-    "simplified_text": "At the time when day ends and night comes, the side of Greece that is to the left when you look at a map was broken.",
+    "simplified_text": "At the time when day ends and night comes, the left side of the Greek group was broken.",
     "audio_length_seconds": 7.128
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_18277778.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_18277778.mp3.wav",
+    "id": "en_test_0/common_voice_en_18277778.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_18277778.mp3.wav",
     "original_text": "We should not take for granted how fortunate we have been.",
-    "simplified_text": "We should not forget how good we have had it.",
+    "simplified_text": "We should not forget how good things have been for us.",
     "audio_length_seconds": 5.376
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_24023123.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_24023123.mp3.wav",
+    "id": "en_test_0/common_voice_en_24023123.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_24023123.mp3.wav",
     "original_text": "Topical and up-to-the-minute, E!",
-    "simplified_text": "E! is a TV place that shows the newest news and things about people who are well known now. It talks about what is happening now and what just happened.",
+    "simplified_text": "E! is a TV place that shows the newest and most talked-about things now.",
     "audio_length_seconds": 9.036
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_18319767.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_18319767.mp3.wav",
+    "id": "en_test_0/common_voice_en_18319767.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_18319767.mp3.wav",
     "original_text": "The farmer works the soil and produces grain.",
-    "simplified_text": "The man who grows food works the ground and makes the small pieces that people eat.",
+    "simplified_text": "The man who grows food works the ground and makes small bits of food from it.",
     "audio_length_seconds": 5.208
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_17913515.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_17913515.mp3.wav",
+    "id": "en_test_0/common_voice_en_17913515.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_17913515.mp3.wav",
     "original_text": "Since I've gotten a dog, the regular visits of the fox have stopped.",
-    "simplified_text": "Since I got a dog, the fox does not come by like it used to.",
+    "simplified_text": "Since I got a dog, the fox does not come like it used to.",
     "audio_length_seconds": 5.688
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_18208645.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_18208645.mp3.wav",
+    "id": "en_test_0/common_voice_en_18208645.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_18208645.mp3.wav",
     "original_text": "His speech ended with a standing ovation.",
-    "simplified_text": "His talk ended with all the people standing up and clapping to show they liked it a lot.",
+    "simplified_text": "He spoke, then all the people stood up and clapped a lot to show they liked what he said.",
     "audio_length_seconds": 4.416
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_21943181.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_21943181.mp3.wav",
+    "id": "en_test_0/common_voice_en_21943181.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_21943181.mp3.wav",
     "original_text": "eight",
     "simplified_text": "Eight = the number after seven and before nine.",
     "audio_length_seconds": 4.344
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_159192.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_159192.mp3.wav",
+    "id": "en_test_0/common_voice_en_159192.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_159192.mp3.wav",
     "original_text": "\"The wind told me that you know about love\" the boy said to the sun.",
-    "simplified_text": "The air said to me that you feel about love, the boy said to the bright light in the sky.",
+    "simplified_text": "The air told me that you feel about love, the boy said to the sun.",
     "audio_length_seconds": 12.624
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_20586574.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_20586574.mp3.wav",
+    "id": "en_test_0/common_voice_en_20586574.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_20586574.mp3.wav",
     "original_text": "Geils began playing jazz trumpet but eventually switched to blues guitar.",
-    "simplified_text": "Geils began to play a kind of music with a small horn but later moved to play a kind of music with a string box you hold and pull.",
+    "simplified_text": "Geils began to play a kind of music with a small horn, but after some time he changed to play a kind of music with a string box.",
     "audio_length_seconds": 6.96
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_37238108.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_37238108.mp3.wav",
+    "id": "en_test_0/common_voice_en_37238108.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_37238108.mp3.wav",
     "original_text": "My very best concert bonnet.",
-    "simplified_text": "My most good hat for a music show.",
+    "simplified_text": "My very best hat for when I go to listen to many people play music.",
     "audio_length_seconds": 5.076
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_18339580.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_18339580.mp3.wav",
+    "id": "en_test_0/common_voice_en_18339580.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_18339580.mp3.wav",
     "original_text": "The little pink ones are so cute.",
-    "simplified_text": "The small pink things are very nice to see.",
+    "simplified_text": "The small ones that are the color like the inside part of a red fruit are very nice to see.",
     "audio_length_seconds": 3.096
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_638672.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_638672.mp3.wav",
+    "id": "en_test_0/common_voice_en_638672.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_638672.mp3.wav",
     "original_text": "The students colored with their crayons.",
-    "simplified_text": "The boys and girls who go to school made colors with the small sticks they use to draw.",
+    "simplified_text": "The children made pictures with the small sticks that have color inside.",
     "audio_length_seconds": 5.592
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_217612.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_217612.mp3.wav",
+    "id": "en_test_0/common_voice_en_217612.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_217612.mp3.wav",
     "original_text": "It seemed to him that it fell to earth about one hundred miles east of here.",
-    "simplified_text": "He thought it fell to the ground about one hundred miles to the right from here.",
+    "simplified_text": "He thought it came down to the ground near one hundred miles to the east from here.",
     "audio_length_seconds": 6.12
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_25540199.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_25540199.mp3.wav",
+    "id": "en_test_0/common_voice_en_25540199.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_25540199.mp3.wav",
     "original_text": "As such it is face uniform but with irregular face polygons.",
-    "simplified_text": "So, it looks like one kind of shape but with uneven flat parts on the face.",
+    "simplified_text": "It looks the same all over but with many flat parts on the face that are not the same shape or size.",
     "audio_length_seconds": 7.596
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_35340598.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_35340598.mp3.wav",
+    "id": "en_test_0/common_voice_en_35340598.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_35340598.mp3.wav",
     "original_text": "The Spanish however distrusted the letter as possible disinformation.",
-    "simplified_text": "The people from Spain did not trust the paper with words because they thought it might be a wrong story made to trick them.",
+    "simplified_text": "The people from Spain did not trust the paper with words because it might be wrong news.",
     "audio_length_seconds": 9.9
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_16327.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_16327.mp3.wav",
+    "id": "en_test_0/common_voice_en_16327.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_16327.mp3.wav",
     "original_text": "He took the fourth part and handed it to the monk.",
-    "simplified_text": "He took one of four parts and gave it to the man who lives at the place for quiet thinking and prayer.",
+    "simplified_text": "He took one of four same parts and gave it to the man who lives in a place to pray.",
     "audio_length_seconds": 6.864
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_19992991.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_19992991.mp3.wav",
+    "id": "en_test_0/common_voice_en_19992991.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_19992991.mp3.wav",
     "original_text": "He is a right-handed batsman and a left-arm slow bowler.",
     "simplified_text": "He uses his right hand to hit the ball and his left arm to throw the ball slowly.",
     "audio_length_seconds": 6.672
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_21568053.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_21568053.mp3.wav",
+    "id": "en_test_0/common_voice_en_21568053.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_21568053.mp3.wav",
     "original_text": "Cador is also said to be of Roman stock.",
-    "simplified_text": "Cador is said to be from people who lived long ago in the land called Rome.",
+    "simplified_text": "Cador is also said to be from people who lived long ago in a big place called Rome.",
     "audio_length_seconds": 5.064
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_17278289.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_17278289.mp3.wav",
+    "id": "en_test_0/common_voice_en_17278289.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_17278289.mp3.wav",
     "original_text": "Where will you go?",
-    "simplified_text": "Where will you go?  \n\u2192 Where will you move to?",
+    "simplified_text": "Where will you go?\n= Where will you move to?",
     "audio_length_seconds": 4.488
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_21853647.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_21853647.mp3.wav",
+    "id": "en_test_0/common_voice_en_21853647.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_21853647.mp3.wav",
     "original_text": "Only John Wayne himself surpassed McGrath in scenes in this movie.",
-    "simplified_text": "Only John Wayne did more parts than McGrath in this movie.",
+    "simplified_text": "Only John Wayne, by himself, had more scenes than McGrath in this movie.",
     "audio_length_seconds": 7.056
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_25899004.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_25899004.mp3.wav",
+    "id": "en_test_0/common_voice_en_25899004.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_25899004.mp3.wav",
     "original_text": "Vera Schlink is a talented fund manager. She works in Vienna.",
-    "simplified_text": "Vera Schlink is a very good person who takes care of money for other people. She works in a big city called Vienna.",
+    "simplified_text": "Vera Schlink is a person very good at taking care of money for people. She works in a big city called Vienna.",
     "audio_length_seconds": 9.288
   },
   {
-    "id": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_21728876.mp3",
-    "audio_path": "/root/.cache/huggingface/datasets/downloads/extracted/aab940baee40fb5d972761dfb7fb9ec5f1dd1d0afcea62639a4b9b48f9a582ef/en_test_0/common_voice_en_21728876.mp3.wav",
+    "id": "en_test_0/common_voice_en_21728876.mp3.wav",
+    "audio_path": "audio_dataset/en_test_0/common_voice_en_21728876.mp3.wav",
     "original_text": "'Munising' means near the island.",
-    "simplified_text": "\"Munising\" means close to the big land in the water.",
+    "simplified_text": "'Munising' means close to the land in the water.",
     "audio_length_seconds": 8.184
   }
 ]

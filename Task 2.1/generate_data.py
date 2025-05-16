@@ -132,7 +132,7 @@ for i,split in enumerate(splits):
 
     samples = ds.select(range(samples_length))  # start small
     print("Selected Samples")
-    
+
     metadata = []
 
     for sample in tqdm(samples,"Saving Audio"):
@@ -143,6 +143,9 @@ for i,split in enumerate(splits):
 
         filename = f"{r_path}.wav"
         filepath = os.path.join(output_dir, filename)
+
+        directory = os.path.dirname(filepath)
+        os.makedirs(directory, exist_ok=True)
 
         audio_array = sample["audio"]["array"]
         sample_rate = sample["audio"]["sampling_rate"]

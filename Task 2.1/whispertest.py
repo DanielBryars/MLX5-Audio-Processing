@@ -12,6 +12,12 @@ from transformers import WhisperTokenizer, WhisperForConditionalGeneration
 import torch
 from words import get_thing_explainer_vocab
 
+import wandb
+import matplotlib.pyplot as plt
+import torch
+import numpy as np
+from PIL import Image
+
 # Load Whisper model and tokenizer
 model_name = "openai/whisper-small"
 model = WhisperForConditionalGeneration.from_pretrained(model_name)
@@ -97,5 +103,32 @@ with torch.no_grad():
         logits_processor=logits_processors,
     max_new_tokens=128)
     transcription = processor.batch_decode(generated_ids, skip_special_tokens=True)
+
+
+run = wandb.init(project='MLX7-W5-AUDIO-WHISPER-TEST')
+
+features = inputs["input_features"][0].cpu().numpy()  # shape: (80, T)
+
+fig, ax = plt.subplots(figsize=(10, 4))
+im = ax.imshow(features, origin='lower', aspect='auto', interpolation='none')
+ax.set_title("Log-Mel Spectrogram")
+ax.set_xlabel("Time")
+ax.set_ylabel("Mel Frequency Bin")
+fig.colorbar(im, ax=ax)
+
+from io import BytesIO
+buf = BytesIO()
+plt.savefig(buf, format='png')
+plt.close(fig)
+buf.seek(0)
+pil_image = Image.open(buf)
+
+examples = []
+
+wandb_image = wandb.Image(pil_image, caption=f"{transcription[0]}")
+examples.append(wandb_image)
+#wandb.log({"mel_spectrogram": wandb_image})
+
+run.log({"examples": examples})
 
 print(transcription[0])
