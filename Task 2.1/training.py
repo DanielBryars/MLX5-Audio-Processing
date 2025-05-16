@@ -25,14 +25,14 @@ for param in model.model.encoder.parameters():
     param.requires_grad = False
 
 hyperparameters = {
-        'learning_rate': 1e-4,
-        'weight_decay': 0.01,
-        'batch_size': 4,
+        'learning_rate': 1e-5,
+        'weight_decay': 0.001,
+        'batch_size': 16,
         'patience': 3,
-        'num_epochs':10
+        'num_epochs':12
 }
 
-wandb.init(project='MLX7-W5-AUDIO-001', config=hyperparameters)
+wandb.init(project='MLX7-W5-AUDIO-105', config=hyperparameters)
 config = wandb.config
 
 optimizer = AdamW(filter(lambda p: p.requires_grad, model.parameters()), lr=hyperparameters["learning_rate"])
@@ -137,7 +137,6 @@ for epoch in epoch_pbar:
 
     save_checkpoint(model, hyperparameters, epoch, ts)
 
-
     model.eval()
     val_loss = 0.0
     with torch.no_grad():
@@ -150,12 +149,18 @@ for epoch in epoch_pbar:
             decoded_ids = torch.argmax(outputs.logits, dim=-1)
             decoded_texts = processor.tokenizer.batch_decode(decoded_ids, skip_special_tokens=True)
 
-            if epoch == 1 or epoch == 5:  # or any other condition to limit frequency
-                table = wandb.Table(columns=["Epoch", "Index", "Original", "Predicted"])
-                for i in range(min(10, len(decoded_texts))):
-                    table.add_data(epoch, i, batch["original_text"][i], decoded_texts[i])
-                    wandb.log({"val/samples": table}, step=step)
+        #get images from last batch
+        mels = []
+        nImages = 2
+        for i in range(min(nImages, len(decoded_texts))):
+            ot = batch["original_text"][i]
+            st = batch["simplified_text"][i]
+            dt = decoded_texts[i]
+            features = input_features[i].cpu().numpy()  # shape: (80, T)
+            wandb_image = mel2wandbimage(features,f"{ot}\n{st}\n{dt}")
+            mels.append(wandb_image)
 
+        wandb.log({"mels": mels}, step=step)
 
     val_loss /= len(val_loader)
     epoch_pbar.set_postfix(loss=f"{avg_loss:.4f}", val_loss=f"{val_loss:.4f}")

@@ -63,9 +63,9 @@ class ConstrainedTokenLogitsProcessor(LogitsProcessor):
 script_dir = os.path.dirname(os.path.abspath(__file__))
 
 #
-#audio_path = os.path.join(script_dir, "ShippingForecast.1stMin.ulaw.8k.wav")
+audio_path = os.path.join(script_dir, "ShippingForecast.1stMin.ulaw.8k.wav")
 
-audio_path = os.path.join(script_dir, 'audio_dataset', "0ab16188d6d1292238430c986e1fb9bdcb8fdc2ab593555201f01e6c0e7d08d982c328883afc778914398a5fae5426de2fe123dec76995fb1d2414562ec12b92.wav")
+#audio_path = os.path.join(script_dir, 'audio_dataset', "0ab16188d6d1292238430c986e1fb9bdcb8fdc2ab593555201f01e6c0e7d08d982c328883afc778914398a5fae5426de2fe123dec76995fb1d2414562ec12b92.wav")
 
 
 processor = WhisperProcessor.from_pretrained("openai/whisper-small")
@@ -107,25 +107,15 @@ with torch.no_grad():
 
 run = wandb.init(project='MLX7-W5-AUDIO-WHISPER-TEST')
 
-features = inputs["input_features"][0].cpu().numpy()  # shape: (80, T)
 
-fig, ax = plt.subplots(figsize=(10, 4))
-im = ax.imshow(features, origin='lower', aspect='auto', interpolation='none')
-ax.set_title("Log-Mel Spectrogram")
-ax.set_xlabel("Time")
-ax.set_ylabel("Mel Frequency Bin")
-fig.colorbar(im, ax=ax)
-
-from io import BytesIO
-buf = BytesIO()
-plt.savefig(buf, format='png')
-plt.close(fig)
-buf.seek(0)
-pil_image = Image.open(buf)
 
 examples = []
 
-wandb_image = wandb.Image(pil_image, caption=f"{transcription[0]}")
+from model import mel2wandbimage 
+
+features = inputs["input_features"][0].cpu().numpy()  # shape: (80, T)
+wandb_image = mel2wandbimage(features,f"{transcription[0]}")
+
 examples.append(wandb_image)
 #wandb.log({"mel_spectrogram": wandb_image})
 

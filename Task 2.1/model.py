@@ -11,6 +11,35 @@ from torch.utils.data import DataLoader
 from torch.nn.utils.rnn import pad_sequence
 from torch.utils.data import Dataset
 import json
+import wandb
+import matplotlib.pyplot as plt
+import torch
+import numpy as np
+from PIL import Image
+
+def mel2wandbimage(features, caption):
+
+    nonzero_cols = np.where(features.sum(axis=0) != 0)[0]
+
+    if len(nonzero_cols) > 0:
+        features = features[:, :nonzero_cols[-1] + 1]
+
+    fig, ax = plt.subplots(figsize=(10, 4))
+    im = ax.imshow(features, origin='lower', aspect='auto', interpolation='nearest')
+    ax.set_title("Log-Mel Spectrogram")
+    ax.set_xlabel("Time")
+    ax.set_ylabel("Mel Frequency Bin")
+    fig.colorbar(im, ax=ax)
+
+    from io import BytesIO
+    buf = BytesIO()
+    plt.savefig(buf, format='png')
+    plt.close(fig)
+    buf.seek(0)
+    pil_image = Image.open(buf)
+    wandb_image = wandb.Image(pil_image, caption=caption)
+    return wandb_image
+
 
 def whisper_collate_fn(batch):
     # Pad input_features (mel spectrograms) to 3000 frames
@@ -33,6 +62,7 @@ def whisper_collate_fn(batch):
     return {
         "input_features": input_features,
         "labels": labels,
+        "simplified_text": [item["simplified_text"] for item in batch], 
         "original_text": [item["original_text"] for item in batch],
         "audio_path": [item["audio_path"] for item in batch],
     }
@@ -58,10 +88,9 @@ class AudioDataset(Dataset):
     def __getitem__(self, idx):
         entry = self.data[idx]
         audio_path = os.path.join(self.basepath ,entry["audio_path"])
-        text = entry["simplified_text"] #monroe simple english
+        simplified_text = entry["simplified_text"] #monroe simple english
 
-        prompt = f"<|startoftranscript|>{MONROE_ENGLISH_TOKEN}<|notimestamps|>"
-        text = prompt + " " + text + " <|endoftranscript|>"
+        text = f"<|startoftranscript|>{MONROE_ENGLISH_TOKEN}<|notimestamps|> {simplified_text} <|endoftranscript|>"
 
         # Load audio (mono)
         waveform, sr = torchaudio.load(audio_path)
@@ -86,6 +115,8 @@ class AudioDataset(Dataset):
         item = {k: v.squeeze(0) for k, v in inputs.items()}
 
 
+
+        item["simplified_text"] = simplified_text
         item["labels"][item["labels"] == self.processor.tokenizer.pad_token_id] = -100
 
         item["original_text"] = entry["original_text"]
