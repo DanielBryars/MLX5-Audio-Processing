@@ -9,84 +9,14 @@ from words import get_thing_explainer_vocab
 from torch.optim import AdamW
 #from AudioDataset import AudioDataset
 from torch.utils.data import DataLoader
-
-
-#{
-#    "input_features": whisper_processor.feature_extractor(audio, sampling_rate=16000).input_features[0],  # [80, 3000]
-#    "labels": whisper_processor.tokenizer(
-#        "<|startoftranscript|><|monroe|><|notimestamps|>" + simplified_text + "<|endoftranscript|>",
-#        return_tensors="pt"
-#    ).input_ids[0]
-#}
-
-import json
 import torch
-from torch.utils.data import Dataset
 import torchaudio
 import wandb
+from model import *
 
 ts = datetime.datetime.now().strftime('%Y_%m_%d__%H_%M_%S')
 
-
-MONROE_ENGLISH_TOKEN = "<|monroe|>"
-
-class AudioDataset(Dataset):
-    def __init__(self, basepath, json_path, processor):
-        """
-        :param json_path: Path to the JSON file (e.g. train_audio_dataset_results_300.json)
-        :param processor: A processor object (e.g. WhisperProcessor) that handles audio + text
-        """
-
-        self.basepath = basepath
-
-        with open(os.path.join(basepath,json_path), 'r') as f:
-            self.data = json.load(f)
-        self.processor = processor
-
-    def __len__(self):
-        return len(self.data)
-
-    def __getitem__(self, idx):
-        entry = self.data[idx]
-        audio_path = os.path.join(self.basepath ,entry["audio_path"])
-        text = entry["simplified_text"] #monroe simple english
-
-        prompt = f"<|startoftranscript|>{MONROE_ENGLISH_TOKEN}<|notimestamps|>"
-        text = prompt + " " + text + " <|endoftranscript|>"
-
-        # Load audio (mono)
-        waveform, sr = torchaudio.load(audio_path)
-        
-        #make sure it's a 16K
-        nsr = 16000
-        resampler = torchaudio.transforms.Resample(orig_freq=sr, new_freq=nsr)
-        waveform = resampler(waveform)
-
-        waveform = waveform.mean(dim=0, keepdim=True)  # Convert to mono if stereo
-
-        # Preprocess using the provided processor (e.g. WhisperProcessor)
-        inputs = self.processor(
-            audio=waveform.squeeze().numpy(), 
-            sampling_rate=nsr,
-            text=text, 
-            return_tensors="pt", 
-            padding=True
-        )
-
-        # Flatten batch dimension since DataLoader will re-batch
-        item = {k: v.squeeze(0) for k, v in inputs.items()}
-
-
-        item["labels"][item["labels"] == self.processor.tokenizer.pad_token_id] = -100
-
-        item["original_text"] = entry["original_text"]
-
-
-        return item
-
-
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-
 model = WhisperForConditionalGeneration.from_pretrained("openai/whisper-small")
 
 #Freeze encoder
@@ -114,7 +44,7 @@ loss_fn = CrossEntropyLoss(ignore_index=-100)  # Padding tokens masked
 from tqdm import tqdm
 
 model.train()
-model.to("cuda")
+model.to(device)
 
 num_epochs = hyperparameters["num_epochs"]
 
@@ -126,34 +56,6 @@ if MONROE_ENGLISH_TOKEN not in processor.tokenizer.get_vocab():
     model.resize_token_embeddings(len(processor.tokenizer))
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
-
-
-from torch.nn.utils.rnn import pad_sequence
-
-
-def whisper_collate_fn(batch):
-    # Pad input_features (mel spectrograms) to 3000 frames
-    padded_inputs = []
-    for item in batch:
-        feat = item["input_features"]  # [80, T]
-        T = feat.shape[1]
-        if T < 3000:
-            pad_width = 3000 - T
-            feat = torch.nn.functional.pad(feat, (0, pad_width))  # pad on right
-        else:
-            feat = feat[:, :3000]  # truncate if longer
-        padded_inputs.append(feat)
-
-    input_features = torch.stack(padded_inputs)  # [B, 80, 3000]
-
-    # Pad labels
-    labels = pad_sequence([item["labels"] for item in batch], batch_first=True, padding_value=-100)
-
-    return {
-        "input_features": input_features,
-        "labels": labels,
-        "original_text": [item["original_text"] for item in batch],
-    }
 
 
 train_dataset = AudioDataset(script_dir,"train_audio_dataset_results_300.json", processor)
