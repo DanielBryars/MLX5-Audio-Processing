@@ -25,11 +25,11 @@ for param in model.model.encoder.parameters():
     param.requires_grad = False
 
 hyperparameters = {
-        'learning_rate': 1e-5,
+        'learning_rate': 5e-6,
         'weight_decay': 0.001,
         'batch_size': 20,
-        'patience': 3,
-        'num_epochs':12
+        'patience': 5,
+        'num_epochs':30
 }
 
 wandb.init(project='MLX7-W5-AUDIO-107', config=hyperparameters)
@@ -146,8 +146,7 @@ for epoch in epoch_pbar:
             outputs = model(input_features=input_features, labels=labels)
             val_loss += outputs.loss.item()
 
-            decoded_ids = torch.argmax(outputs.logits, dim=-1)
-            decoded_texts = processor.tokenizer.batch_decode(decoded_ids, skip_special_tokens=True)
+            decoded_texts = decode_outputs(outputs.logits, processor.tokenizer, stop_token="<|endoftranscript|>")
 
         #get images from last batch
         mels = []

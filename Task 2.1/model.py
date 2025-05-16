@@ -67,6 +67,28 @@ def whisper_collate_fn(batch):
         "audio_path": [item["audio_path"] for item in batch],
     }
 
+def decode_outputs(logits, tokenizer, stop_token="<|endoftranscript|>"):
+    """
+    Decodes logits from Whisper into strings, truncates at <|endoftranscript|>, and cleans up any spillover.
+    """
+    # Greedy decoding (can be replaced with beam if needed)
+    token_ids = torch.argmax(logits, dim=-1)
+
+    # Decode into text
+    decoded_texts = tokenizer.batch_decode(token_ids, skip_special_tokens=False)
+
+    cleaned_texts = []
+    for text in decoded_texts:
+        # Truncate at the stop token if present
+        if stop_token in text:
+            text = text.split(stop_token)[0]
+        
+        # Remove any stray trailing characters
+        text = text.strip().replace("<|startoftranscript|>", "").replace("<|notimestamps|>", "").replace("<|monroe|>", "")
+        cleaned_texts.append(text.strip())
+
+    return cleaned_texts
+
 MONROE_ENGLISH_TOKEN = "<|monroe|>"
 
 class AudioDataset(Dataset):
